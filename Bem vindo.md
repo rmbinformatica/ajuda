@@ -1,0 +1,13 @@
+# Bem vindo
+Bem vindo ao portal de ajuda da RMB Informática. Aqui você encontrará tutoriais passo-a-passo com instruções para realização de procedimentos técnicos.
+
+Navegue pelo menu lateral a esquerda para encontrar os artigos desejados, ou utilize a busca localizada no canto superior direito.
+
+A qualquer momento você poderá retornar ao nosso site clicando em [RMB Informática](www.rmbinformatica.com) na parte superior da página.
+
+Em caso de dúvidas entre em contato com nossa equipe de suporte.
+
+
+---
+© 2019 - [RMB Informática](www.rmbinformatica.com)
+
