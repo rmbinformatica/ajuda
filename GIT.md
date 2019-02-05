@@ -17,8 +17,8 @@ git remote add <origin> <url>
 ```
 
 Onde:
-* <_origin_> = pode ser modificado para qualquer nome desejado, sendo o padrão a palavra _origin_;
-* <_url_> = é obtida do repositório git em sites como [GitHub](https://github.com), [BitBucket](https://bitbucket.org) e [GitLab](https://gitlab.com).
+* _origin_ = pode ser modificado para qualquer nome desejado, sendo o padrão a palavra _origin_;
+* _url_ = é obtida do repositório git em sites como [GitHub](https://github.com), [BitBucket](https://bitbucket.org) e [GitLab](https://gitlab.com).
 
 ### Adicionar um segundo repositório remoto
 É possível que um repositório local tenha mais de um repositório remoto, para isso basta adicionar um novo:
@@ -42,7 +42,7 @@ Staged é a fila de arquivos a ser commitada.
 git add <nomeDoArquivo>
 ```
 
-OBS: Utilize \* como <_nomeDoArquivo_> para adicionar todos os arquivos.
+OBS: Utilize \* como _nomeDoArquivo_ para adicionar todos os arquivos.
 
 ## Realizar um commit (da fila staged)
 ```
@@ -233,7 +233,7 @@ git push origin master --tags
 
 ### Deletar tag do repositório remoto
 ```
-git push origin :<versao_a_apagar>
+git push origin :<versaoAApagar>
 ```
 
 ---
