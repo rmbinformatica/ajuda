@@ -156,7 +156,7 @@ Feito isso os novos pushes para o repositório remoto podem ser feitos usando o 
 git push origin master --tags``
 
 ### Deletar tag do repositório remoto
-git push origin :<versao_a_apagar>
+``git push origin :<versao_a_apagar>``
 
 
 ---
