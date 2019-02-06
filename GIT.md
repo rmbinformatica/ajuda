@@ -4,6 +4,13 @@ author: Renato Monteiro Batista
 ---
 # Comandos GIT
 
+## Configurações iniciais do cliente de git
+Defina seu nome de usuário e e-mail.
+```
+git config user.name "<seuNome>"
+git config --global user.email "<seu@email.com>"
+```
+
 ## Inicializar um repositório de maneira local
 Permite que se inicialize o diretório atual como um repositório git.
 ```
