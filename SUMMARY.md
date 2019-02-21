@@ -5,6 +5,7 @@
 ## Sistemas Operacionais
 
 * [MacOS](sistemas-operacionais/macos.md)
+* [Linux](sistemas-operacionais/linux.md)
 
 ## Redes e Infraestrutura
 
@@ -14,4 +15,5 @@
 
 * [Comandos GIT](dev-guidelines/git.md)
 * [Frontend](dev-guidelines/frontend.md)
+* [Scripts Bash](dev-guidelines/scripts-bash.md)
 
