@@ -6,6 +6,10 @@
 
 * [MacOS](sistemas-operacionais/macos.md)
 
+## Redes e Infraestrutura
+
+* [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/instalando-o-gerenciador-unifi-no-centos.md)
+
 ## Dev Guidelines
 
 * [Comandos GIT](dev-guidelines/git.md)
