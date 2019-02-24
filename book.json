@@ -1,8 +1,8 @@
 {
-  "plugins": ["sitemap"],
+  "plugins": ["sitemap-general"],
   "pluginsConfig": {
-    "sitemap": {
-      "hostname": "https://doc.rmbinformatica.com.br/ajuda/"
+    "sitemap-general": {
+      "prefix": "https://doc.rmbinformatica.com.br/ajuda/"
     }
   }
 }
