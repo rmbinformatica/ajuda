@@ -6,8 +6,10 @@ author: Renato Monteiro Batista
 # Comandos GIT
 
 ## Configurações iniciais do cliente de git
+
 Defina seu nome de usuário e e-mail.
-```
+
+```text
 git config user.name "<seuNome>"
 git config --global user.email "<seu@email.com>"
 ```
@@ -108,7 +110,7 @@ git push -u origin master
 
 ## Clonando código de um repositório remoto
 
-Faz uma cópia do repositório remoto para a  se for omitido será criada uma subpasta com o nome do repositório remoto.
+Faz uma cópia do repositório remoto para a se for omitido será criada uma subpasta com o nome do repositório remoto.
 
 ```text
 git clone <url> <pastaLocal>

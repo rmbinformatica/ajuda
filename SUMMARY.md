@@ -4,7 +4,8 @@
 
 ## Sistemas Operacionais
 
-* [MacOS](sistemas-operacionais/macos.md)
+* [MacOS](sistemas-operacionais/macos/README.md)
+  * [Gerenciando partições via terminal](sistemas-operacionais/macos/gerenciando-particoes-via-terminal.md)
 * [Linux](sistemas-operacionais/linux.md)
 
 ## Redes e Infraestrutura
