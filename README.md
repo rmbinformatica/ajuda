@@ -12,6 +12,5 @@ A qualquer momento você poderá retornar ao nosso site clicando em [RMB Inform�
 
 Em caso de dúvidas entre em contato com nossa equipe de suporte.
 
----
+\(C\) 2019 - [RMB Informática](http://www.rmbinformatica.com)
 
-(C) 2019 - [RMB Informática](http://www.rmbinformatica.com)
