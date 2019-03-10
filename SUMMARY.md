@@ -7,6 +7,8 @@
 * [MacOS](sistemas-operacionais/macos/README.md)
   * [Gerenciando partições via terminal](sistemas-operacionais/macos/gerenciando-particoes-via-terminal.md)
 * [Linux](sistemas-operacionais/linux.md)
+* [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
+  * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
 
 ## Redes e Infraestrutura
 
