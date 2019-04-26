@@ -38,3 +38,9 @@ Sintaxe de uso:
 qpdf --decrypt --password=<senha> <arquivoComSenha>.pdf <saidaSemSenha>.pdf
 ```
 
+## Exibindo a tabela de rotas do mac usando o terminal
+
+```text
+netstat -rn
+```
+
