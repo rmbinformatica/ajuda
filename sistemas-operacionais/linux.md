@@ -45,3 +45,9 @@ done
 
 ```
 
+## Buscando todos os arquivos em um determinado caminho contendo um texto específico
+
+```text
+grep -rnw '/caminho/a/pesquisar/' -e 'texto'
+```
+
