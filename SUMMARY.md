@@ -13,6 +13,7 @@
 ## Redes e Infraestrutura
 
 * [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/instalando-o-gerenciador-unifi-no-centos.md)
+* [UniFi](redes-e-infraestrutura/unifi.md)
 
 ## Dev Guidelines
 

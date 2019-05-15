@@ -73,9 +73,49 @@ Configure o firewall.
 
 Ficou com dúvidas? Veja nosso script de configuração automática disponível em: [https://github.com/rmbinformatica/configure\_unifi\_centos6.9](https://github.com/rmbinformatica/configure_unifi_centos6.9)
 {% endtab %}
-{% endtabs %}
 
-{% hint style="info" %}
-Elaborado por [Renato Monteiro Batista](http://renatomonteiro.tk) para o [manual de instruções técnicas](https://doc.rmbinformatica.com.br/ajuda) da [RMB Informática](http://rmbinformatica.com).
-{% endhint %}
+{% tab title="Docker" %}
+Outra maneira de realizar a instalação do gerenciador Unifi no CentOS é por meio do docker. Sendo essa nossa recomendação atual.
+
+Primeiro é necessário instalar e habilitar o serviço docker no linux:
+
+```text
+yum -y install docker
+systemctl enable docker.service
+```
+
+Para o docker funcionar com usuários sem permissão de root é necessário a criação do grupo docker e de um usuário que será incluído nesse grupo. Neste exemplo nosso usuário será **dckrmgr**:
+
+```text
+groupadd docker
+useradd dckrmgr
+usermod -aG docker dckrmgr
+```
+
+Uma vez instalado e configurado o grupo docker, basta iniciar o serviço:
+
+```text
+systemctl start docker.service
+```
+
+Em seguida vamos criar dois diretórios para a persistência dos dados do unifi:
+
+```text
+mkdir -p unifi/data
+mkdir -p unifi/log
+```
+
+Testamos e gostamos do container [jacobalberty/unifi](https://hub.docker.com/r/jacobalberty/unifi), sendo nossa recomendação atual para uso. Iniciando o container em modo daemon:
+
+```text
+docker run --rm -d -p 8080:8080 -p 8443:8443 -p 3478:3478/udp -p 10001:10001/udp -e TZ='America/Recife' -v ~/unifi:/unifi --name unifi jacobalberty/unifi:stable
+```
+
+Feito isso basta acessar o unifi controller através do ip da máquina docker, usando https na porta 8443, exemplo: 
+
+ **https://\[ip-docker\]:8443**
+
+Em caso de dúvidas basta contratar nosso suporte.
+{% endtab %}
+{% endtabs %}
 
