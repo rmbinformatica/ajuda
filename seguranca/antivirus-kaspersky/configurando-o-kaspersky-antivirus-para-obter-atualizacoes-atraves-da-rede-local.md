@@ -57,5 +57,7 @@ Volte para a tela inicial e clique no botão **Atualização do banco de dados**
 
 ![Na tela de atualiza&#xE7;&#xE3;o clique no bot&#xE3;o atualizar e aguarde a conclus&#xE3;o.](../../.gitbook/assets/image%20%2818%29.png)
 
+## Artigo relacionado
 
+{% page-ref page="criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md" %}
 
