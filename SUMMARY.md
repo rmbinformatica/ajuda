@@ -5,7 +5,10 @@
 ## Sistemas Operacionais
 
 * [MacOS](sistemas-operacionais/macos/README.md)
+  * [Criando um pendrive de instalação do MacOS](sistemas-operacionais/macos/criando-um-pendrive-de-instalacao-do-macos.md)
+  * [Criando um pendrive boot linux a partir do MacOS](sistemas-operacionais/macos/criando-um-pendrive-boot-linux-a-partir-do-macos.md)
   * [Gerenciando partições via terminal](sistemas-operacionais/macos/gerenciando-particoes-via-terminal.md)
+  * [Usando múltiplas contas dropbox distintas no mesmo Mac](sistemas-operacionais/macos/usando-multiplas-contas-dropbox-distintas-no-mesmo-mac.md)
 * [Linux](sistemas-operacionais/linux.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
@@ -14,6 +17,8 @@
 
 * [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/instalando-o-gerenciador-unifi-no-centos.md)
 * [UniFi](redes-e-infraestrutura/unifi.md)
+* [XEN Server](redes-e-infraestrutura/xen-server/README.md)
+  * [Configurando uma VM para auto-inicializar quando o XEN server for iniciado](redes-e-infraestrutura/xen-server/configurando-uma-vm-para-auto-inicializar-quando-o-xen-server-for-iniciado.md)
 
 ## Dev Guidelines
 

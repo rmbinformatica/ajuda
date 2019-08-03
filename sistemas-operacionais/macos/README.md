@@ -44,3 +44,11 @@ qpdf --decrypt --password=<senha> <arquivoComSenha>.pdf <saidaSemSenha>.pdf
 netstat -rn
 ```
 
+## Verificando o hash md5 de arquivos, no mac, usando o terminal
+
+```text
+md5 [caminho-do-arquivo]
+```
+
+
+
