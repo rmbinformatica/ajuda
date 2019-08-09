@@ -10,7 +10,9 @@ Navegue pelo menu lateral a esquerda para encontrar os artigos desejados, ou uti
 
 A qualquer momento você poderá retornar ao nosso site clicando em [RMB Informática](http://www.rmbinformatica.com) na parte superior da página.
 
-Em caso de dúvidas entre em contato com nossa equipe de suporte.
+_**Todos os artigos disponíveis nesse site são conteúdo técnico gratuito disponibilizado por nossa equipe técnica. O objetivo desse portal é auxiliar a capacitação de pessoal técnico interno e parceiros, todos os artigos devem ser interpretados por pessoal técnico especializado. Nossa empresa se isenta de qualquer responsabilidade decorrente do uso das informações aqui contidas, realize sempre backup das suas informações antes de seguir qualquer procedimento descrito na internet.**_
 
-\(C\) 2019 - [RMB Informática](http://www.rmbinformatica.com)
+_Caso necessite de suporte especializado você poderá contratar nossos serviços, se executados por nossa equipe garantimos o padrão de qualidade e a entrega dos resultados esperados, consulte-nos._
+
+© 2019 - [RMB Informática](http://www.rmbinformatica.com)
 
