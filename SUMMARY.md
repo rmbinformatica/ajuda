@@ -20,6 +20,7 @@
 * [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/instalando-o-gerenciador-unifi-no-centos.md)
 * [UniFi](redes-e-infraestrutura/unifi.md)
 * [XEN Server](redes-e-infraestrutura/xen-server/README.md)
+  * [Configurando o xenserver para monitoramento de containers docker](redes-e-infraestrutura/xen-server/configurando-o-xenserver-para-monitoramento-de-containers-docker.md)
   * [Configurando uma VM para auto-inicializar quando o XEN server for iniciado](redes-e-infraestrutura/xen-server/configurando-uma-vm-para-auto-inicializar-quando-o-xen-server-for-iniciado.md)
 
 ## Dev Guidelines
