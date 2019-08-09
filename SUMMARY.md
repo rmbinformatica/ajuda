@@ -9,8 +9,10 @@
   * [Criando um pendrive boot linux a partir do MacOS](sistemas-operacionais/macos/criando-um-pendrive-boot-linux-a-partir-do-macos.md)
   * [Gerenciando partições via terminal](sistemas-operacionais/macos/gerenciando-particoes-via-terminal.md)
   * [Usando múltiplas contas dropbox distintas no mesmo Mac](sistemas-operacionais/macos/usando-multiplas-contas-dropbox-distintas-no-mesmo-mac.md)
-* [Linux](sistemas-operacionais/linux.md)
+* [Linux](sistemas-operacionais/linux/README.md)
+  * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
+  * [cmd](sistemas-operacionais/microsoft-windows/cmd.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
 
 ## Redes e Infraestrutura
