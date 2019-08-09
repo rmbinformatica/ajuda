@@ -51,3 +51,12 @@ done
 grep -rnw '/caminho/a/pesquisar/' -e 'texto'
 ```
 
+## Habilitando suporte a sistema de arquivos NTFS
+
+```bash
+# Habilite o repositório epel-release
+yum -y install epel-release
+# Instale o driver ntfs
+yum -y install ntfs-3g
+```
+
