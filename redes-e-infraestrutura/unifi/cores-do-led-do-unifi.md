@@ -294,5 +294,5 @@ Aplica-se aos modelos: UAP, UAP-LR, UAP-Outdoor5.
       </td>
     </tr>
   </tbody>
-</table>Artigo originalmente publicado na página do fabricante.
+</table>Artigo originalmente publicado, em inglês, na [página do fabricante](https://help.ubnt.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices).
 
