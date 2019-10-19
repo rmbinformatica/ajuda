@@ -11,9 +11,9 @@ Por padrão o Kaspersky antivírus não permite que usuários remotos conectados
 
 Para permitir que alguém conectado remotamente a sua máquina através do anydesk configure seu antivírus, é necessário realizar alguns ajustes nas configurações, são eles:
 
-![Clique no &#xED;cone da engrenagem na parte inferior esquerda da tela principal do kaspersky](../../.gitbook/assets/image%20%2810%29.png)
+![Clique no &#xED;cone da engrenagem na parte inferior esquerda da tela principal do kaspersky](../../.gitbook/assets/image%20%2811%29.png)
 
-![Abra o menu adicional e clique na op&#xE7;&#xE3;o autodefesa](../../.gitbook/assets/image%20%2814%29.png)
+![Abra o menu adicional e clique na op&#xE7;&#xE3;o autodefesa](../../.gitbook/assets/image%20%2815%29.png)
 
 ![Desmarque a op&#xE7;&#xE3;o &quot;ativar autodefesa&quot;](../../.gitbook/assets/image%20%283%29.png)
 
