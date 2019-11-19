@@ -12,7 +12,7 @@
 * [Linux](sistemas-operacionais/linux/README.md)
   * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
-  * [cmd](sistemas-operacionais/microsoft-windows/cmd.md)
+  * [cmd & batch script](sistemas-operacionais/microsoft-windows/cmd.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
 
 ## Redes e Infraestrutura

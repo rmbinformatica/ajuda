@@ -24,14 +24,12 @@ Digite a palavra **shell** na busca e clique duas vezes na opção de executar s
 
 Copie e cole o script de exemplo abaixo, e faça as devidas modificações:
 
-{% code-tabs %}
-{% code-tabs-item title="exemplo\_script\_shell" %}
+{% code title="exemplo\_script\_shell" %}
 ```bash
 bash
 HOME=/Volumes/4TERA/DBoxDois /Applications/Dropbox.app/Contents/MacOS/Dropbox &
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 No exemplo acima, a pasta onde será feita a sincronização da segunda conta do Dropbox ficará num hd externo cujo caminho é _/Volumes/4TERA_ e o nome da pasta é _DBoxDois_. Modifique conforme sua necessidade.
 

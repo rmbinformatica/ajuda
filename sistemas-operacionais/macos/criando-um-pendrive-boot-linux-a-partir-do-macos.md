@@ -22,8 +22,7 @@ diskutil list
 
 O diskutil irá retornar informações sobre os discos conectados em sua máquina:
 
-{% code-tabs %}
-{% code-tabs-item title="retorno do diskutil" %}
+{% code title="retorno do diskutil" %}
 ```text
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -51,8 +50,7 @@ O diskutil irá retornar informações sobre os discos conectados em sua máquin
    0:     FDisk_partition_scheme                        *15.7 GB    disk3
    1:               Windows_NTFS                         15.7 GB    disk3s1
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Note que no caso acima o pendrive onde eu desejo instalar está localizado em **/dev/disk3**, é possível identificar isso pelo nome do volume \(_NAME_\) e também pelo  tamanho do volume \(_SIZE_\).
 

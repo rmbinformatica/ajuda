@@ -16,8 +16,7 @@ xe pool-list
 
 Será retornada uma lista de pool conforme o exemplo:
 
-{% code-tabs %}
-{% code-tabs-item title="resultado do xe pool-list" %}
+{% code title="resultado do xe pool-list" %}
 ```text
 uuid ( RO) : [uuid-pool]
 name-label ( RW): [pool-name]
@@ -25,8 +24,7 @@ name-description ( RW): [pool-desc]
 master ( RO): [uuid-xs]
 default-SR ( RW): [uuid-sr]
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Precisaremos da informação retornada em **uuid-pool**, agora vamos configurar esse pool para ligar automaticamente na inicialização:
 
@@ -44,15 +42,13 @@ xe vm-list
 
 O retorno será similar, contendo as seguintes informações:
 
-{% code-tabs %}
-{% code-tabs-item title="retorno xe vm-list" %}
+{% code title="retorno xe vm-list" %}
 ```text
 uuid ( RO) : [uuid-vm]
 name-label ( RW): [vm-name]
 power-state ( RO): [vm-power]
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Precisaremos das informações retornadas em **uuid-vm** para todas as vms que vamos configurar para auto-inicializar. Substitua a informação no comando abaixo:
 

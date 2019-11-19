@@ -39,16 +39,14 @@ Execute o script **uu-console.sh** e aceite os termos de uso.
 
 Para que esse tipo de cenário funcione corretamente é recomendado que seja agendada uma tarefa cron que realize o procedimento de atualização regularmente.
 
-{% code-tabs %}
-{% code-tabs-item title="atualiza\_kasper.sh" %}
+{% code title="atualiza\_kasper.sh" %}
 ```text
 #!/bin/bash
 cd /root/kasper
 ./uu-console.sh  -u
 lftp -f /root/sync.ftp
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 No exemplo acima os arquivos de atualização são copiados para um outro local na rede através da ferramenta [lftp](https://lftp.yar.ru/) \(linha 4\). 
 

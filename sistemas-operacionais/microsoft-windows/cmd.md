@@ -2,7 +2,7 @@
 description: Realizando operações no windows via linha de comando
 ---
 
-# cmd
+# cmd & batch script
 
 ## Listagem de diretório atual
 
