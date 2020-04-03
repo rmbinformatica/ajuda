@@ -9,25 +9,25 @@ description: >-
 
 ## Listagem de diretório atual
 
-```bat
+```text
 dir
 ```
 
 ## Mudando de diretório
 
-```bat
+```text
 cd [caminho]
 ```
 
 ## Adicionando credenciais de acesso a um servidor de rede no cofre do usuário
 
-```bat
+```text
 cmdkey /add:[nome_ou_ip] /user:[username] /pass:[senha]
 ```
 
 ## Configurando o ip da máquina
 
-```bat
+```text
 netsh interface ip set address "Conexão Local" static [ip] [mascara] [gateway padrao]
 ```
 
@@ -35,25 +35,25 @@ Substitua o _Conexão Local_ pelo nome da interface de rede conforme aparece na 
 
 ### Atribuindo um segundo endereço de IP estático a uma máquina
 
-```bat
+```text
 netsh interface ipv4 add address "LAN" [ip] [mascara] [gateway padrao]
 ```
 
 ## Exibindo uma mensagem popup para um usuário
 
-```bat
+```text
 msg * "Texto da mensagem"
 ```
 
 ## Reiniciando o sistema
 
-```bat
+```text
 shutdown -r -t [tempo em segundos] -c "Mensagem a exibir ao usuário"
 ```
 
 ## Habilitando e desabilitando interface de redes via prompt de comando
 
-```bat
+```text
 netsh interface set interface name="WANSATELITE" admin=ENABLED
 netsh interface set interface name="VELOX" admin=DISABLED
 ```
