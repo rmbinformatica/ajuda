@@ -13,7 +13,7 @@ Para permitir que alguém conectado remotamente a sua máquina através do anyde
 
 ![Clique no &#xED;cone da engrenagem na parte inferior esquerda da tela principal do kaspersky](../../.gitbook/assets/image%20%2812%29.png)
 
-![Abra o menu adicional e clique na op&#xE7;&#xE3;o autodefesa](../../.gitbook/assets/image%20%2816%29.png)
+![Abra o menu adicional e clique na op&#xE7;&#xE3;o autodefesa](../../.gitbook/assets/image%20%2819%29.png)
 
 ![Desmarque a op&#xE7;&#xE3;o &quot;ativar autodefesa&quot;](../../.gitbook/assets/image%20%284%29.png)
 

@@ -12,6 +12,7 @@
 * [Linux](sistemas-operacionais/linux/README.md)
   * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
+  * [Habilitando registros logs de tentativa de acesso a área de trabalho remota](sistemas-operacionais/microsoft-windows/habilitando-registros-logs-de-tentativa-de-acesso-a-area-de-trabalho-remota.md)
   * [cmd & batch script - usando linha de comando](sistemas-operacionais/microsoft-windows/cmd.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
 
