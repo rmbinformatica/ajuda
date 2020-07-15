@@ -149,7 +149,9 @@ LEDs azul e branco se aplicam a todos os access points unifi, roteadores e switc
       </td>
     </tr>
   </tbody>
-</table>## Dispositivos antigos com LED laranja
+</table>
+
+## Dispositivos antigos com LED laranja
 
 Aplica-se aos modelos: UAP, UAP-LR, UAP-Outdoor5.
 
@@ -294,5 +296,7 @@ Aplica-se aos modelos: UAP, UAP-LR, UAP-Outdoor5.
       </td>
     </tr>
   </tbody>
-</table>Artigo originalmente publicado, em inglês, na [página do fabricante](https://help.ubnt.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices).
+</table>
+
+Artigo originalmente publicado, em inglês, na [página do fabricante](https://help.ubnt.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices).
 

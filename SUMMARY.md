@@ -12,6 +12,7 @@
 * [Linux](sistemas-operacionais/linux/README.md)
   * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
+  * [Windows 10: Todos os ícones da área de trabalho sumiram](sistemas-operacionais/microsoft-windows/windows-10-todos-os-icones-da-area-de-trabalho-sumiram.md)
   * [Reparando a inicialização do Windows após a clonagem de HD](sistemas-operacionais/microsoft-windows/0xc000000e-reparando-a-inicializacao-do-windows-apos-a-clonagem-de-hd.md)
   * [Habilitando registros logs de tentativa de acesso a área de trabalho remota](sistemas-operacionais/microsoft-windows/habilitando-registros-logs-de-tentativa-de-acesso-a-area-de-trabalho-remota.md)
   * [cmd & batch script - usando linha de comando](sistemas-operacionais/microsoft-windows/cmd.md)
