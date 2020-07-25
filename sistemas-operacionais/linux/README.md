@@ -60,3 +60,9 @@ yum -y install epel-release
 yum -y install ntfs-3g
 ```
 
+## Ajustando o horário do linux de acordo com a hora oficial brasileira
+
+```bash
+ntpdate pool.ntp.br
+```
+
