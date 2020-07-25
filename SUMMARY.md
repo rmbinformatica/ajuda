@@ -29,12 +29,13 @@
   * [Configurando uma VM para auto-inicializar quando o XEN server for iniciado](redes-e-infraestrutura/xen-server/configurando-uma-vm-para-auto-inicializar-quando-o-xen-server-for-iniciado.md)
   * [Untitled](redes-e-infraestrutura/xen-server/untitled.md)
 
-## Dev Guidelines
+## Guidelines
 
-* [Comandos GIT](dev-guidelines/git.md)
-* [Frontend](dev-guidelines/frontend.md)
-* [Scripts Bash](dev-guidelines/scripts-bash.md)
-* [MySQL](dev-guidelines/mysql.md)
+* [Comandos GIT](guidelines/git.md)
+* [Frontend](guidelines/frontend.md)
+* [Scripts Bash](guidelines/scripts-bash.md)
+* [MySQL](guidelines/mysql.md)
+* [LFTP](guidelines/lftp.md)
 
 ## SEGURANÇA
 
