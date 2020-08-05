@@ -14,5 +14,5 @@ _**Todos os artigos disponíveis nesse site são conteúdo técnico gratuito dis
 
 _Caso necessite de suporte especializado você poderá contratar nossos serviços, se executados por nossa equipe garantimos o padrão de qualidade e a entrega dos resultados esperados, consulte-nos._
 
-© 2019 - [RMB Informática](http://www.rmbinformatica.com)
+© 2020 - [RMB Informática](http://www.rmbinformatica.com)
 
