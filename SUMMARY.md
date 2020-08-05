@@ -49,3 +49,11 @@
 * [Suporte](coffcode-expresso/suporte/README.md)
   * [Classe não registrada](coffcode-expresso/suporte/classe-nao-registrada.md)
 
+## Hospedagem cPanel
+
+* [Como alterar a senha do e-mail no webmail cPanel](hospedagem-cpanel/como-alterar-a-senha-do-e-mail-no-webmail-cpanel.md)
+
+---
+
+* [Como redefinir a senha de um e-mail no painel de controle cPanel](como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel.md)
+
