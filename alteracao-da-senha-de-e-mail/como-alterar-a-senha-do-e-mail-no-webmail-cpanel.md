@@ -16,7 +16,7 @@ Ao abrir a página inicial do seu webmail será solicitado que efetue login, con
 
 ### O que fazer se não lembrar a senha atual do e-mail
 
-Caso não lembre a senha atual do e-mail é necessário [redefinir uma nova senha através do painel de controle do cPanel](../como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel.md).
+Caso não lembre a senha atual do e-mail é necessário [redefinir uma nova senha através do painel de controle do cPanel](como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel.md).
 
 ## Alterando a senha de acesso
 
