@@ -56,4 +56,5 @@
 * [Alteração da senha de e-mail](alteracao-da-senha-de-e-mail/README.md)
   * [Como alterar a senha do e-mail no webmail cPanel](alteracao-da-senha-de-e-mail/como-alterar-a-senha-do-e-mail-no-webmail-cpanel.md)
   * [Como redefinir a senha de um e-mail no painel de controle cPanel](alteracao-da-senha-de-e-mail/como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel.md)
+* [Configurar conta de e-mail em celulares e tablet android](configurar-conta-de-e-mail-em-celulares-e-tablet-android.md)
 
