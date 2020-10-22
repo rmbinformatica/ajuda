@@ -40,6 +40,7 @@
 ## SEGURANÇA
 
 * [Antivírus Kaspersky](seguranca/antivirus-kaspersky/README.md)
+  * [Atualizando a chave de ativação do anti-vírus Kaspersky antes da licença expirar](seguranca/antivirus-kaspersky/atualizando-a-chave-de-ativacao-do-anti-virus-kaspersky-antes-da-licenca-expirar.md)
   * [Permitindo o anydesk controlar as configurações do Kaspersky antivírus](seguranca/antivirus-kaspersky/permitindo-o-anydesk-controlar-as-configuracoes-do-kaspersky-antivirus.md)
   * [Criando um servidor interno de atualização do Kaspersky antivírus no linux](seguranca/antivirus-kaspersky/criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md)
   * [Configurando o Kaspersky antivírus para obter atualizações através da rede local](seguranca/antivirus-kaspersky/configurando-o-kaspersky-antivirus-para-obter-atualizacoes-atraves-da-rede-local.md)
