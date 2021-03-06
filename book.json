@@ -1,8 +1,14 @@
 {
-  "plugins": ["sitemap-general"],
+  "plugins": ["sitemap-general","git-author"],
   "pluginsConfig": {
     "sitemap-general": {
       "prefix": "https://doc.rmbinformatica.com.br/ajuda/"
-    }
+    },
+    "git-author":{
+      "position": "bottom",
+      "modifyTpl": "Ultima modificação {user} {timeStamp}",
+      "createTpl": "Criado por {user} {timeStamp}",
+      "timeStampFormat": "DD/MM/YYYY HH:mm:ss"
+  }
   }
 }
