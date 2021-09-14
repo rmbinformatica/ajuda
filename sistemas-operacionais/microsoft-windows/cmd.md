@@ -58,3 +58,16 @@ netsh interface set interface name="WANSATELITE" admin=ENABLED
 netsh interface set interface name="VELOX" admin=DISABLED
 ```
 
+## Calculando o hash md5  ou SHA1 de um arquivo no windows via prompt de comando
+
+```text
+certutil -hashfile <nome_do_arquivo> MD5
+certutil -hashfile <nome_do_arquivo> SHA1
+```
+
+{% hint style="info" %}
+Nota: Os algoritmos de hash suportados pelo `certutil` do _Windows 10_ são: **MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512**
+{% endhint %}
+
+
+
