@@ -13,9 +13,9 @@ Primeiramente verifique se o certificado digital está instalado, uma maneira si
 
 ## Registre as classes não registradas
 
-Acesse o prompt de comando \(**`cmd`**\) através da opção de executar **como administrador** e execute os comandos a seguir:
+Acesse o prompt de comando (**`cmd`**) através da opção de executar **como administrador** e execute os comandos a seguir:
 
-```text
+```
 cd\coffcode\expresso
 regsvr32 capicom.dll
 regsvr32 msxml5.dll
@@ -26,4 +26,3 @@ Se sua instalação foi realizada em um diretório diferente de **`c:\coffcode`*
 Após a execução do comando deve ser exibida a mensagem de que o registro da classe **obteve êxito** para os dois últimos comandos.
 
 Abra o sistema expresso e tente vincular o certificado digital.
-

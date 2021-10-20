@@ -9,7 +9,7 @@ description: >-
 
 Este é um problema que ocorre com uma certa freqüência após a clonagem de HD com qualquer ferramenta.
 
-Este artigo também se aplica em alguns casos onde o windows não inicia após a instalação de outro sistema operacional \(ex.: linux\).
+Este artigo também se aplica em alguns casos onde o windows não inicia após a instalação de outro sistema operacional (ex.: linux).
 
 ## Procedimentos para a resolução do problema
 
@@ -17,25 +17,25 @@ Com o HD já instalado na máquina, inicialize a máquina com qualquer pendrive 
 
 Na primeira tela do instalador, prossiga pressionando o botão **seguinte**.
 
-![Primeira tela do instalador do windows 10](../../.gitbook/assets/image%20%2819%29.png)
+![Primeira tela do instalador do windows 10](<../../.gitbook/assets/image (28).png>)
 
 Na segunda tela do instalador do windows 10, escolha a opção **Reparar o seu computador**.
 
-![Segunda tela do instalador do windows 10](../../.gitbook/assets/image%20%2826%29.png)
+![Segunda tela do instalador do windows 10](<../../.gitbook/assets/image (26) (1).png>)
 
 Escolha a opção **Resolução de problemas**
 
-![Op&#xE7;&#xE3;o Resolu&#xE7;&#xE3;o de problemas](../../.gitbook/assets/image%20%282%29.png)
+![Opção Resolução de problemas](<../../.gitbook/assets/image (30).png>)
 
 Em seguida escolha a opção de Linha de comando ou prompt de comando
 
-![Op&#xE7;&#xE3;o prompt de comando](../../.gitbook/assets/image%20%288%29%20%283%29.png)
+![Opção prompt de comando](<../../.gitbook/assets/image (8) (2).png>)
 
 ### Execute o diskpart
 
 Quando inicializar o prompt de comando, inicie o programa **`diskpart`** e quando estiver no prompt `DISKPART>` execute o comando **`list volume`**.
 
-```text
+```
 diskpart
 DISKPART> list volume
 ```
@@ -44,7 +44,7 @@ Será exibida uma tabela com os volumes do disco, observe qual o seu volume do w
 
 Vamos selecionar o volume de inicialização do windows
 
-```text
+```
 select volume #
 ```
 
@@ -52,7 +52,7 @@ Substitua o `#` pelo respectivo número do volume de inicialização do windows.
 
 Vamos atribuir uma letra de unidade para que possamos acessar esse volume:
 
-```text
+```
 assign letter w
 ```
 
@@ -64,7 +64,7 @@ Agora basta sair do diskpart usando o comando **`exit`**
 
 De volta ao prompt de comando, execute o seguinte comando:
 
-```text
+```
 bcdboot C:\Windows /s w: /f UEFI
 ```
 
@@ -78,5 +78,4 @@ O computador irá inicializar normalmente, provavelmente irá exibir uma lista p
 
 ### Removendo a lista de sistemas operacionais
 
-Caso a inicialização apresente uma lista de sistemas operacionais para escolher, ao entrar no windows execute a ferramenta **`msconfig`**, clique na segunda aba de **inicialização** e remova as entradas desnecessárias \(exceto a entrada que foi usada para boot\).
-
+Caso a inicialização apresente uma lista de sistemas operacionais para escolher, ao entrar no windows execute a ferramenta **`msconfig`**, clique na segunda aba de **inicialização** e remova as entradas desnecessárias (exceto a entrada que foi usada para boot).

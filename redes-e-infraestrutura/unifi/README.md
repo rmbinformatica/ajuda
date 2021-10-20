@@ -10,7 +10,7 @@ Os access points Unifi podem ser acessados via SSH mediante autenticação de us
 
 Neste caso [encontre o link do arquivo do firmware atualizado conforme o modelo do seu dispositivo,](https://www.ui.com/download/unifi/unifi-ap) de posse do URL realize:
 
-```text
+```
 upgrade [url]
 ```
 
@@ -20,17 +20,15 @@ Outra maneira de realizar a atualização de firmware é seguindo as instruçõe
 
 ## Visualizar a configuração atual do unifi usando ssh
 
-```text
+```
 info
 ```
 
 ## Alterar o endereço do controller unifi usando ssh
 
-```text
+```
 set-inform http://[ip-do-controller]:8080/inform
 ```
-
-
 
 
 

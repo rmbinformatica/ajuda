@@ -6,9 +6,7 @@ description: Orientações sobre como elaborar scripts em bash
 
 ## Como fazer uma pergunta ao usuário em bash e guardar o resultado numa variável?
 
-```text
+```
 read -p "Qual sua pergunta?" variavel
 ```
-
-
 

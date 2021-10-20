@@ -10,20 +10,20 @@ Visite a página da distribuição linux desejada e baixe a imagem **iso** da m�
 
 Abra o terminal e converta a imagem do formato **iso** para o formato que será gravado no pendrive, utilizando o **hdiutil**:
 
-```text
+```
 hdiutil convert -format UDRW -o centos.img CentOS-7.0-1406-x86_64-Everything.iso
 ```
 
 Identifique qual o caminho do pendrive onde você deseja gravar a imagem, isso pode ser feito através do diskutil:
 
-```text
+```
 diskutil list
 ```
 
 O diskutil irá retornar informações sobre os discos conectados em sua máquina:
 
 {% code title="retorno do diskutil" %}
-```text
+```
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *500.3 GB   disk0
@@ -52,19 +52,18 @@ O diskutil irá retornar informações sobre os discos conectados em sua máquin
 ```
 {% endcode %}
 
-Note que no caso acima o pendrive onde eu desejo instalar está localizado em **/dev/disk3**, é possível identificar isso pelo nome do volume \(_NAME_\) e também pelo  tamanho do volume \(_SIZE_\).
+Note que no caso acima o pendrive onde eu desejo instalar está localizado em **/dev/disk3**, é possível identificar isso pelo nome do volume (_NAME_) e também pelo  tamanho do volume (_SIZE_).
 
 Agora vamos desmontar o pendrive, lembre-se de substituir o **disk3** pelo equivalente do seu caso:
 
-```text
+```
 diskutil unmountDisk /dev/disk3
 ```
 
 Uma vez desmontado, vamos utilizar o dd para gravar a imagem no pendrive:
 
-```text
+```
 time sudo dd if=centos.img.dmg of=/dev/disk3 bs=1m
 ```
 
 Após concluído, será possível realizar o boot usando o pendrive criado.
-

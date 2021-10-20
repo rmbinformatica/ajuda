@@ -102,11 +102,10 @@ Precisaremos da informação uuid relacionada a VM Linux CentOS, substitua essa 
 
 ### Preparando a VM para o monitoramento de containers do Xen
 
-```text
+```
 xscontainer-prepare-vm -v [uuid_vm] -u [usuario_vm]
 ```
 
 Após concluído o processo já será possível ver o monitoramento de containers no XenCenter, basta abrir o ícone **+** ao lado do nome da vm.
 
-![Monitoramento de containers no XenCenter](../../.gitbook/assets/image%20%2810%29.png)
-
+![Monitoramento de containers no XenCenter](<../../.gitbook/assets/image (20).png>)

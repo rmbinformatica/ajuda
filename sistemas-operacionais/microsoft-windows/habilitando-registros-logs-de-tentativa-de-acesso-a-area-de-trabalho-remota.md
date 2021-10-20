@@ -8,7 +8,7 @@ description: >-
 
 ## Introdução
 
-Pensar em segurança é fundamental, principalmente quando colocamos algum dispositivo online na internet. Nossa recomendação é que esse tipo de acesso seja sempre protegido  por uma VPN, bem como um firewall bem configurado. 
+Pensar em segurança é fundamental, principalmente quando colocamos algum dispositivo online na internet. Nossa recomendação é que esse tipo de acesso seja sempre protegido  por uma VPN, bem como um firewall bem configurado.&#x20;
 
 Infelizmente ainda é muito comum ver pessoas abrindo acesso inseguro à area de trabalho remota do windows na internet. Mas muitas pessoas não tem noção da ameaça a que estão expostas pois a configuração padrão do windows não faz o registro das tentativas de acesso com falha.
 
@@ -20,7 +20,7 @@ Neste artigo vamos descrever o passo a passo para você habilitar no windows o r
 
 No iniciar do windows procure o aplicativo **Editar política de grupo**:
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](<../../.gitbook/assets/image (24).png>)
 
 Dentro do aplicativo, no lado esquerdo da tela navegue pelos menus:
 
@@ -40,15 +40,14 @@ Dentro do aplicativo, no lado esquerdo da tela navegue pelos menus:
 * Políticas locais
 * Política de auditoria
 
-![editor de pol&#xED;tica de grupo local](../../.gitbook/assets/image%20%2814%29.png)
+![editor de política de grupo local](<../../.gitbook/assets/image (25).png>)
 
 Você poderá observar que a configuração padrão do windows vem definida para _**sem auditoria**_. Basta clicar duas vezes nesta mensagem e será exibida uma janela, nesta janela marque a opção **falha** e clique no botão OK.
 
-![janela de edi&#xE7;&#xE3;o das propriedades](../../.gitbook/assets/image%20%2828%29.png)
+![janela de edição das propriedades](<../../.gitbook/assets/image (26).png>)
 
 Você verá que a opção que antes estava sem auditoria agora estará como falha, conforme imagem abaixo:
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](<../../.gitbook/assets/image (27).png>)
 
 Pronto, essa é toda a configuração necessária. Agora você poderá verificar todas as tentativas de acesso no visualizador de eventos do windows. Nos registros consta os detalhes do login que foi tentado bem como os endereços de IP de quem tentou realizar o acesso.
-

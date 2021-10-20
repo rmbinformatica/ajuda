@@ -10,7 +10,7 @@ description: >-
 
 Para conexão a servidores FTP internos que não possuem SSL configurado é recomendado desativar o suporte SSL do LFTP.
 
-```text
+```
 set ftp:ssl-allow no
 ```
 
@@ -20,7 +20,7 @@ set ftp:ssl-allow no
 
 Este procedimento faz o diretório local ficar com a mesma estrutura e arquivos do servidor remoto.
 
-```text
+```
 mirror
 ```
 
@@ -28,7 +28,6 @@ mirror
 
 Este procedimento faz o diretório do servidor remoto ficar com a mesma estrutura e arquivos do diretório local.
 
-```text
+```
 mirror -R
 ```
-

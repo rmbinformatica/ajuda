@@ -27,4 +27,3 @@ Ao reiniciar o serviço sshd as novas chaves serão geradas automaticamente.
 ```bash
 service sshd restart
 ```
-

@@ -24,13 +24,13 @@ Em seguida execute o **createinstallmedia** que fica dentro de _Contents_/_Resou
 sudo /Applications/Install\ OS\ X\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --applicationpath /Applications/Install\ OS\ X\ Mojave.app --nointeraction
 ```
 
-Para facilitar a localização do instalador digite o caminho _/Applications/Install_ e pressione a tecla _\[TAB\]_ que o terminal completará o nome do caminho do instalador. Lembre de substituir o **/Volumes/instalador** pelo nome que você usou ao renomear o pendrive.
+Para facilitar a localização do instalador digite o caminho _/Applications/Install_ e pressione a tecla _\[TAB]_ que o terminal completará o nome do caminho do instalador. Lembre de substituir o **/Volumes/instalador** pelo nome que você usou ao renomear o pendrive.
 
 Informe a senha de administrador da máquina, se for solicitado.
 
 Aguarde a conclusão do processo
 
-```text
+```
 Erasing Disk: 0%… 10%… 20%… 30%…100%…
 Copying installer files to disk…
 Copy complete.
@@ -45,4 +45,3 @@ Done.
 Reinicie o computador, com o pendrive conectado, e mantenha a tecla _**Option**_ pressionada.
 
 Ao ser perguntado sobre qual o disco que deseja utilizar na inicialização escolha o disco de instalação do MacOS.
-

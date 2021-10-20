@@ -17,7 +17,7 @@ xe pool-list
 Será retornada uma lista de pool conforme o exemplo:
 
 {% code title="resultado do xe pool-list" %}
-```text
+```
 uuid ( RO) : [uuid-pool]
 name-label ( RW): [pool-name]
 name-description ( RW): [pool-desc]
@@ -43,7 +43,7 @@ xe vm-list
 O retorno será similar, contendo as seguintes informações:
 
 {% code title="retorno xe vm-list" %}
-```text
+```
 uuid ( RO) : [uuid-vm]
 name-label ( RW): [vm-name]
 power-state ( RO): [vm-power]
@@ -52,11 +52,10 @@ power-state ( RO): [vm-power]
 
 Precisaremos das informações retornadas em **uuid-vm** para todas as vms que vamos configurar para auto-inicializar. Substitua a informação no comando abaixo:
 
-```text
+```
 xe vm-param-set uuid=[uuid-vm] other-config:auto_poweron=true
 ```
 
 Lembre-se de substituir o _uuid-vm_ pela retornado no comando anterior para a respectiva vm.
 
 Repita o último comando para todas as demais vms que deseja que sejam inicializadas automaticamente.
-

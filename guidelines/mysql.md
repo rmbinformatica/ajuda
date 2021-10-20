@@ -12,7 +12,7 @@ O _mysqldump_ é uma ferramenta muito útil para backup de banco de dados mysql.
 
 A sintaxe padrão para uso do mysqldump é:
 
-```text
+```
 mysqldump -u [usuario] [banco] [tabela]
 ```
 
@@ -24,13 +24,13 @@ Por padrão o mysqldump irá exibir o resultado na tela, sendo muito comum direc
 
 ### Salvamento o resultado em um arquivo
 
-Embora seja muito comum, o salvamento usando `> arquivo.sql` não é uma boa prática, principalmente quando se envolve a cópia do arquivo entre sistemas operacionais diferentes, esse uso pode fazer com que o arquivo resultante apresente dados corrompidos tais como problemas de acentuação. 
+Embora seja muito comum, o salvamento usando `> arquivo.sql` não é uma boa prática, principalmente quando se envolve a cópia do arquivo entre sistemas operacionais diferentes, esse uso pode fazer com que o arquivo resultante apresente dados corrompidos tais como problemas de acentuação.&#x20;
 
 Para evitar que haja problemas de acentuação com o uso do mysqldump ou qualquer outra corrupção de dados, é recomendado salvar o arquivo usando a opção `--result-file=arquivo.sql` ou `-r arquivo.sql`.
 
 Exemplo para salvar arquivo com nome backup.sql:
 
-```text
+```
 mysqldump -u [usuario] [banco] -r backup.sql
 ```
 
@@ -44,7 +44,7 @@ Por exemplo: se a única forma de acesso ao servidor for via phpMyAdmin e as tab
 
 Para desativar o trancamento de tabelas basta acrescentar a linha de comando a opção `--skip-add-locks`.
 
-```text
+```
 mysqldump -u [usuario] [banco] --skip-add-locks -r backup.sql
 ```
 
@@ -56,7 +56,7 @@ Em um cenário de restauração completa onde o banco de dados está vazio uma a
 
 Mas considerando que há cenários que não seja possível desativar as triggers o ideal é que o arquivo de dump tenha sido criado com a opção `--replace` pois nesse caso o mysqldump irá gerar as linhas de inserção com o comando `REPLACE` em vez do `INSERT`.
 
-```text
+```
 mysqldump -u [usuario] [banco] --replace -r backup.sql
 ```
 
@@ -64,7 +64,7 @@ mysqldump -u [usuario] [banco] --replace -r backup.sql
 
 Se o banco em questão possuir colunas binárias, tais como uuid. É importantíssimo o uso da opção `--hex-blob` a fim garantir que os dados binários sejam gravados de maneira correta.
 
-```text
+```
 mysqldump -u [usuario] [banco] --hex-blob -r backup.sql
 ```
 
@@ -72,27 +72,26 @@ mysqldump -u [usuario] [banco] --hex-blob -r backup.sql
 
 Em alguns casos abrir o arquivo exportado pelo mysqldump no workbench pode apresentar uma mensagem reclamando do charset do arquivo. Conforme imagem abaixo:
 
-![Erro quando o workbench n&#xE3;o consegue identificar o charset do arquivo](../.gitbook/assets/image%20%282%29%20%281%29.png)
+![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (22).png>)
 
 Uma das maneiras de contornar esse problema seria definir o charset na geração do arquivo no mysqldump através da opção `--default-character-set=[charset]`.
 
 Exemplo, para salvar o arquivo com o charset _latin1_:
 
-```text
+```
 mysqldump -u [usuario] [banco] --default-character-set=latin1 -r backup.sql
 ```
 
 ### Exportando somente os dados sem a estrutura de tabelas
 
-Para exportar somente o DML, sem a estrutura das tabelas \(DDL\), é recomendável a combinação das opções `--no-create-info` e `--skip-triggers` caso exista alguma tabela com triggers.
+Para exportar somente o DML, sem a estrutura das tabelas (DDL), é recomendável a combinação das opções `--no-create-info` e `--skip-triggers` caso exista alguma tabela com triggers.
 
 ### Combinando opções
 
 Todas as opções disponíveis para linha de comando do mysqldump podem ser combinadas em qualquer ordem. Exemplo:
 
-```text
+```
 mysqldump -u [usuario] --no-create-info --skip-triggers [banco] --default-character-set=latin1 --hex-blob --replace --skip-add-locks -r [arquivo]
 ```
 
 Para uma lista de todas as opções disponíveis e seu uso, consulte a [documentação oficial do mysqldump](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html).
-

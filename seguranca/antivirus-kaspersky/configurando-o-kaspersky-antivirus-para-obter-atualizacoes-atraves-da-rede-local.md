@@ -17,21 +17,21 @@ O objetivo desse tipo de cenário é economia de dados de internet bem como prop
 
 Abra o Kaspersky antivírus através do ícone na área de trabalho, menu iniciar ou próximo do relógio do sistema.
 
-![Clique no &#xED;cone da engrenagem na parte inferior esquerda da tela principal do kaspersky](../../.gitbook/assets/image%20%2812%29.png)
+![Clique no ícone da engrenagem na parte inferior esquerda da tela principal do kaspersky](../../.gitbook/assets/image.png)
 
-![Clique no menu &quot;Adicional&quot; do lado esquerdo e em seguida clique na op&#xE7;&#xE3;o Atualiza&#xE7;&#xE3;o.](../../.gitbook/assets/image%20%2819%29%20%281%29.png)
+![Clique no menu "Adicional" do lado esquerdo e em seguida clique na opção Atualização.](<../../.gitbook/assets/image (3).png>)
 
-![Clique na op&#xE7;&#xE3;o selecionar fontes de atualiza&#xE7;&#xE3;o](../../.gitbook/assets/image%20%2820%29%20%281%29.png)
+![Clique na opção selecionar fontes de atualização](<../../.gitbook/assets/image (4).png>)
 
-![Clique no bot&#xE3;o adicionar](../../.gitbook/assets/image%20%287%29.png)
+![Clique no botão adicionar](<../../.gitbook/assets/image (5).png>)
 
-![Informe o caminho das atualiza&#xE7;&#xF5;es\* e clique selecionar.](../../.gitbook/assets/image%20%2823%29%20%281%29.png)
+![Informe o caminho das atualizações\* e clique selecionar.](<../../.gitbook/assets/image (7).png>)
 
 O caminho das atualizações é a pasta local ou da rede onde o seu atualizador está realizando o download das novas definições de vírus. _**Consulte o seu administrador de rede para saber o que deve ser preenchido neste campo**_.
 
-Esse caminho pode ser uma pasta local \(ex.: **c:\temp\antivirus**\) ou um compartilhamento de rede \(ex.: **\\192.168.0.4\antivirus**\).
+Esse caminho pode ser uma pasta local (ex.: **c:\temp\antivirus**) ou um compartilhamento de rede (ex.: **\\\192.168.0.4\antivirus**).
 
-![Ap&#xF3;s adicionado o caminho, escolha a ordem utilizando as setas de dire&#xE7;&#xE3;o.](../../.gitbook/assets/image%20%283%29.png)
+![Após adicionado o caminho, escolha a ordem utilizando as setas de direção.](<../../.gitbook/assets/image (8).png>)
 
 Recomendamos que a primeira posição seja sempre o caminho local.
 
@@ -43,21 +43,22 @@ Clique com o **botão direito** do mouse na palavra **Ativo** ao lado de **Servi
 
 
 
-![Clique na op&#xE7;&#xE3;o desativar](../../.gitbook/assets/image%20%2822%29.png)
+![Clique na opção desativar](<../../.gitbook/assets/image (9).png>)
 
 Após desativar, verifique se a opção mudou de ativo para **Inativo**.
 
-![Verifique se consta a palavra inativo e em seguida feche a janela.](../../.gitbook/assets/image%20%2817%29.png)
+![Verifique se consta a palavra inativo e em seguida feche a janela.](<../../.gitbook/assets/image (11).png>)
 
 ## Realizando a atualização do Kaspersky antivírus
 
 Volte para a tela inicial e clique no botão **Atualização do banco de dados**.
 
-![Bot&#xE3;o atualiza&#xE7;&#xE3;o do banco de dados](../../.gitbook/assets/image%20%286%29%20%281%29.png)
+![Botão atualização do banco de dados](<../../.gitbook/assets/image (12).png>)
 
-![Na tela de atualiza&#xE7;&#xE3;o clique no bot&#xE3;o atualizar e aguarde a conclus&#xE3;o.](../../.gitbook/assets/image%20%2821%29.png)
+![Na tela de atualização clique no botão atualizar e aguarde a conclusão.](<../../.gitbook/assets/image (13).png>)
 
 ## Artigo relacionado
 
-{% page-ref page="criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md" %}
-
+{% content-ref url="criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md" %}
+[criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md](criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md)
+{% endcontent-ref %}

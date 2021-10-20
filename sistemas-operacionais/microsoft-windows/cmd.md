@@ -9,25 +9,25 @@ description: >-
 
 ## Listagem de diretório atual
 
-```text
+```
 dir
 ```
 
 ## Mudando de diretório
 
-```text
+```
 cd [caminho]
 ```
 
 ## Adicionando credenciais de acesso a um servidor de rede no cofre do usuário
 
-```text
+```
 cmdkey /add:[nome_ou_ip] /user:[username] /pass:[senha]
 ```
 
 ## Configurando o ip da máquina
 
-```text
+```
 netsh interface ip set address "Conexão Local" static [ip] [mascara] [gateway padrao]
 ```
 
@@ -35,32 +35,32 @@ Substitua o _Conexão Local_ pelo nome da interface de rede conforme aparece na 
 
 ### Atribuindo um segundo endereço de IP estático a uma máquina
 
-```text
+```
 netsh interface ipv4 add address "LAN" [ip] [mascara] [gateway padrao]
 ```
 
 ## Exibindo uma mensagem popup para um usuário
 
-```text
+```
 msg * "Texto da mensagem"
 ```
 
 ## Reiniciando o sistema
 
-```text
+```
 shutdown -r -t [tempo em segundos] -c "Mensagem a exibir ao usuário"
 ```
 
 ## Habilitando e desabilitando interface de redes via prompt de comando
 
-```text
+```
 netsh interface set interface name="WANSATELITE" admin=ENABLED
 netsh interface set interface name="VELOX" admin=DISABLED
 ```
 
 ## Calculando o hash md5  ou SHA1 de um arquivo no windows via prompt de comando
 
-```text
+```
 certutil -hashfile <nome_do_arquivo> MD5
 certutil -hashfile <nome_do_arquivo> SHA1
 ```
@@ -68,6 +68,4 @@ certutil -hashfile <nome_do_arquivo> SHA1
 {% hint style="info" %}
 Nota: Os algoritmos de hash suportados pelo `certutil` do _Windows 10_ são: **MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512**
 {% endhint %}
-
-
 
