@@ -59,5 +59,5 @@
 
 ## Outros
 
+* [Conectividade Social](outros/conectividade-social.md)
 * [Lumion](outros/lumion.md)
-
