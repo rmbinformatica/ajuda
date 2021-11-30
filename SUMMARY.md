@@ -10,6 +10,7 @@
   * [Gerenciando partições via terminal](sistemas-operacionais/macos/gerenciando-particoes-via-terminal.md)
   * [Usando múltiplas contas dropbox distintas no mesmo Mac](sistemas-operacionais/macos/usando-multiplas-contas-dropbox-distintas-no-mesmo-mac.md)
 * [Linux](sistemas-operacionais/linux/README.md)
+  * [SAMBA](sistemas-operacionais/linux/samba.md)
   * [CentOS 7](sistemas-operacionais/linux/centos-7.md)
   * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
