@@ -9,11 +9,11 @@
 
 Neste exemplo adotaremos a seguinte estrutura de pastas como exemplo:
 
-* diretorio
-  * subdiretorio
-  * pastas
+* `diretorio`
+  * `subdiretorio`
+  * `pasta`
 
-Considerando que o `diretorio` é a pasta que já está compartilhada com um determinado grupo de usuários **`grupo_pai`** e desejamos restringir o acesso a **`subdiretorio`** para parte desses usuários somente que serão especificados em **`grupo_subdir`**, o acesso a **`pasta`** e demais arquivos contidos em **`direitorio`** permanece a todos do grupo. Abaixo modelo do arquivo `smb.conf`:
+Considerando que o **`diretorio`** é a pasta que já está compartilhada com um determinado grupo de usuários **`grupo_pai`** e desejamos restringir o acesso a **`subdiretorio`** para parte desses usuários somente que serão especificados em **`grupo_subdir`**, o acesso a **`pasta`** e demais arquivos contidos em **`direitorio`** permanece a todos do grupo. Abaixo modelo do arquivo `smb.conf`:
 
 ```
 [diretorio]
