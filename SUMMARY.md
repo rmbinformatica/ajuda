@@ -29,6 +29,8 @@
 * [XEN Server](redes-e-infraestrutura/xen-server/README.md)
   * [Configurando o xenserver para monitoramento de containers docker](redes-e-infraestrutura/xen-server/configurando-o-xenserver-para-monitoramento-de-containers-docker.md)
   * [Configurando uma VM para auto-inicializar quando o XEN server for iniciado](redes-e-infraestrutura/xen-server/configurando-uma-vm-para-auto-inicializar-quando-o-xen-server-for-iniciado.md)
+* [OpenVPN](redes-e-infraestrutura/openvpn/README.md)
+  * [Instalando e configurando um servidor OpenVPN no windows](redes-e-infraestrutura/openvpn/instalando-e-configurando-um-servidor-openvpn-no-windows.md)
 
 ## Guidelines
 
