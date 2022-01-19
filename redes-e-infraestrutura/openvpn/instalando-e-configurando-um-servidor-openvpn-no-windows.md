@@ -72,7 +72,14 @@ Ainda na shell `EasyRSA-Start.bat`, vamos gerar a chave Diffie-Hellman:
 easyrsa gen-dh
 ```
 
-## Arquivos de configuração
+## Gerando uma chave estática para tls-auth
+
+Execute, num prompt de comando `cmd` _elevado_ (**administrador**):
+
+```
+cd "C:\Program Files\OpenVPN\bin"
+openvpn --genkey tls-auth "C:\Program Files\OpenVPN\easy-rsa\pki\ta.key"Arquivos de configuração
+```
 
 Siga os modelos existentes na pasta **C:\Program Files\OpenVPN\sample-config** para criar o arquivo de configuração do servidor e dos clientes OpenVPN.
 
@@ -85,6 +92,7 @@ ca "C:\Program Files\OpenVPN\\easy-rsa\\pki\\ca.crt"
 cert "C:\\Program Files\OpenVPN\\easy-rsa\\pki\\issued\\vpn-server.crt"
 key "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\private\\vpn-server.key" 
 dh "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\dh.pem"
+tls-auth "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\ta.key" 0
 ```
 
 ### Logs
