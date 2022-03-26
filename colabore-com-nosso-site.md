@@ -30,11 +30,22 @@ Você pode fazer uma doação para nosso projeto através do pix abaixo:
 3LTJBccZnnoAGeTWJGZu7jWPnEobJYCYrt
 ```
 
-### Doe BAT Usando o Brave Browser
-
 ### Stellar Lumens
 
 ```
 GBPCBMXN2WGFKL2P4CQFFJPLXVSNV43NL2MXEQCKUK2WBEWQ6MRENATO
 ```
 
+### Doe BAT Usando o Brave Browser
+
+Clique no ícone do Brave Rewards no seu navegador Brave.
+
+![Acesse o ícone do brave rewards](.gitbook/assets/Colabore\_com\_nosso\_site\_-\_Instruções\_Técnicas.png)
+
+No popup flutuante exibido observe que nosso site já consta como criador verificado. Em seguida clique no botão de enviar Gorjeta.
+
+![Popup flutuante de doação do brave Browser](.gitbook/assets/flutuante\_bat.PNG)
+
+Por fim, escolha se deseja realizar uma doação única ou uma contribuição mensal, defina o valor e clique no botão enviar gorjeta.
+
+![Tela de conclusão de doação de BAT usando o Brave Browser](.gitbook/assets/doar\_bat\_finalizacao.png)
