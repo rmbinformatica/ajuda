@@ -77,7 +77,7 @@ Clique no botão **Aplicar** e em seguida clique no botão **OK**.
 
 ### Habilitar o complemento do java
 
-No internet explorer clique na engrenagem de configurações e no menu clique opção** Gerenciar Complementos**.
+No internet explorer clique na engrenagem de configurações e no menu clique opção **Gerenciar Complementos**.
 
 ![](<../.gitbook/assets/image (73).png>)
 

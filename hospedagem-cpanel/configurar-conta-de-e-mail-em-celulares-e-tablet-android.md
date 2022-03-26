@@ -71,17 +71,17 @@ Caso haja algum erro nessa etapa recomendamos que primeiramente _verifique se es
 
 ## Configurações avançadas
 
-Na tela de configurações avançadas é possível especificar todos os detalhes do servidor que deseja configurar. Abaixo todas as informações que você deve preencher, onde houver identificado **\[**_**domínio**_**] **substitua pelo seu domínio, que é tudo que vem depois do arroba (@) no seu e-mail. Exemplo: Se seu email é **fulano@rmbinformatica.com.br** o domínio será **rmbinformatica.com.br**.
+Na tela de configurações avançadas é possível especificar todos os detalhes do servidor que deseja configurar. Abaixo todas as informações que você deve preencher, onde houver identificado **\[**_**domínio**_**]** substitua pelo seu domínio, que é tudo que vem depois do arroba (@) no seu e-mail. Exemplo: Se seu email é **fulano@rmbinformatica.com.br** o domínio será **rmbinformatica.com.br**.
 
 Você deverá preencher:
 
 * **Endereço de e-mail**: já estará preenchido com seu e-mail;
 * **Nome para exibição**: Seu nome completo, o que os destinatários dos e-mails verão como "DE" quando receberem uma mensagem sua;
 * **Descrição**: Uma descrição qualquer, recomendamos usar o domínio do seu email (tudo que vem depois do @) para facilitar a identificação;
-* **Nome do Host IMAP**: **mail.\[**_**domínio**_**] **
+* **Nome do Host IMAP**: **mail.\[**_**domínio**_**]**&#x20;
 * **Nome de usuário IMAP**: seu e-mail completo, conforme preenchido no primeiro campo (endereço de e-mail);
 * **Senha IMAP**: a senha do seu e-mail, a mesma utilizada para acesso ao webmail;
-* **Nome do host SMTP**: **mail.\[**_**domínio**_**] **
+* **Nome do host SMTP**: **mail.\[**_**domínio**_**]**&#x20;
 * **Nome de usuário SMTP**: seu e-mail completo, conforme preenchido no primeiro campo (endereço de e-mail);
 * **Senha SMTP**: a senha do seu e-mail, a mesma utilizada para acesso ao webmail.
 

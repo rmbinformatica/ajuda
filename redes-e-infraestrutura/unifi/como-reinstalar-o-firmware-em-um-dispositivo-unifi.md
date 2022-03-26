@@ -17,7 +17,7 @@ _**Para realização da reinstalação do firmware do seu dispositivo de maneira
 1. Desligue o dispositivo
 2. Configure seu computador com IP Manual **192.168.1.254** e conecte o cabo do computador diretamente a porta LAN do POE do dispositivo.
 3. Pressione o botão reset do dispositivo, mantenha pressionado e ligue o dispositivo, aguarde aproximadamente 8 segundos até que a os [LEDs do dispositivo](cores-do-led-do-unifi.md) indiquem o modo TFTP (Piscando branco/azul/off para dispositivos mais novos ou laranja/verde/off para modelos antigos).
-4. Verifique se o dispositivo responde ping através do ip **192.168.1.20 **antes de prosseguir.
+4. Verifique se o dispositivo responde ping através do ip **192.168.1.20** antes de prosseguir.
 
 ## Download do firmware
 
