@@ -4,7 +4,7 @@ description: Informações sobre configuração e gerenciamento de access points
 
 # UniFi
 
-Os access points Unifi podem ser acessados via SSH mediante autenticação de usuário e senha, as credenciais de acesso podem ser obtidas no unifi controller em Settings - Site, dentro da seção Device Authentication. Uma vez estabelecida uma conexão SSH, você pode no próprio dispositivo:
+Os access points [Ubiquiti Unifi](https://amzn.to/3uz2MAw) podem ser acessados via SSH mediante autenticação de usuário e senha, as credenciais de acesso podem ser obtidas no unifi controller em Settings - Site, dentro da seção Device Authentication. Uma vez estabelecida uma conexão SSH, você pode no próprio dispositivo:
 
 ## Realizar upgrade de firmware do unifi usando ssh
 
@@ -30,5 +30,5 @@ info
 set-inform http://[ip-do-controller]:8080/inform
 ```
 
-
+[Encontre as melhores ofertas de Ubiquiti Unifi na Amazon!](https://amzn.to/3uz2MAw)
 

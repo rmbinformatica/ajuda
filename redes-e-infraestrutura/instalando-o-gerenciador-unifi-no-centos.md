@@ -118,3 +118,5 @@ Feito isso basta acessar o unifi controller através do ip da máquina docker, u
 Em caso de dúvidas basta contratar nosso suporte.
 {% endtab %}
 {% endtabs %}
+
+[Encontre as melhores ofertas de Ubiquiti Unifi na Amazon!](https://amzn.to/3uz2MAw)

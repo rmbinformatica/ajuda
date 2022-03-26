@@ -10,7 +10,7 @@ Este artigo visa fornecer esclarecimentos adicionais a cerca da geração de cer
 
 <mark style="color:orange;">**Este artigo é direcionado à pessoas perfil técnico avançado.**</mark>
 
-<mark style="background-color:yellow;">NOTA: A nova ferramenta EasyRSA implementa uma shell no windows com suporte aos mesmos comandos da versão linux. Dessa forma os comandos do how-to direcionados aos usuários windows não são mais reconhecidos a menos que seja utilizada alguma</mark> [<mark style="background-color:yellow;">versão anterior do EasyRSA</mark>](https://github.com/OpenVPN/easy-rsa-old)<mark style="background-color:yellow;">, sendo necessário executar os comandos EasyRSA versão linux.</mark>
+<mark style="color:red;background-color:red;">NOTA: A nova ferramenta EasyRSA implementa uma shell no windows com suporte aos mesmos comandos da versão linux. Dessa forma os comandos do how-to direcionados aos usuários windows não são mais reconhecidos a menos que seja utilizada alguma</mark> [<mark style="color:red;background-color:red;">versão anterior do EasyRSA</mark>](https://github.com/OpenVPN/easy-rsa-old)<mark style="color:red;background-color:red;">, sendo necessário executar os comandos EasyRSA versão linux.</mark>
 
 _<mark style="color:red;background-color:yellow;">**CONSIDERAÇÕES SOBRE A SEGURANÇA: NÃO RECOMENDAMOS O USO DO SISTEMA OPERACIONAL WINDOWS COMO SERVIDOR DE OPENVPN EM AMBIENTES DE PRODUÇÃO, considere usar linux para esse tipo de cenário.**</mark>_
 
