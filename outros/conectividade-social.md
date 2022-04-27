@@ -83,43 +83,43 @@ Se você precisa utilizar certificados A3 é _necessário_ deixar a opção TLS 
 
 No internet explorer clique na engrenagem de configurações e no menu clique opção **Gerenciar Complementos**.
 
-![](<../../.gitbook/assets/image (73) (1).png>)
+![](<../.gitbook/assets/image (73) (1).png>)
 
 Na parte esquerda da tela, escolha na opção **Mostrar**: _Todos os Complementos_. No lado direito da tela certifique-se que todas as opções que contém java encontram-se **habilitadas**. (Para habilitar uma opção basta clicar com o botão _direito_ e escolher _habilitar_.)
 
-![](<../../.gitbook/assets/image (72) (1).png>)
+![](<../.gitbook/assets/image (72) (1).png>)
 
 ### Colocar o site da caixa em modo de compatibilidade
 
 No internet explorer clique na engrenagem de configurações e no menu clique na opção **Configurações do Modo de Exibição de Compatibilidade**.
 
-![](<../../.gitbook/assets/image (71) (1).png>)
+![](<../.gitbook/assets/image (71) (1).png>)
 
 Digite o site `caixa.gov.br`, clique no botão **Adicionar** e, em seguida, no botão **Fechar**.
 
-![](<../../.gitbook/assets/image (68) (1).png>)
+![](<../.gitbook/assets/image (68) (1).png>)
 
 ### Opções da Internet
 
 No internet explorer clique na engrenagem de configurações e no menu clique na opção **Opções da Internet**.
 
-![](<../../.gitbook/assets/image (70).png>)
+![](<../.gitbook/assets/image (70).png>)
 
 Na aba **Privacidade**, _**DESMARQUE**_ a opção:
 
 * [ ] Ativar Bloqueador de Pop-ups
 
-![](<../../.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (63).png>)
 
 Após desmarcado, clique no botão **Aplicar**.
 
 Na aba **Segurança**, selecione a zona **Sites confiáveis**, altere o _nível de segurança desta zona_ para **Baixo** e clique no botão **Aplicar**.
 
-![](<../../.gitbook/assets/image (62).png>)
+![](<../.gitbook/assets/image (62).png>)
 
 Em seguida clique no botão **Sites**.
 
-![](<../../.gitbook/assets/image (61) (1).png>)
+![](<../.gitbook/assets/image (61) (1).png>)
 
 Preencha a lista de sites abaixo e clique no botão **Adicionar**, _um de cada vez_. Para adicionar o último endereço é necessário _desmarcar_ a opção "_Exigir verificação do servidor (https:) para todos os sites dessa zona_".
 
@@ -132,7 +132,7 @@ http://conectividade.caixa.gov.br
 
 Após adicionados os três sites, clique no botão **Fechar**.
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../.gitbook/assets/image (64).png>)
 
 Clique no botão **Aplicar**.
 
@@ -146,7 +146,7 @@ Acesse a aba **Avançadas** e, na _seção Segurança_, certifique-se que as cai
 * [ ] Verificar revogação de certificados do servidor
 * [ ] Verificar se há certificados revogados do fornecedor
 
-<img src="../../.gitbook/assets/image (71).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (71).png" alt="" data-size="original">
 
 {% hint style="info" %}
 Se houver na lista a opção _Usar TLS 1.3 (experimental)_ deve ser **desmarcada**. Para uso do conectividade social é necessário que a opção _Usar TLS 1.1_ esteja **marcada**. Se você utiliza certificados do tipo **A3** é necessário **desmarcar** a opção _Usar TLS 1.2_. As opções _Usar SSL 3.0_ e _Usar TLS 1.0_, _verificar revogação de certificados do servidor_ e _verificar se há certificados revogados do fornecedor_ não costumam interferir no funcionamento do conectividade social mas podem impactar o funcionamento de outros sites, com elas desmarcadas o acesso se torna mais rápido mas isso só é recomendado se o navegador Internet Explorer for utilizado _apenas_ para o conectividade social.
@@ -154,7 +154,7 @@ Se houver na lista a opção _Usar TLS 1.3 (experimental)_ deve ser **desmarcada
 
 Por fim, clique no botão **Aplicar**. Clique no botão **OK**. _**Feche e reabra o Internet Explorer**_ e, após reabrir o navegador, acesse o site [conectividade.caixa.gov.br](http://conectividade.caixa.gov.br).
 
-Resolveu seu problema? [Lembre de mandar um pix para contribuir com nosso trabalho](../../colabore-com-nosso-site.md). Caso utilize o [anti-vírus Kaspersky](./#anti-virus-kaspersky) há uma configuração adicional que precisa ser feita ao final desta página.
+Resolveu seu problema? [Lembre de mandar um pix para contribuir com nosso trabalho](../colabore-com-nosso-site.md). Caso utilize o [anti-vírus Kaspersky](conectividade-social.md#anti-virus-kaspersky) há uma configuração adicional que precisa ser feita ao final desta página.
 
 ## Anti-vírus Kaspersky
 

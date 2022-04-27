@@ -65,7 +65,7 @@
 
 ## Outros
 
-* [Conectividade Social](outros/conectividade-social/README.md)
+* [Conectividade Social](outros/conectividade-social.md)
   * [Windows 11 e Conectividade Social](outros/conectividade-social/windows-11-e-conectividade-social.md)
 * [Lumion](outros/lumion.md)
 

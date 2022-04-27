@@ -1,10 +1,13 @@
 ---
-description: Este artigo Configurando o Windows 11 para utilizar o conectividade social
+description: >-
+  Este artigo descreve o todas as etapas do procedimento necessário para
+  configurar o Windows 11 para acessar o conectividade social da caixa
+  utilizando o navegador Microsoft Edge e a extensão IE Tab.
 ---
 
 # Windows 11 e Conectividade Social
 
-O primeiro passo para configurar o Windows 11 para utilizar o conectividade social é a instalação do Java 32 bits, que pode ser baixado na [página de download do Java](https://java.com/pt-BR/download/manual.jsp).
+O primeiro passo para configurar o Windows 11 para utilizar o conectividade social é a instalação do Java 32 bits, que pode ser baixado na [página de download do Java](https://java.com/pt-BR/download/manual.jsp). Instale o java após o download.
 
 ## Configurando o Java para o Conectividade Social no Windows 11
 
