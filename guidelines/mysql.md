@@ -12,7 +12,7 @@ O _mysqldump_ é uma ferramenta muito útil para backup de banco de dados mysql.
 
 A sintaxe padrão para uso do mysqldump é:
 
-```
+```bash
 mysqldump -u [usuario] [banco] [tabela]
 ```
 
@@ -30,7 +30,7 @@ Para evitar que haja problemas de acentuação com o uso do mysqldump ou qualque
 
 Exemplo para salvar arquivo com nome backup.sql:
 
-```
+```bash
 mysqldump -u [usuario] [banco] -r backup.sql
 ```
 
@@ -44,7 +44,7 @@ Por exemplo: se a única forma de acesso ao servidor for via phpMyAdmin e as tab
 
 Para desativar o trancamento de tabelas basta acrescentar a linha de comando a opção `--skip-add-locks`.
 
-```
+```bash
 mysqldump -u [usuario] [banco] --skip-add-locks -r backup.sql
 ```
 
@@ -56,7 +56,7 @@ Em um cenário de restauração completa onde o banco de dados está vazio uma a
 
 Mas considerando que há cenários que não seja possível desativar as triggers o ideal é que o arquivo de dump tenha sido criado com a opção `--replace` pois nesse caso o mysqldump irá gerar as linhas de inserção com o comando `REPLACE` em vez do `INSERT`.
 
-```
+```bash
 mysqldump -u [usuario] [banco] --replace -r backup.sql
 ```
 
@@ -64,7 +64,7 @@ mysqldump -u [usuario] [banco] --replace -r backup.sql
 
 Se o banco em questão possuir colunas binárias, tais como uuid. É importantíssimo o uso da opção `--hex-blob` a fim garantir que os dados binários sejam gravados de maneira correta.
 
-```
+```bash
 mysqldump -u [usuario] [banco] --hex-blob -r backup.sql
 ```
 
@@ -78,7 +78,7 @@ Uma das maneiras de contornar esse problema seria definir o charset na geração
 
 Exemplo, para salvar o arquivo com o charset _latin1_:
 
-```
+```bash
 mysqldump -u [usuario] [banco] --default-character-set=latin1 -r backup.sql
 ```
 
@@ -90,7 +90,7 @@ Para exportar somente o DML, sem a estrutura das tabelas (DDL), é recomendável
 
 Todas as opções disponíveis para linha de comando do mysqldump podem ser combinadas em qualquer ordem. Exemplo:
 
-```
+```bash
 mysqldump -u [usuario] --no-create-info --skip-triggers [banco] --default-character-set=latin1 --hex-blob --replace --skip-add-locks -r [arquivo]
 ```
 

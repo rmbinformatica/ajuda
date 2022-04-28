@@ -6,7 +6,7 @@ description: Comandos e dicas para configuração de servidores CentOS 7
 
 ## Alterando o timezone do CentOS 7 para o horário brasileiro
 
-```
+```bash
 timedatectl set-timezone America/Recife
 ```
 

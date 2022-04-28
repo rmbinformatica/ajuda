@@ -35,7 +35,7 @@ Em seguida escolha a opção de Linha de comando ou prompt de comando
 
 Quando inicializar o prompt de comando, inicie o programa **`diskpart`** e quando estiver no prompt `DISKPART>` execute o comando **`list volume`**.
 
-```
+```batch
 diskpart
 DISKPART> list volume
 ```
@@ -44,7 +44,7 @@ Será exibida uma tabela com os volumes do disco, observe qual o seu volume do w
 
 Vamos selecionar o volume de inicialização do windows
 
-```
+```batch
 select volume #
 ```
 
@@ -52,7 +52,7 @@ Substitua o `#` pelo respectivo número do volume de inicialização do windows.
 
 Vamos atribuir uma letra de unidade para que possamos acessar esse volume:
 
-```
+```batch
 assign letter w
 ```
 
@@ -64,7 +64,7 @@ Agora basta sair do diskpart usando o comando **`exit`**
 
 De volta ao prompt de comando, execute o seguinte comando:
 
-```
+```batch
 bcdboot C:\Windows /s w: /f UEFI
 ```
 

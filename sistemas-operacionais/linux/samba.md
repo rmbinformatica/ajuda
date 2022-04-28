@@ -36,7 +36,7 @@ Considerando que o **`diretorio`** é a pasta que já está compartilhada com um
 
 Além das alterações do arquivo de configuração do samba, é necessário criar o grupo e adicionar os usuários no grupo do linux, bem como configurar as permissões da pasta, conforme comandos abaixo:
 
-```
+```bash
 groupadd grupo_subdir
 usermod -a -G grupo_subdir [usuario_com_permissao]
 chgrp -R grupo_subdir /home/diretorio/subdiretorio
@@ -47,7 +47,7 @@ Comando especificado na linha **2** deve ser repetido para cada usuário que for
 
 Por fim, vamos reiniciar o samba para aplicar as alterações.
 
-```
+```bash
 systemctl restart smb.service
 systemctl restart nmb.service
 ```

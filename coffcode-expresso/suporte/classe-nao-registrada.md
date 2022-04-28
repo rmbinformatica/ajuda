@@ -15,7 +15,7 @@ Primeiramente verifique se o certificado digital está instalado, uma maneira si
 
 Acesse o prompt de comando (**`cmd`**) através da opção de executar **como administrador** e execute os comandos a seguir:
 
-```
+```batch
 cd\coffcode\expresso
 regsvr32 capicom.dll
 regsvr32 msxml5.dll

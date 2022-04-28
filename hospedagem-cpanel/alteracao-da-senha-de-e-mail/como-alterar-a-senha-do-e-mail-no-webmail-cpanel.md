@@ -8,7 +8,7 @@ description: >-
 
 ## Acessando o webmail
 
-Acesse o seu endereço de webmail, o endereço padrão de acesso do webmail pelo navegador é webmail.\[dominio.com.br], exemplo: se seu e-mail é meunome@rmbinformatica.com.br você deve acessar no seu navegador o endereço webmail.rmbinformatica.com.br.
+Acesse o seu endereço de webmail, o endereço padrão de acesso do webmail pelo navegador é `webmail.[dominio.com.br]`, exemplo: se seu e-mail é `meunome@rmbinformatica.com.br` você deve acessar no seu navegador o endereço `webmail.rmbinformatica.com.br`.
 
 Ao abrir a página inicial do seu webmail será solicitado que efetue login, conforme a imagem abaixo, preencha o seu e-mail completo e a senha atual.
 

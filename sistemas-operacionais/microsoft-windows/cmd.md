@@ -9,25 +9,25 @@ description: >-
 
 ## Listagem de diretório atual
 
-```
+```batch
 dir
 ```
 
 ## Mudando de diretório
 
-```
+```batch
 cd [caminho]
 ```
 
 ## Adicionando credenciais de acesso a um servidor de rede no cofre do usuário
 
-```
+```batch
 cmdkey /add:[nome_ou_ip] /user:[username] /pass:[senha]
 ```
 
 ## Configurando o ip da máquina
 
-```
+```batch
 netsh interface ip set address "Conexão Local" static [ip] [mascara] [gateway padrao]
 ```
 
@@ -35,32 +35,32 @@ Substitua o _Conexão Local_ pelo nome da interface de rede conforme aparece na 
 
 ### Atribuindo um segundo endereço de IP estático a uma máquina
 
-```
+```batch
 netsh interface ipv4 add address "LAN" [ip] [mascara] [gateway padrao]
 ```
 
 ## Exibindo uma mensagem popup para um usuário
 
-```
+```batch
 msg * "Texto da mensagem"
 ```
 
 ## Reiniciando o sistema
 
-```
+```batch
 shutdown -r -t [tempo em segundos] -c "Mensagem a exibir ao usuário"
 ```
 
 ## Habilitando e desabilitando interface de redes via prompt de comando
 
-```
+```batch
 netsh interface set interface name="WANSATELITE" admin=ENABLED
 netsh interface set interface name="VELOX" admin=DISABLED
 ```
 
 ## Calculando o hash md5  ou SHA1 de um arquivo no windows via prompt de comando
 
-```
+```batch
 certutil -hashfile <nome_do_arquivo> MD5
 certutil -hashfile <nome_do_arquivo> SHA1
 ```
@@ -73,7 +73,7 @@ Nota: Os algoritmos de hash suportados pelo `certutil` do _Windows 10_ são: **M
 
 As versões mais recentes do Windows pré-instaladas na máquina (OEM) não vem com o selo de autenticidade (COA) com o número de série, pois esses passaram a ser gravados na BIOS da máquina. Para verificar a chave de instalação (número serial) de um windows original adquirido junto com um novo computador execute o seguinte comando:
 
-```
+```batch
 wmic path softwarelicensingservice get OA3xOriginalProductKey
 ```
 

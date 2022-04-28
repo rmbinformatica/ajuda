@@ -9,13 +9,13 @@ description: >-
 
 ## Objetivo:
 
-Este artigo é voltado para ambientes com múltiplos computadores em rede, onde se possui instalado um [agente de atualização do Kaspersky](https://support.kaspersky.com/updater3#downloads) realizando regularmente o download das atualizações do [Kaspersky antivírus.](https://amzn.to/3iFP5u1)
+Este artigo é voltado para ambientes com múltiplos computadores em rede, onde se possui instalado um [agente de atualização do Kaspersky](https://support.kaspersky.com/updater3#downloads) realizando regularmente o download das atualizações do Kaspersky antivírus.
 
 O objetivo desse tipo de cenário é economia de dados de internet bem como proporcionar que os computadores sejam atualizados mais rapidamente uma vez que eles realizarão as cópias dos arquivos diretamente da rede local em vez da internet.
 
-## Configuração nos computadores onde o [Kaspersky antivírus](https://amzn.to/3iFP5u1) está instalado
+## Configuração nos computadores onde o Kaspersky antivírus está instalado
 
-Abra o [Kaspersky antivírus](https://amzn.to/3iFP5u1) através do ícone na área de trabalho, menu iniciar ou próximo do relógio do sistema.
+Abra o Kaspersky antivírus através do ícone na área de trabalho, menu iniciar ou próximo do relógio do sistema.
 
 ![Clique no ícone da engrenagem na parte inferior esquerda da tela principal do kaspersky](../../.gitbook/assets/image.png)
 
@@ -29,7 +29,7 @@ Abra o [Kaspersky antivírus](https://amzn.to/3iFP5u1) através do ícone na ár
 
 O caminho das atualizações é a pasta local ou da rede onde o seu atualizador está realizando o download das novas definições de vírus. _**Consulte o seu administrador de rede para saber o que deve ser preenchido neste campo**_.
 
-Esse caminho pode ser uma pasta local (ex.: **c:\temp\antivirus**) ou um compartilhamento de rede (ex.: **\\\192.168.0.4\antivirus**).
+Esse caminho pode ser uma pasta local (ex.: **`c:\temp\antivirus`**) ou um compartilhamento de rede (ex.: **`\\192.168.0.4\antivirus`**).
 
 ![Após adicionado o caminho, escolha a ordem utilizando as setas de direção.](<../../.gitbook/assets/image (8).png>)
 

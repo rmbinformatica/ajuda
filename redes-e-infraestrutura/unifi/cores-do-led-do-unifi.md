@@ -6,7 +6,7 @@ description: Entenda o significado de cada cor do led indicativo dos Access Poin
 
 ## LED Azul e Branco
 
-LEDs azul e branco se aplicam a todos os access points [Ubiquiti Unifi](https://amzn.to/3uz2MAw), roteadores e switches com exceção dos dispositivos antigos: UAP, UAP-LR, UAP-Outdoor5.&#x20;
+LEDs azul e branco se aplicam a todos os access points Ubiquiti Unifi, roteadores e switches com exceção dos dispositivos antigos: UAP, UAP-LR, UAP-Outdoor5.&#x20;
 
 
 
@@ -41,5 +41,3 @@ Aplica-se aos modelos: UAP, UAP-LR, UAP-Outdoor5.
 | <p><strong>Offline</strong></p><p>Verificar energia, POE e Ethernet</p>                                                                                                                                                                                                                                              | <p><img src="https://help.ubnt.com/hc/en-us/article_attachments/203198928/UAP-8-LED-Off.gif" alt=""></p><p>LED Off</p>                                  |
 
 Artigo originalmente publicado, em inglês, na [página do fabricante](https://help.ubnt.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices).
-
-[Encontre as melhores ofertas de Ubiquiti Unifi na Amazon!](https://amzn.to/3uz2MAw)

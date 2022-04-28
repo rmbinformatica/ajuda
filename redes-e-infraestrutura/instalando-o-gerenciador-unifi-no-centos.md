@@ -16,19 +16,19 @@ Disponibilizamos um script de configuração automática disponível no github, 
 
 Caso não possua o git instalado, execute:
 
-```
+```bash
 yum -y install git
 ```
 
 Clone o repositório do git:
 
-```
+```bash
 git clone https://github.com/rmbinformatica/configure_unifi_centos6.9.git
 ```
 
 Atribua permissões de execução e execute o instalador:
 
-```
+```bash
 chmod +x configure_unifi_centos6.9/*.sh 
 configure_unifi_centos6.9/setup.sh 
 ```
@@ -118,5 +118,3 @@ Feito isso basta acessar o unifi controller através do ip da máquina docker, u
 Em caso de dúvidas basta contratar nosso suporte.
 {% endtab %}
 {% endtabs %}
-
-[Encontre as melhores ofertas de Ubiquiti Unifi na Amazon!](https://amzn.to/3uz2MAw)

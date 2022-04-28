@@ -8,7 +8,7 @@ description: >-
 
 ## Acesse o painel de controle cPanel
 
-Primeiramente acesse o painel de controle cPanel com a senha de administrador da conta. O endereço de acesso é normalmente cpanel.\[dominio.com.br], exemplo: se seu dominio é rmbinformatica.com.br o endereço de acesso ao seu domínio será cpanel.rmbinformatica.com.br.
+Primeiramente acesse o painel de controle cPanel com a senha de administrador da conta. O endereço de acesso é normalmente `cpanel.[dominio.com.br]`, exemplo: se seu dominio é `rmbinformatica.com.br` o endereço de acesso ao seu domínio será `cpanel.rmbinformatica.com.br`.
 
 Ao acessar o endereço do painel de controle cPanel será exibida a tela de login conforme a imagem abaixo. Informe o login de administrador, a senha e clique no botão **Login** ou **Entrar**.
 

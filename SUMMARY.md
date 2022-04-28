@@ -20,6 +20,7 @@
   * [Reparando a inicialização do Windows após a clonagem de HD](sistemas-operacionais/microsoft-windows/0xc000000e-reparando-a-inicializacao-do-windows-apos-a-clonagem-de-hd.md)
   * [Habilitando registros logs de tentativa de acesso a área de trabalho remota](sistemas-operacionais/microsoft-windows/habilitando-registros-logs-de-tentativa-de-acesso-a-area-de-trabalho-remota.md)
   * [cmd & batch script - usando linha de comando](sistemas-operacionais/microsoft-windows/cmd.md)
+  * [Comandos úteis do PowerShell](sistemas-operacionais/microsoft-windows/comandos-uteis-do-powershell.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
 
 ## Redes e Infraestrutura

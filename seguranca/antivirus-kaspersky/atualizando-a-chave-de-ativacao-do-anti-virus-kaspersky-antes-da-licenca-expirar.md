@@ -6,11 +6,11 @@ description: >-
 
 # Atualizando a chave de ativação do anti-vírus Kaspersky antes da licença expirar
 
-Primeiramente, acesse o [antivírus Kaspersky](https://amzn.to/3iFP5u1) clicando no ícone do escudo que fica próximo ao relógio do windows, no canto inferior direito da tela.
+Primeiramente, acesse o antivírus Kaspersky clicando no ícone do escudo que fica próximo ao relógio do windows, no canto inferior direito da tela.
 
 ![Icone do anti-vírus kaspersky](<../../.gitbook/assets/image (57).png>)
 
-Uma vez aberta a tela principal do [antivírus Kaspersky](https://amzn.to/3iFP5u1), note que no canto inferior direito da janela há uma frase que informa quantos dias restam da licença atual. Clique nesta frase.
+Uma vez aberta a tela principal do antivírus Kaspersky, note que no canto inferior direito da janela há uma frase que informa quantos dias restam da licença atual. Clique nesta frase.
 
 ![Informação de quantos dias restam na licença atual.](<../../.gitbook/assets/image (58).png>)
 

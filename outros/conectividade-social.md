@@ -132,7 +132,7 @@ http://conectividade.caixa.gov.br
 
 Após adicionados os três sites, clique no botão **Fechar**.
 
-![](<../.gitbook/assets/image (64).png>)
+![](<../.gitbook/assets/image (64) (1).png>)
 
 Clique no botão **Aplicar**.
 

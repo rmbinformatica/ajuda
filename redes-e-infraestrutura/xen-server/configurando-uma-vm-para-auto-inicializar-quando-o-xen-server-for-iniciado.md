@@ -52,7 +52,7 @@ power-state ( RO): [vm-power]
 
 Precisaremos das informações retornadas em **uuid-vm** para todas as vms que vamos configurar para auto-inicializar. Substitua a informação no comando abaixo:
 
-```
+```bash
 xe vm-param-set uuid=[uuid-vm] other-config:auto_poweron=true
 ```
 

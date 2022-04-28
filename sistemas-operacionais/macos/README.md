@@ -8,7 +8,7 @@ description: Dicas do sistema operacional Mac OS
 
 Para limpar o cache do dns do mac é muito simples, acesse o aplicativo terminal e execute o seguinte comando:
 
-```
+```bash
 sudo killall -HUP mDNSResponder
 ```
 
@@ -16,7 +16,7 @@ sudo killall -HUP mDNSResponder
 
 Para trocar o nome do computador usando o terminal execute:
 
-```
+```bash
 sudo scutil --set HostName <novoNome>
 sudo scutil --set LocalHostName <novoNome>
 sudo scutil --set ComputerName <novoNome>
@@ -28,25 +28,25 @@ dscacheutil -flushcache
 
 Caso não possua, instale o qpdf:
 
-```
+```bash
 brew install qpdf
 ```
 
 Sintaxe de uso:
 
-```
+```bash
 qpdf --decrypt --password=<senha> <arquivoComSenha>.pdf <saidaSemSenha>.pdf
 ```
 
 ## Exibindo a tabela de rotas do mac usando o terminal
 
-```
+```bash
 netstat -rn
 ```
 
 ## Verificando o hash md5 de arquivos, no mac, usando o terminal
 
-```
+```bash
 md5 [caminho-do-arquivo]
 ```
 

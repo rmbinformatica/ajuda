@@ -14,7 +14,7 @@ _**Para realização da reinstalação do firmware do seu dispositivo de maneira
 
 ## Preparando o dispositivo para reinstalação do firmware
 
-1. Desligue o dispositivo [Ubiquiti Unifi](https://amzn.to/3uz2MAw)
+1. Desligue o dispositivo Ubiquiti Unifi
 2. Configure seu computador com IP Manual **192.168.1.254** e conecte o cabo do computador diretamente a porta LAN do POE do dispositivo.
 3. Pressione o botão reset do dispositivo, mantenha pressionado e ligue o dispositivo, aguarde aproximadamente 8 segundos até que a os [LEDs do dispositivo](cores-do-led-do-unifi.md) indiquem o modo TFTP (Piscando branco/azul/off para dispositivos mais novos ou laranja/verde/off para modelos antigos).
 4. Verifique se o dispositivo responde ping através do ip **192.168.1.20** antes de prosseguir.
@@ -62,5 +62,3 @@ O cliente TFTP windows recomendado pelo fabricante é o [tftp2](https://drive.go
 {% endtabs %}
 
 Após o envio do novo arquivo de firmware aguarde alguns minutos até que os [LEDs do dispositivo](cores-do-led-do-unifi.md) indiquem o status de padrão de fábrica.
-
-[Encontre as melhores ofertas de Ubiquiti Unifi na Amazon!](https://amzn.to/3uz2MAw)

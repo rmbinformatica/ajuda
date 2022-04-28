@@ -8,15 +8,15 @@ description: >-
 
 Visite a página da distribuição linux desejada e baixe a imagem **iso** da mídia de instalação. Neste artigo utilizaremos o [CentOS linux](https://www.centos.org/download/).
 
-Abra o terminal e converta a imagem do formato **`iso`** para o formato que será gravado no [pendrive](https://amzn.to/3LzEIEP), utilizando o **`hdiutil`**:
+Abra o terminal e converta a imagem do formato **`iso`** para o formato que será gravado no pendrive, utilizando o **`hdiutil`**:
 
-```
+```bash
 hdiutil convert -format UDRW -o centos.img CentOS-7.0-1406-x86_64-Everything.iso
 ```
 
-Identifique qual o caminho do [pendrive](https://amzn.to/3LzEIEP) onde você deseja gravar a imagem, isso pode ser feito através do `diskutil`:
+Identifique qual o caminho do pendrive onde você deseja gravar a imagem, isso pode ser feito através do `diskutil`:
 
-```
+```bash
 diskutil list
 ```
 
@@ -52,20 +52,18 @@ O diskutil irá retornar informações sobre os discos conectados em sua máquin
 ```
 {% endcode %}
 
-Note que no caso acima o [pendrive](https://amzn.to/3LzEIEP) onde eu desejo instalar está localizado em **/dev/disk3**, é possível identificar isso pelo nome do volume (_NAME_) e também pelo  tamanho do volume (_SIZE_).
+Note que no caso acima o pendrive onde eu desejo instalar está localizado em **/dev/disk3**, é possível identificar isso pelo nome do volume (_NAME_) e também pelo  tamanho do volume (_SIZE_).
 
-Agora vamos desmontar o [pendrive](https://amzn.to/3LzEIEP), lembre-se de substituir o **disk3** pelo equivalente do seu caso:
+Agora vamos desmontar o pendrive, lembre-se de substituir o **disk3** pelo equivalente do seu caso:
 
-```
+```bash
 diskutil unmountDisk /dev/disk3
 ```
 
-Uma vez desmontado, vamos utilizar o dd para gravar a imagem no [pendrive](https://amzn.to/3LzEIEP):
+Uma vez desmontado, vamos utilizar o dd para gravar a imagem no pendrive:
 
-```
+```bash
 time sudo dd if=centos.img.dmg of=/dev/disk3 bs=1m
 ```
 
-Após concluído, será possível realizar o boot usando o [pendrive](https://amzn.to/3LzEIEP) criado.
-
-[Encontre agora as melhores ofertas de pendrive na amazon](https://amzn.to/3LzEIEP).
+Após concluído, será possível realizar o boot usando o pendrive criado.

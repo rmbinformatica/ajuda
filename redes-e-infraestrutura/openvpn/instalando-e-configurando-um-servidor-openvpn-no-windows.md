@@ -10,9 +10,13 @@ Este artigo visa fornecer esclarecimentos adicionais a cerca da geração de cer
 
 <mark style="color:orange;">**Este artigo é direcionado à pessoas perfil técnico avançado.**</mark>
 
-<mark style="color:red;background-color:red;">NOTA: A nova ferramenta EasyRSA implementa uma shell no windows com suporte aos mesmos comandos da versão linux. Dessa forma os comandos do how-to direcionados aos usuários windows não são mais reconhecidos a menos que seja utilizada alguma</mark> [<mark style="color:red;background-color:red;">versão anterior do EasyRSA</mark>](https://github.com/OpenVPN/easy-rsa-old)<mark style="color:red;background-color:red;">, sendo necessário executar os comandos EasyRSA versão linux.</mark>
+{% hint style="warning" %}
+NOTA: A nova ferramenta EasyRSA implementa uma shell no windows com suporte aos mesmos comandos da versão linux. Dessa forma os comandos do how-to direcionados aos usuários windows não são mais reconhecidos a menos que seja utilizada alguma versão anterior do EasyRSA, sendo necessário executar os comandos EasyRSA versão linux.
+{% endhint %}
 
-_<mark style="color:red;background-color:yellow;">**CONSIDERAÇÕES SOBRE A SEGURANÇA: NÃO RECOMENDAMOS O USO DO SISTEMA OPERACIONAL WINDOWS COMO SERVIDOR DE OPENVPN EM AMBIENTES DE PRODUÇÃO, considere usar linux para esse tipo de cenário.**</mark>_
+{% hint style="danger" %}
+CONSIDERAÇÕES SOBRE A SEGURANÇA: NÃO RECOMENDAMOS O USO DO SISTEMA OPERACIONAL WINDOWS COMO SERVIDOR DE OPENVPN EM AMBIENTES DE PRODUÇÃO, considere usar linux para esse tipo de cenário.
+{% endhint %}
 
 Inicialmente baixe a [versão mais recente do OpenVPN diretamente do site oficial](https://openvpn.net/community-downloads/) e realize a instalação. Durante a instalação escolha o método de instalação personalizada e selecione todos os componentes.
 
@@ -20,7 +24,7 @@ Inicialmente baixe a [versão mais recente do OpenVPN diretamente do site oficia
 
 Para fins de arquivos temporários crie um diretório **c:\temp**, utilizando o prompt de comando `cmd` execute:
 
-```
+```batch
 c:
 cd\
 md temp
@@ -30,7 +34,7 @@ Após a instalação acesse a pasta **C:\Program Files\OpenVPN\easy-rsa** e exec
 
 Você acessará uma shell similar a shell do linux onde vamos gerar os certificados para autenticação com o servidor OpenVPN, executando os comandos abaixo dentro do shell:
 
-```
+```batch
 easyrsa init-pki
 export EASYRSA_TEMP_DIR="/temp"
 easyrsa build-ca
@@ -38,14 +42,14 @@ easyrsa build-ca
 
 Siga o assistente e preencha as informações do certificado CA. Agora vamos gerar o certificado do servidor e assinar.
 
-```
+```batch
 easyrsa gen-req vpn-server nopass
 easyrsa sign-req server vpn-server
 ```
 
 Podemos executar uma verificação para testar se o certificado foi gerado corretamente.
 
-```
+```batch
 openssl verify -CAfile pki/ca.crt pki/issued/vpn-server.crt
 ```
 
@@ -53,14 +57,14 @@ openssl verify -CAfile pki/ca.crt pki/issued/vpn-server.crt
 
 Ainda na shell `EasyRSA-Start.bat`, execute o processo abaixo e repita para cada certifcado de cliente que desejar gerar. Substitua `client01` o por um nome para identificação do cliente.
 
-```
+```batch
 easyrsa gen-req client01 nopass
 easyrsa sign-req client client01
 ```
 
 Da mesma forma, podemos verificar o certificado gerado usando o comando:
 
-```
+```batch
 openssl verify -CAfile pki/ca.crt pki/issued/client01.crt
 ```
 
@@ -68,7 +72,7 @@ openssl verify -CAfile pki/ca.crt pki/issued/client01.crt
 
 Ainda na shell `EasyRSA-Start.bat`, vamos gerar a chave Diffie-Hellman:
 
-```
+```batch
 easyrsa gen-dh
 ```
 
@@ -76,7 +80,7 @@ easyrsa gen-dh
 
 Execute, num prompt de comando `cmd` _elevado_ (**administrador**):
 
-```
+```batch
 cd "C:\Program Files\OpenVPN\bin"
 openvpn --genkey tls-auth "C:\Program Files\OpenVPN\easy-rsa\pki\ta.key"Arquivos de configuração
 ```

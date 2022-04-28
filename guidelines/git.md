@@ -8,7 +8,7 @@ description: Guia rápido de comandos do GIT
 
 Defina seu nome de usuário e e-mail.
 
-```
+```bash
 git config user.name "<seuNome>"
 git config --global user.email "<seu@email.com>"
 ```
@@ -17,7 +17,7 @@ git config --global user.email "<seu@email.com>"
 
 Permite que se inicialize o diretório atual como um repositório git.
 
-```
+```bash
 git init
 ```
 
@@ -25,7 +25,7 @@ git init
 
 Uma vez que o caminho local seja um repositório git inicializado, é possível adicionar os caminhos para o repositório remoto.
 
-```
+```bash
 git remote add <origin> <url>
 ```
 
@@ -38,19 +38,19 @@ Onde:
 
 É possível que um repositório local tenha mais de um repositório remoto, para isso basta adicionar um novo:
 
-```
+```bash
 git remote set-url origin --push --add <url>
 ```
 
 ## Listagem dos repositórios remotos
 
-```
+```bash
 git remote
 ```
 
 ### Listagem detalhada
 
-```
+```bash
 git remote -v
 ```
 
@@ -58,7 +58,7 @@ git remote -v
 
 Staged é a fila de arquivos a ser commitada.
 
-```
+```bash
 git add <nomeDoArquivo>
 ```
 
@@ -66,19 +66,19 @@ OBS: Utilize \* como _nomeDoArquivo_ para adicionar todos os arquivos.
 
 ## Realizar um commit (da fila staged)
 
-```
+```bash
 git commit -m "<comentário>"
 ```
 
 ## Adicionar arquivo e commitar ao mesmo tempo
 
-```
+```bash
 git commit -am "<comentario>"
 ```
 
 ## Alterar a data de um commit
 
-```
+```bash
 git commit --date="aaaa-mm-ddThh:mm:ss"
 ```
 
@@ -95,7 +95,7 @@ Onde:
 
 Considerando que o repositório remoto foi definido como _origin_:
 
-```
+```bash
 git push origin master
 ```
 
@@ -103,7 +103,7 @@ git push origin master
 
 Pode-se dispensar a necessidade de colocar especificar origin master em todo push.
 
-```
+```bash
 git push -u origin master
 ```
 
@@ -111,7 +111,7 @@ git push -u origin master
 
 Faz uma cópia do repositório remoto para a se for omitido será criada uma subpasta com o nome do repositório remoto.
 
-```
+```bash
 git clone <url> <pastaLocal>
 ```
 
@@ -119,7 +119,7 @@ git clone <url> <pastaLocal>
 
 Relaciona todos os arquivos que foram modificados desde o último commit.
 
-```
+```bash
 git status
 ```
 
@@ -127,7 +127,7 @@ git status
 
 O parâmetro _nomeDoArquivo_ é opcional, se for omitido será exibida o detalhe do que foi alterado em todos os arquivos.
 
-```
+```bash
 git diff <nomeDoArquivo>
 ```
 
@@ -135,7 +135,7 @@ git diff <nomeDoArquivo>
 
 Mostra somente o nome dos arquivos e não o conteúdo do que foi alterado.
 
-```
+```bash
 git diff --name-only
 ```
 
@@ -143,7 +143,7 @@ git diff --name-only
 
 Detalha cada commit, listando nome do autor e comentários dos commits.
 
-```
+```bash
 git log
 git log --graph
 git log --decorate
@@ -151,37 +151,37 @@ git log --decorate
 
 ### Filtrar commits por autor
 
-```
+```bash
 git log --author="<nomeDoAutor>"
 ```
 
 ## Listar as contribuições de por autor
 
-```
+```bash
 git shortlog
 ```
 
 ### Mostrar somente a quantidade de contribuições por autor
 
-```
+```bash
 git shortlog -sn
 ```
 
 ## Detalhes de um commit
 
-```
+```bash
 git show <hashDoCommit>
 ```
 
 ## Retornar um arquivo específico à ultima versão commitada
 
-```
+```bash
 git checkout <nomeDoArquivo>
 ```
 
 ## Retirar um arquivo da fila do staged
 
-```
+```bash
 git reset head
 ```
 
@@ -191,25 +191,25 @@ git reset head
 
 ### Mantendo as alterações feitas no arquivo e o arquivo na staged:
 
-```
+```bash
 git reset --soft <hashAnteriorAoCommit>
 ```
 
 ### Mantendo as alterações feitas, mas sem o arquivo na staged:
 
-```
+```bash
 git reset --mixed <hashAnteriorAoCommit>
 ```
 
 ### Apagando todas as alterações do commit e voltando ao anterior:
 
-```
+```bash
 git reset --hard <hashAnteriorAoCommit>
 ```
 
 ### Voltando o commit anterior como se fosse um novo commit:
 
-```
+```bash
 git revert <hashDoCommitADesfazer>
 ```
 
@@ -217,31 +217,31 @@ git revert <hashDoCommitADesfazer>
 
 ### Criar um branch
 
-```
+```bash
 git checkout -b <nomeDoBranch>
 ```
 
 ### Listagem dos branches
 
-```
+```bash
 git branch
 ```
 
 ### Mudar de branch
 
-```
+```bash
 git chechout <nomeDoBranch>
 ```
 
 ### Apagar um branch
 
-```
+```bash
 git branch -D <nomeDoBranch>
 ```
 
 ### Apagar um branch do repositório remoto
 
-```
+```bash
 git push origin :<nomeDoBranch>
 ```
 
@@ -249,51 +249,51 @@ git push origin :<nomeDoBranch>
 
 ### Não-linear
 
-```
+```bash
 git merge <nomeDoBranch>
 ```
 
 ### Merge linear
 
-```
+```bash
 git rebase <nomeDoBranch>
 ```
 
 ## Criar Work In Progress (WIP)
 
-```
+```bash
 git stash
 ```
 
 ### Trazer as mudanças do WIP de volta
 
-```
+```bash
 git stash apply
 ```
 
 ### Listagem dos stashes
 
-```
+```bash
 git stash list
 ```
 
 ### Limpar os stashes
 
-```
+```bash
 git stash clear
 ```
 
 ## Criar um alias (atalho) para comandos
 
-```
+```bash
 git config --global alias.<atalho> <comando>
 ```
 
 ### Exemplo:
 
-Criar um atalho _pom_ que represente o comando _push origin master_
+Criar um atalho _`pom`_ que represente o comando _`push origin master`_
 
-```
+```bash
 git config --global alias.pom "push origin master"
 ```
 
@@ -301,15 +301,15 @@ Feito isso os novos pushes para o repositório remoto podem ser feitos usando o 
 
 ## Versionando com tag
 
-```
+```bash
 git tag -a <versao> -m "<comentario>"
 git push origin master --tags
 ```
 
 ### Deletar tag do repositório remoto
 
-```
+```bash
 git push origin :<versaoAApagar>
 ```
 
-Conheça também as ferramentas [Atom](https://atom.io), [GitHub Desktop](https://desktop.github.com) e [GitKraken](https://www.gitkraken.com) que fornecem um ambiente gráfico para trabalhar com o git.
+Conheça também as ferramentas [Atom](https://atom.io), [GitHub Desktop](https://desktop.github.com) e [GitKraken](https://www.gitkraken.com) que fornecem um ambiente gráfico para trabalhar com o `git`.
