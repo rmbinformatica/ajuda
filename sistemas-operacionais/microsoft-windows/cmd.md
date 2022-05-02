@@ -77,3 +77,15 @@ As versões mais recentes do Windows pré-instaladas na máquina (OEM) não vem 
 wmic path softwarelicensingservice get OA3xOriginalProductKey
 ```
 
+## Visualizando e removendo as chaves de produto (product key) do Microsoft Office instaladas na máquina
+
+Todos os comandos precisam ser executados a partir da pasta onde o office está instalado, neste exemplo consideraremos que o office está instalado no caminho **`C:\Program Files\Microsoft Office\Office16`** faça os ajustes necessários conforme seu caso.&#x20;
+
+```
+cd "C:\Program Files\Microsoft Office\Office16"
+cscript ospp.vbs /dstatus
+cscript ospp.vbs /unpkey:[FinalChave]
+```
+
+Na segunda linha o comando exibe as chaves atualmente instaladas, note que haverá uma ou mais linhas no resultado contendo a informação: **`Last 5 characters of installed product key: XYZ99`** nesse caso o _XYZ99_ seria a informação que seria preenchida no comando da terceira linha no espaço indicado como **`[FinalChave]`**.
+
