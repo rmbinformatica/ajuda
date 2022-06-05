@@ -50,4 +50,10 @@ Você verá que a opção que antes estava sem auditoria agora estará como falh
 
 ![](<../../.gitbook/assets/image (27).png>)
 
-Pronto, essa é toda a configuração necessária. Agora você poderá verificar todas as tentativas de acesso no visualizador de eventos do windows. Nos registros consta os detalhes do login que foi tentado bem como os endereços de IP de quem tentou realizar o acesso, para filtrar somente os eventos de falha de login busque pela identificação de evento **4625**.
+Pronto, essa é toda a configuração necessária. Agora você poderá verificar todas as tentativas de acesso no visualizador de eventos do windows. Nos registros consta os detalhes do login que foi tentado bem como os endereços de IP de quem tentou realizar o acesso, para filtrar somente os eventos de falha de login busque pela identificação de evento **4625**..
+
+Disponibilizamos a seguir um modo de exibição personalizado com as tentativas de login já filtradas, basta utilizar a opção "Importar modo de exibição personalizado de um arquivo" do visualizador de eventos e carregar o arquivo xml a seguir.
+
+{% file src="../../.gitbook/assets/Falha de Login Windows.xml" %}
+Modo de exibição personalizado - Falhas de login do windows
+{% endfile %}

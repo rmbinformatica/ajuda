@@ -312,4 +312,4 @@ git push origin master --tags
 git push origin :<versaoAApagar>
 ```
 
-Conheça também as ferramentas [Atom](https://atom.io), [GitHub Desktop](https://desktop.github.com) e [GitKraken](https://www.gitkraken.com) que fornecem um ambiente gráfico para trabalhar com o `git`.
+Conheça também as ferramentas [Atom](https://atom.io/), [GitHub Desktop](https://desktop.github.com/) e [GitKraken](https://www.gitkraken.com/) que fornecem um ambiente gráfico para trabalhar com o `git`.

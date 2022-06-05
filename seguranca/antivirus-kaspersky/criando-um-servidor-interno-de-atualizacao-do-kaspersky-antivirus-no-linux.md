@@ -48,7 +48,7 @@ lftp -f /root/sync.ftp
 ```
 {% endcode %}
 
-No exemplo acima os arquivos de atualização são copiados para um outro local na rede através da ferramenta [`lftp`](https://lftp.yar.ru) (linha 4).&#x20;
+No exemplo acima os arquivos de atualização são copiados para um outro local na rede através da ferramenta [`lftp`](https://lftp.yar.ru/) (linha 4).&#x20;
 
 Linha do arquivo `cron` para execução automática diariamente no horário de 2h da manhã.
 
