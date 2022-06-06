@@ -5,7 +5,8 @@
 ## Sistemas Operacionais
 
 * [MacOS](sistemas-operacionais/macos/README.md)
-  * [Criando um pendrive de instalação do MacOS](sistemas-operacionais/macos/criando-um-pendrive-de-instalacao-do-macos.md)
+  * [Criando um pendrive de instalação do macOS](sistemas-operacionais/macos/criando-um-pendrive-de-instalacao-do-macos.md)
+  * [Requisitos de hardware para instalação do macOS](sistemas-operacionais/macos/requisitos-de-hardware-para-instalacao-do-macos.md)
   * [Criando um pendrive boot linux a partir do MacOS](sistemas-operacionais/macos/criando-um-pendrive-boot-linux-a-partir-do-macos.md)
   * [Gerenciando partições via terminal](sistemas-operacionais/macos/gerenciando-particoes-via-terminal.md)
   * [Usando múltiplas contas dropbox distintas no mesmo Mac](sistemas-operacionais/macos/usando-multiplas-contas-dropbox-distintas-no-mesmo-mac.md)
