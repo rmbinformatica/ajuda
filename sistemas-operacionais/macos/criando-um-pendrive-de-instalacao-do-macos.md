@@ -12,7 +12,7 @@ Para realizar uma instalação limpa de um sistema operacional é necessário in
 
 O primeiro passo para criação do pendrive, é necessário baixar o instalador do MacOS, isso pode ser feito diretamente usando o app store.
 
-* [macOs Big Sur 10.16](macappstores://apps.apple.com/br/app/macos-big-sur/id1526878132?mt=12)
+* [macOs Big Sur 11](macappstores://apps.apple.com/br/app/macos-big-sur/id1526878132?mt=12)
 * [macOs Catalina 10.15](macappstores://apps.apple.com/br/app/macos-catalina/id1466841314?mt=12)
 * [macOs Mojave 10.14](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12)
 * [macOs High Sierra 10.13](macappstores://apps.apple.com/br/app/macos-high-sierra/id1246284741?mt=12)
