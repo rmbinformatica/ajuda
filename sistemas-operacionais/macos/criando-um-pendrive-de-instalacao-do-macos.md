@@ -12,18 +12,18 @@ Para realizar uma instalação limpa de um sistema operacional é necessário in
 
 O primeiro passo para criação do pendrive, é necessário baixar o instalador do MacOS, isso pode ser feito diretamente usando o app store.
 
-* [macOs High Sierra](macappstores://apps.apple.com/br/app/macos-high-sierra/id1246284741?mt=12)
-* [macOs Mojave](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12)
-* [macOs Catalina](macappstores://apps.apple.com/br/app/macos-catalina/id1466841314?mt=12)
-* [macOs Big Sur](macappstores://apps.apple.com/br/app/macos-big-sur/id1526878132?mt=12)
+* [macOs Big Sur 10.16](macappstores://apps.apple.com/br/app/macos-big-sur/id1526878132?mt=12)
+* [macOs Catalina 10.15](macappstores://apps.apple.com/br/app/macos-catalina/id1466841314?mt=12)
+* [macOs Mojave 10.14](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12)
+* [macOs High Sierra 10.13](macappstores://apps.apple.com/br/app/macos-high-sierra/id1246284741?mt=12)
 
 ### Versões mais antigas
 
 Nas versões mais antigas esse método de criação do pendrive não é compatível, sendo necessário montar o disco `InstallOS.dmg` ou `InstallMacOSX.dmg`. Monte/abra a imagem de disco. Depois, abra o instalador `.pkg` dentro da imagem do disco, são elas:
 
-* [macOS Sierra](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg)
-* [OS X El Capitan](http://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg)
-* [OS X Yosemite](http://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg)
+* [macOS Sierra 10.12](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg) (SHA1: 9ba989d30e3548341fc8f5847e856709cb5c67c2)
+* [OS X El Capitan 10.11](http://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg) (SHA1: 21e45136e34c6f805e0f1977e38d6ff029a9a1e2)
+* [OS X Yosemite 10.10](http://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg) (SHA1: c542681961cc7fafb9c15bfd4af152a3a57f07fa)
 
 ## Gravando a instalação no pendrive
 
