@@ -223,6 +223,15 @@ description: >-
 * iMac (final de 2009 ou posterior)
 * Mac Pro (meados de 2010 ou posterior)
 
+{% hint style="info" %}
+A instalação do High Sierra atualiza automaticamente o sistema de arquivos do HFS+ para o APFS, é possível instalar sem atualizar o sistema de arquivos utilizando o comando a seguir:
+{% endhint %}
+
+```
+// Instalação do High Sierra sem modificação do sistema de arquivos
+/Volumes/"Image Volume/Install macOS High Sierra.app"/Contents/Resources/startosinstall --volume /Volumes/SSD --converttoapfs NO --agreetolicense
+```
+
 ## macOS Sierra 10.12
 
 [Download do instalador do macOS Sierra 10.12](http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg).
