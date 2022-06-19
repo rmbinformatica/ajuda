@@ -16,6 +16,8 @@ Se você utiliza sistemas operacionais Linux ou MacOS é possível baixar o arqu
 NOTA: A Microsoft não atualiza o arquivo ISO com a mesma frequência que a utilizada pela [Ferramenta de Download do Windows 10](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md#utilizando-a-ferramenta-de-download-do-windows-10). Recomendamos utilizar o [método abaixo](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md#utilizando-a-ferramenta-de-download-do-windows-10) para o download da versão mais recente.
 {% endhint %}
 
+Após o download do arquivo .ISO sempre [Confira o hash do arquivo](https://doc.rmbinformatica.com.br/ajuda/sistemas-operacionais/microsoft-windows/cmd#calculando-o-hash-md5-ou-sha1-de-um-arquivo-no-windows-via-prompt-de-comando) para verificar se o arquivo está correto e sem falhas durante o download.
+
 ## Utilizando a ferramenta de download do Windows 10
 
 Se você utiliza sistema operacional Microsoft Windows, você pode fazer o download da versão mais recente do Windows 10 utilizando a [Ferramenta de Download do Windows 10](https://go.microsoft.com/fwlink/?LinkId=691209), será baixado o arquivo `MediaCreationTool21H2.exe`.
