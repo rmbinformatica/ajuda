@@ -14,7 +14,7 @@
   * [Comandos úteis no terminal](sistemas-operacionais/macos/comandos-uteis-no-terminal.md)
 * [Linux](sistemas-operacionais/linux/README.md)
   * [SAMBA](sistemas-operacionais/linux/samba.md)
-  * [CentOS 7](sistemas-operacionais/linux/centos-7.md)
+  * [CentOS Linux](sistemas-operacionais/linux/centos-7.md)
   * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
   * [Como se conectar a um servidor SSH utilizando o algoritmo ssh-dss](sistemas-operacionais/linux/como-se-conectar-a-um-servidor-ssh-utilizando-o-algoritmo-ssh-dss.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
