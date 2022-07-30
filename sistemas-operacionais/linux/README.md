@@ -65,3 +65,10 @@ yum -y install ntfs-3g
 ```bash
 ntpdate pool.ntp.br
 ```
+
+## Sintaxe de arquivo cron para executar um comando a cada inicialização (reboot)
+
+```
+@reboot [path to command] [argument1] [argument2] … [argument n]
+@reboot [part to shell script]
+```
