@@ -27,12 +27,10 @@ gzip -9 old_CentOS_repos.tar
 
 Feito o backup vamos atualizar as URLs dos repositórios para o vault:
 
-{% code title="centos_use-vault.sh" %}
 ```bash
 sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
 sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 ```
-{% endcode %}
 
 ### Migrando o CentOS para o CentOS Stream
 
