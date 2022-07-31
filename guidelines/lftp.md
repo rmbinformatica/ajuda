@@ -22,7 +22,7 @@ lftp -f script_file
 
 ## Desabilitando verificação de SSL no LFTP
 
-Para conexão a servidores FTP internos que não possuem SSL configurado é recomendado desativar o suporte SSL do LFTP.
+Para conexão a servidores FTP internos que não possuem certificado SSL instalado pode ser necessário desativar o suporte SSL do LFTP.
 
 ```
 set ftp:ssl-allow no
