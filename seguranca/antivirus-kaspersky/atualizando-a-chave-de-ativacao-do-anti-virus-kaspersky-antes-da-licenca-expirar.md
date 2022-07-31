@@ -8,15 +8,15 @@ description: >-
 
 Primeiramente, acesse o antivírus Kaspersky clicando no ícone do escudo que fica próximo ao relógio do windows, no canto inferior direito da tela.
 
-![Icone do anti-vírus kaspersky](<../../.gitbook/assets/image (57).png>)
+![Icone do anti-vírus kaspersky](<../../.gitbook/assets/image (60).png>)
 
 Uma vez aberta a tela principal do antivírus Kaspersky, note que no canto inferior direito da janela há uma frase que informa quantos dias restam da licença atual. Clique nesta frase.
 
-![Informação de quantos dias restam na licença atual.](<../../.gitbook/assets/image (58).png>)
+![Informação de quantos dias restam na licença atual.](<../../.gitbook/assets/image (2).png>)
 
 Na tela seguinte, clique no botão inserir código de ativação.
 
-![Clicar no botão inserir código de ativação.](<../../.gitbook/assets/image (59).png>)
+![Clicar no botão inserir código de ativação.](<../../.gitbook/assets/image (90).png>)
 
 Será exibida uma tela solicitando que seja digitado o código de ativação. Informe o código com todas as letras e números conforme recebido via e-mail e clique no botão de salvar código de ativação.
 
@@ -24,4 +24,4 @@ Será exibida uma tela solicitando que seja digitado o código de ativação. In
 
 Após concluído o processo, o sistema retornará a tela anterior onde haverá a informação de que o aplicativo iniciará a ativação automática quando a licença expirar, conforme mostrado na imagem abaixo.
 
-![Mensagem de confirmação que o código de ativação foi aceito.](<../../.gitbook/assets/image (60).png>)
+![Mensagem de confirmação que o código de ativação foi aceito.](<../../.gitbook/assets/image (9).png>)

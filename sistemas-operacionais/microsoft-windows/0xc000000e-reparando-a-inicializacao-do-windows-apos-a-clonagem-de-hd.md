@@ -17,7 +17,7 @@ Com o HD já instalado na máquina, inicialize a máquina com qualquer pendrive 
 
 Na primeira tela do instalador, prossiga pressionando o botão **seguinte**.
 
-![Primeira tela do instalador do windows 10](<../../.gitbook/assets/image (28).png>)
+![Primeira tela do instalador do windows 10](<../../.gitbook/assets/image (74).png>)
 
 Na segunda tela do instalador do windows 10, escolha a opção **Reparar o seu computador**.
 
@@ -25,11 +25,11 @@ Na segunda tela do instalador do windows 10, escolha a opção **Reparar o seu c
 
 Escolha a opção **Resolução de problemas**
 
-![Opção Resolução de problemas](<../../.gitbook/assets/image (30).png>)
+![Opção Resolução de problemas](<../../.gitbook/assets/image (78).png>)
 
 Em seguida escolha a opção de Linha de comando ou prompt de comando
 
-![Opção prompt de comando](<../../.gitbook/assets/image (8) (2).png>)
+![Opção prompt de comando](<../../.gitbook/assets/image (8).png>)
 
 ### Execute o diskpart
 

@@ -28,23 +28,23 @@ Uma vez baixado o arquivo `MediaCreationTool`, execute-o e siga os passos abaixo
 
 Na tela inicial da ferramenta, serão exibidos os **termos de licença**, clique no botão **Aceitar**.
 
-<img src="../../.gitbook/assets/image (72).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (19).png" alt="" data-size="original">
 
 Ao ser mostrada a tela **O que você deseja fazer?** selecione a opção **Criar mídia de instalação** e em seguida clique no botão **Avançar**, conforme mostrado na figura abaixo:
 
-<img src="../../.gitbook/assets/image (70).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (13).png" alt="" data-size="original">
 
 Aguarde até que seja exibida a tela a seguir onde serão mostradas as opções de download. Normalmente a própria ferramenta já irá selecionar automaticamente a melhor edição conforme a máquina onde está sendo realizado o download, você pode mudar a seleção _desmarcando_ a caixa de seleção "_Usar as opções recomendadas para este computador"_. **Selecione o idioma e a arquitetura desejada** e, em seguida, clique no botão **Avançar**. Há inclusive a opção de fazer o download de uma ISO com ambas as arquiteturas 32-bit (x86) e 64-bit (x64).
 
-<img src="../../.gitbook/assets/image (74).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (14).png" alt="" data-size="original">
 
 Na tela **Escolha a mídia a ser usada**, selecione a opção **Arquivo ISO** e clique no botão **Avançar**, conforme mostrado na figura abaixo:
 
-![](<../../.gitbook/assets/image (71).png>)
+![](<../../.gitbook/assets/image (51).png>)
 
 Escolha a pasta onde o arquivo será salvo, defina o _nome do arquivo_ e clique no botão **Salvar**.
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
 Aguarde a conclusão do download.
 

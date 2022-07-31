@@ -8,7 +8,7 @@ description: Este artigo descreve alguns comandos úteis do powershell
 
 Para acessar a linha de comando Windows PowerShell clique com o botão _direito_ no menu iniciar e escolha a opção **Windows Powershell (Admin)**.
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 ## Alterar o perfil de rede do Windows para público ou particular utilizando a linha de comando Windows PowerShell
 
@@ -20,7 +20,7 @@ Get-NetConnectionProfile
 
 No retorno apresentado o que nos interessa para essa configuração é  o **`Name`** da conexão apresentado, exemplo na imagem a seguir:
 
-![](<../../.gitbook/assets/image (65).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 Nesse caso podemos mudar o perfil de rede da conexão wifi chamada `Fibra_Exotica` para **Pública** executando o seguinte comando:
 

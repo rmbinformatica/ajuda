@@ -16,11 +16,11 @@ Instale o Dropbox normalmente e configure sua primeira conta ou conta principal.
 
 Abra o automator, escolha novo Aplicativo.
 
-![Tela inicial de novo projeto do automator.](<../../.gitbook/assets/image (14).png>)
+![Tela inicial de novo projeto do automator.](<../../.gitbook/assets/image (29).png>)
 
 Digite a palavra **shell** na busca e clique duas vezes na opção de executar script de shell.
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 Copie e cole o script de exemplo abaixo, e faça as devidas modificações:
 
@@ -37,19 +37,19 @@ Nota: o caracter **&** faz com que o aplicativo rode em segundo plano e faz part
 
 Teste o aplicativo utilizando o botão executar do automator:
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (10).png>)
 
 Será exibida a tela inicial do Dropbox pedindo para configurar a conta. Configure a segunda conta normalmente. Você poderá observar que haverá mais de um ícone do aplicativo Dropbox na barra superior:
 
-![Duas instâncias do Dropbox em execução](<../../.gitbook/assets/image (17).png>)
+![Duas instâncias do Dropbox em execução](<../../.gitbook/assets/image (24).png>)
 
 Uma vez que estiver satisfeito com os testes, você poderá encerrar o aplicativo dropbox clicando no ícone e sair.
 
-![Saindo do dropbox](<../../.gitbook/assets/image (18).png>)
+![Saindo do dropbox](<../../.gitbook/assets/image (45).png>)
 
 No automator, abra o menu **Arquivo** e escolha a opção **Salvar**... Escolha qualquer nome e salve o arquivo aonde desejar.
 
-![Tela de salvar do automator](<../../.gitbook/assets/image (19).png>)
+![Tela de salvar do automator](<../../.gitbook/assets/image (64).png>)
 
 Pronto, agora sempre que quiser abrir o sincronizador da outra conta do dropbox basta abrir o arquivo do automator no local salvo.
 

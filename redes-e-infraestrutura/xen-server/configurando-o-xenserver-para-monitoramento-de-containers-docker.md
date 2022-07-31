@@ -108,4 +108,4 @@ xscontainer-prepare-vm -v [uuid_vm] -u [usuario_vm]
 
 Após concluído o processo já será possível ver o monitoramento de containers no XenCenter, basta abrir o ícone **+** ao lado do nome da vm.
 
-![Monitoramento de containers no XenCenter](<../../.gitbook/assets/image (20).png>)
+![Monitoramento de containers no XenCenter](<../../.gitbook/assets/image (17).png>)

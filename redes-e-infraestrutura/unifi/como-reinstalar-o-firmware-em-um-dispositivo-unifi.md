@@ -57,7 +57,7 @@ tftp -i 192.168.1.20 put [nomeDoArquivo].bin
 {% tab title="Cliente FTP Windows" %}
 O cliente TFTP windows recomendado pelo fabricante é o [tftp2](https://drive.google.com/file/d/0B768Y1mpfkhGcVpIRmkxRVB3d3c/view)
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (36).png>)
 {% endtab %}
 {% endtabs %}
 

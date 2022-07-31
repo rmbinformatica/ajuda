@@ -20,7 +20,7 @@ Neste artigo vamos descrever o passo a passo para você habilitar no windows o r
 
 No iniciar do windows procure o aplicativo **Editar política de grupo**:
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (33).png>)
 
 Dentro do aplicativo, no lado esquerdo da tela navegue pelos menus:
 
@@ -44,11 +44,11 @@ Dentro do aplicativo, no lado esquerdo da tela navegue pelos menus:
 
 Você poderá observar que a configuração padrão do windows vem definida para _**sem auditoria**_. Basta clicar duas vezes nesta mensagem e será exibida uma janela, nesta janela marque a opção **falha** e clique no botão OK.
 
-![janela de edição das propriedades](<../../.gitbook/assets/image (26).png>)
+![janela de edição das propriedades](<../../.gitbook/assets/image (48).png>)
 
 Você verá que a opção que antes estava sem auditoria agora estará como falha, conforme imagem abaixo:
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (52).png>)
 
 Pronto, essa é toda a configuração necessária. Agora você poderá verificar todas as tentativas de acesso no visualizador de eventos do windows. Nos registros consta os detalhes do login que foi tentado bem como os endereços de IP de quem tentou realizar o acesso, para filtrar somente os eventos de falha de login busque pela identificação de evento **4625**..
 
