@@ -72,3 +72,10 @@ ntpdate pool.ntp.br
 @reboot [path to command] [argument1] [argument2] … [argument n]
 @reboot [part to shell script]
 ```
+
+## Como se reconectar a sessões abertas utilizando o tmux
+
+```bash
+tmux ls
+tmux attach -d -t [id]
+```
