@@ -20,6 +20,7 @@
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
   * [Como baixar o arquivo ISO de instalação do Windows 10 diretamente do site da Microsoft](sistemas-operacionais/microsoft-windows/como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md)
   * [Windows 10: Todos os ícones da área de trabalho sumiram](sistemas-operacionais/microsoft-windows/windows-10-todos-os-icones-da-area-de-trabalho-sumiram.md)
+  * [Reparando o compartilhamento de impressoras do Windows 10](sistemas-operacionais/microsoft-windows/reparando-o-compartilhamento-de-impressoras-do-windows-10.md)
   * [Reparando a inicialização do Windows após a clonagem de HD](sistemas-operacionais/microsoft-windows/0xc000000e-reparando-a-inicializacao-do-windows-apos-a-clonagem-de-hd.md)
   * [Habilitando registros logs de tentativa de acesso a área de trabalho remota](sistemas-operacionais/microsoft-windows/habilitando-registros-logs-de-tentativa-de-acesso-a-area-de-trabalho-remota.md)
   * [cmd & batch script - usando linha de comando](sistemas-operacionais/microsoft-windows/cmd.md)

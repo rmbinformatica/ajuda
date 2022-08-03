@@ -29,7 +29,7 @@ Escolha a opção **Resolução de problemas**
 
 Em seguida escolha a opção de Linha de comando ou prompt de comando
 
-![Opção prompt de comando](<../../.gitbook/assets/image (8).png>)
+![Opção prompt de comando](<../../.gitbook/assets/image (8) (2).png>)
 
 ### Execute o diskpart
 

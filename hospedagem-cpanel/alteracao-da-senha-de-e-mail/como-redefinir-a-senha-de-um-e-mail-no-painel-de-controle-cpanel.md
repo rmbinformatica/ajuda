@@ -40,7 +40,7 @@ Caso deseje que o sistema gere uma nova senha aleatória automaticamente, basta 
 
 ![](<../../.gitbook/assets/image (39).png>)
 
-![](<../../.gitbook/assets/image (61).png>)
+![](<../../.gitbook/assets/image (39) (1).png>)
 
 ### Nível de segurança da senha
 
