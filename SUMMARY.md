@@ -39,6 +39,9 @@
   * [Configurando uma VM para auto-inicializar quando o XEN server for iniciado](redes-e-infraestrutura/xen-server/configurando-uma-vm-para-auto-inicializar-quando-o-xen-server-for-iniciado.md)
 * [OpenVPN](redes-e-infraestrutura/openvpn/README.md)
   * [Instalando e configurando um servidor OpenVPN no windows](redes-e-infraestrutura/openvpn/instalando-e-configurando-um-servidor-openvpn-no-windows.md)
+* [Apache Guacamole](redes-e-infraestrutura/apache-guacamole/README.md)
+  * [Gerando uma chave SSH compatível o Guacamole](redes-e-infraestrutura/apache-guacamole/gerando-uma-chave-ssh-compativel-o-guacamole.md)
+  * [Configurando ubuntu para permitir conexões originadas do guacamole](redes-e-infraestrutura/apache-guacamole/configurando-ubuntu-para-permitir-conexoes-originadas-do-guacamole.md)
 
 ## Guidelines
 
