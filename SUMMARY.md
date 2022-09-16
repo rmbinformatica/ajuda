@@ -26,6 +26,7 @@
   * [cmd & batch script - usando linha de comando](sistemas-operacionais/microsoft-windows/cmd.md)
   * [Comandos úteis do PowerShell](sistemas-operacionais/microsoft-windows/comandos-uteis-do-powershell.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
+  * [Como configurar o Windows 11 sem uma conta Microsoft](sistemas-operacionais/microsoft-windows/como-configurar-o-windows-11-sem-uma-conta-microsoft.md)
 
 ## Redes e Infraestrutura
 
