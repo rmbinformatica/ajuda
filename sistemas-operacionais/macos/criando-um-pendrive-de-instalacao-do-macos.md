@@ -6,7 +6,7 @@ description: >-
 
 # Criando um pendrive de instalação do macOS
 
-Para realizar uma instalação limpa de um sistema operacional é necessário inicializar o boot com um pendrive de instalação desse sistema operacional, descreverei nesse artigo como criar um pendrive do sistema macOS a partir do El Capitan.
+Para realizar uma instalação limpa de um sistema operacional é necessário inicializar o boot com um pendrive de instalação desse sistema operacional, descreverei nesse artigo como criar um pendrive do sistema macOS para todas versão a partir do El Capitan.
 
 ## Download do instalador
 
@@ -14,8 +14,12 @@ O primeiro passo para criação do pendrive, é necessário baixar o instalador 
 
 * [macOs Big Sur 11](macappstores://apps.apple.com/br/app/macos-big-sur/id1526878132?mt=12)
 * [macOs Catalina 10.15](macappstores://apps.apple.com/br/app/macos-catalina/id1466841314?mt=12)
-* [macOs Mojave 10.14](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12)
+* [macOs Mojave 10.14](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12) ($$^1$$)
 * [macOs High Sierra 10.13](macappstores://apps.apple.com/br/app/macos-high-sierra/id1246284741?mt=12)
+
+{% hint style="info" %}
+($$^1$$) Download da versão Mojave deve ser feito a partir de uma versão anterior. A partir do Catalina costuma apresentar falha no download da app store.
+{% endhint %}
 
 ### Versões mais antigas
 
@@ -27,12 +31,22 @@ Nas versões mais antigas esse método de criação do pendrive não é compatí
 
 ## Gravando a instalação no pendrive
 
-Renomeie o pendrive para facilitar a identificação do mesmo, isso pode ser feito no finder. Neste exemplo renomeei o pendrive para **instalador**.
+Primeiramente certifique-se de realizar o backup de qualquer arquivo importante existente no mesmo pois o conteudo sera excluido durante o processo de criacao do pendrive.
 
-Em seguida execute o **createinstallmedia** que fica dentro de _Contents_/_Resources_ do instalador. Execute via terminal:
+Utilizando o utilitario de disco, selecione o pendrive no lado esquerdo dos discos, clique no botao **apagar**, defina um nome qualquer para o volume, escolha o formato **Mac OS Expandido (Journaling)** e por fim clique no botao apagar. Neste exemplo vamos utilizar como nome de volume **instalador**, caso utilize um nome diferente substitua-o nas linhas de comando a seguir.
+
+Em seguida execute o **createinstallmedia** que fica dentro de _Contents_/_Resources_ do instalador. Execute via terminal, conforme a versão desejada:
+
+### High Sierra
 
 ```bash
-sudo /Applications/Install\ OS\ X\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --applicationpath /Applications/Install\ OS\ X\ Mojave.app --nointeraction
+sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction
+```
+
+### Mojave
+
+```bash
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --nointeraction
 ```
 
 Para facilitar a localização do instalador digite o caminho _/Applications/Install_ e pressione a tecla _\[TAB]_ que o terminal completará o nome do caminho do instalador. Lembre de substituir o **/Volumes/instalador** pelo nome que você usou ao renomear o pendrive.
