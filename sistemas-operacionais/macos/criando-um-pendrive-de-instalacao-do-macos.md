@@ -12,13 +12,15 @@ Para realizar uma instalação limpa de um sistema operacional é necessário in
 
 O primeiro passo para criação do pendrive, é necessário baixar o instalador do MacOS, isso pode ser feito diretamente usando o app store.
 
+* [macOs Monterey 12](macappstores://apps.apple.com/app/macos-monterey/id1576738294?mt=12)
 * [macOs Big Sur 11](macappstores://apps.apple.com/br/app/macos-big-sur/id1526878132?mt=12)
 * [macOs Catalina 10.15](macappstores://apps.apple.com/br/app/macos-catalina/id1466841314?mt=12)
 * [macOs Mojave 10.14](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12) ($$^1$$)
 * [macOs High Sierra 10.13](macappstores://apps.apple.com/br/app/macos-high-sierra/id1246284741?mt=12)
 
 {% hint style="info" %}
-($$^1$$) Download da versão Mojave deve ser feito a partir de uma versão anterior. A partir do Catalina costuma apresentar falha no download da app store.
+Os downloads devem ser feitos a partir de um dispositivo com Mac OS instalado.
+($$^1$$) Download da versão Mojave deve ser feito a partir de uma versão anterior. A partir do Catalina costuma apresentar falha no download da app store, recomendamos utilizar o download a partir do High Sierra nesses casos.
 {% endhint %}
 
 ### Versões mais antigas
@@ -37,16 +39,34 @@ Utilizando o utilitario de disco, selecione o pendrive no lado esquerdo dos disc
 
 Em seguida execute o **createinstallmedia** que fica dentro de _Contents_/_Resources_ do instalador. Execute via terminal, conforme a versão desejada:
 
-### High Sierra
+### Monterey
 
 ```bash
-sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --nointeraction
+```
+
+### Big Sur
+
+```bash
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --nointeraction
+```
+
+### Catalina
+
+```bash
+sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --nointeraction
 ```
 
 ### Mojave
 
 ```bash
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --nointeraction
+```
+
+### High Sierra
+
+```bash
+sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/instalador --applicationpath /Applications/Install\ macOS\ High\ Sierra.app --nointeraction
 ```
 
 Para facilitar a localização do instalador digite o caminho _/Applications/Install_ e pressione a tecla _\[TAB]_ que o terminal completará o nome do caminho do instalador. Lembre de substituir o **/Volumes/instalador** pelo nome que você usou ao renomear o pendrive.
