@@ -18,7 +18,7 @@ Para uso em redes de computadores, na prática o cabeamento irá funcionar com q
 
 A figura abaixo apresenta a sequência de cores nos dois padrões.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/cores_conector_rj45.png)
 
 ### Comprimento mínimo do cabo
 
@@ -26,9 +26,15 @@ A figura abaixo apresenta a sequência de cores nos dois padrões.
 
 ### Comprimento máximo do cabo
 
-O comprimento máximo do cabo, incluindo todos os patch-cords e quaisquer caixas intermediárias existentes entre as duas pontas deve somar no máximo de 100m.&#x20;
+O comprimento máximo do cabo entre dois dispositivos, incluindo todos os patch-cords e quaisquer emendas num caminho entre as duas pontas, deve somar no máximo de 100m.
 
-Exemplo: ao se utilizar um patch-cord de 1m em cada lado o comprimento do cabo intermediário deve ser no máximo de 98m.
+Exemplo: ao se utilizar um patch-cord de 1m em cada lado o comprimento do cabo intermediário deveria ser no máximo de 98m.
+
+Em ambientes de cabeamento estruturado adota-se como padrão que o comprimento máximo até um patch-panel seja de até 90m para deixar margem para uso de algum patch-cord na conexão.
+
+No caso onde a distância dos equipamentos total seja superior a 100m, recomenda-se dividir esse segmento com o uso de algum equipamento intermediário - tal como um repetidor ou switch - a fim de que cada segmento não ultrapasse a distância máxima dos 100m.
+
+![](../.gitbook/assets/diagrama_rede_estruturado.png)
 
 ## Cabo crossover
 
@@ -36,7 +42,16 @@ Em algumas situações é necessário assumir configuração cruzada (crossover)
 
 ### Sequência de cores para montagem de um cabo crossover
 
-<table><thead><tr><th>Sinal</th><th data-type="number"># Pino</th><th>Lado 1 (568B)</th><th>Lado 2</th></tr></thead><tbody><tr><td>TD+</td><td>1</td><td>Laranja/branco</td><td>Verde/branco</td></tr><tr><td>TD-</td><td>2</td><td>Laranja</td><td>Verde</td></tr><tr><td>RX+</td><td>3</td><td>Verde/branco</td><td>Laranja/branco</td></tr><tr><td>BD1+</td><td>4</td><td>Azul</td><td>Marrom/branco</td></tr><tr><td>BD1-</td><td>5</td><td>Azul/branco</td><td>Marrom</td></tr><tr><td>RX-</td><td>6</td><td>Verde</td><td>Laranja</td></tr><tr><td>BD2+</td><td>7</td><td>Marrom/branco</td><td>Azul</td></tr><tr><td>BD2-</td><td>8</td><td>Marrom</td><td>Azul/branco</td></tr></tbody></table>
+| Sinal | # Pino  | Lado 1 (568B)  | Lado 2         |
+| ----- | ------- | -------------- | -------------- |
+| TD+   | 1       | Laranja/branco | Verde/branco   |
+| TD-   | 2       | Laranja        | Verde          |
+| RX+   | 3       | Verde/branco   | Laranja/branco |
+| BD1+  | 4       | Azul           | Marrom/branco  |
+| BD1-  | 5       | Azul/branco    | Marrom         |
+| RX-   | 6       | Verde          | Laranja        |
+| BD2+  | 7       | Marrom/branco  | Azul           |
+| BD2-  | 8       | Marrom         | Azul/branco    |
 
 ### Mapa de pinagem de um cabo crossover
 
