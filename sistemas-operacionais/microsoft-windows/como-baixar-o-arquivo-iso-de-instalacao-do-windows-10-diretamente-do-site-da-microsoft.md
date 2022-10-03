@@ -28,7 +28,7 @@ Uma vez baixado o arquivo `MediaCreationTool`, execute-o e siga os passos abaixo
 
 Na tela inicial da ferramenta, serão exibidos os **termos de licença**, clique no botão **Aceitar**.
 
-<img src="../../.gitbook/assets/image (19).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (87).png" alt="" data-size="original">
 
 Ao ser mostrada a tela **O que você deseja fazer?** selecione a opção **Criar mídia de instalação** e em seguida clique no botão **Avançar**, conforme mostrado na figura abaixo:
 

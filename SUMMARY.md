@@ -30,8 +30,9 @@
 
 ## Redes e Infraestrutura
 
-* [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/instalando-o-gerenciador-unifi-no-centos.md)
+* [Orientações importantes sobre a crimpagem de cabos de rede ethernet](redes-e-infraestrutura/orientacoes-importantes-sobre-a-crimpagem-de-cabos-de-rede-ethernet.md)
 * [UniFi](redes-e-infraestrutura/unifi/README.md)
+  * [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/unifi/instalando-o-gerenciador-unifi-no-centos.md)
   * [Cores do LED do Unifi](redes-e-infraestrutura/unifi/cores-do-led-do-unifi.md)
   * [Como reinstalar o firmware em um dispositivo Unifi](redes-e-infraestrutura/unifi/como-reinstalar-o-firmware-em-um-dispositivo-unifi.md)
 * [XEN Server](redes-e-infraestrutura/xen-server/README.md)
