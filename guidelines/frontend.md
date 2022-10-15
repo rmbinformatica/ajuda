@@ -19,3 +19,13 @@ description: Links para aprendizado de como implementar recursos frontend
 
 * [Como verificar se uma variável está definida e se é um array](https://stackoverflow.com/questions/1961528/how-to-check-if-an-array-exist-if-not-create-it-in-javascript)
 * [Escopo de variáveis no javascript](https://www.w3schools.com/js/js\_scope.asp)
+
+#### Impedir que um formulário seja re-postado quando for atualizada a página no davegador
+
+```html
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+```

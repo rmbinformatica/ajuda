@@ -22,13 +22,13 @@ No retorno apresentado o que nos interessa para essa configuração é  o **`Nam
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-Nesse caso podemos mudar o perfil de rede da conexão wifi chamada `Fibra_Exotica` para **Pública** executando o seguinte comando:
+Nesse caso podemos mudar o perfil de rede da conexão wifi chamada `Fibra_Exotica` para **Particular** executando o seguinte comando:
 
 ```powershell
 Set-NetConnectionProfile -Name "Fibra_Exotica" -NetworkCategory Private
 ```
 
-Da mesma forma, podemos alterar o Perfil de rede da conexão `OpenVPN TAP-Windows6` para **Particular** executando o seguinte comando:
+Da mesma forma, podemos alterar o Perfil de rede da conexão `OpenVPN TAP-Windows6` para **Pública** executando o seguinte comando:
 
 ```powershell
 Set-NetConnectionProfile -Name "OpenVPN TAP-Windows6" -NetworkCategory Public

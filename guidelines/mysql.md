@@ -95,3 +95,11 @@ mysqldump -u [usuario] --no-create-info --skip-triggers [banco] --default-charac
 ```
 
 Para uma lista de todas as opções disponíveis e seu uso, consulte a [documentação oficial do mysqldump](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html).
+
+### Trabalhando com nomes de tabela em minúsculo
+
+É possível configurar o servidor mysql para utilizar todos os caracteres minúsculos como nome das tabelas, para isso é necessário editar o arquivo de configuração my.cnf e incluir a linha abaixo:
+
+```
+lower_case_table_names = 1
+```
