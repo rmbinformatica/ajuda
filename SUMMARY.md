@@ -60,6 +60,7 @@
   * [Permitindo o anydesk controlar as configurações do Kaspersky antivírus](seguranca/antivirus-kaspersky/permitindo-o-anydesk-controlar-as-configuracoes-do-kaspersky-antivirus.md)
   * [Criando um servidor interno de atualização do Kaspersky antivírus no linux](seguranca/antivirus-kaspersky/criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux.md)
   * [Configurando o Kaspersky antivírus para obter atualizações através da rede local](seguranca/antivirus-kaspersky/configurando-o-kaspersky-antivirus-para-obter-atualizacoes-atraves-da-rede-local.md)
+* [Mecanismos de Busca para testes de intrusão](seguranca/mecanismos-busca-testes-intrusao-invasao-pentest.md)
 
 ## CoffCode Expresso
 
@@ -75,6 +76,7 @@
 
 ## Outros
 
+* [Sites Úteis](sites-uteis.md)
 * [Conectividade Social](outros/conectividade-social/README.md)
   * [Windows 11 e Conectividade Social](outros/conectividade-social/windows-11-e-conectividade-social.md)
 * [Lumion](outros/lumion.md)
