@@ -22,6 +22,7 @@ grep <padrao> <arquivo.log>
 - `-l` Busca nos nomes dos arquivos
 - `-n` Mostrar o número das linhas onde o padrão foi encontrado.
 - `-v` Inverter o sentido da busca e mostrar as linhas que não possuem o padrão.
+- `-R` Varrer recursivamente os arquivos do diretório atual e todas as subpastas.
 
 ---
 
