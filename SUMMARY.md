@@ -17,6 +17,7 @@
   * [CentOS Linux](sistemas-operacionais/linux/centos-7.md)
   * [Substituindo as chaves SSH de servidor do linux](sistemas-operacionais/linux/substituindo-as-chaves-ssh-de-servidor-do-linux.md)
   * [Como se conectar a um servidor SSH utilizando o algoritmo ssh-dss](sistemas-operacionais/linux/como-se-conectar-a-um-servidor-ssh-utilizando-o-algoritmo-ssh-dss.md)
+  * [Folha de dicas para análise de logs](sistemas-operacionais/linux/log-parsing-cheat-sheet.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
   * [Como baixar o arquivo ISO de instalação do Windows 10 diretamente do site da Microsoft](sistemas-operacionais/microsoft-windows/como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md)
   * [Windows 10: Todos os ícones da área de trabalho sumiram](sistemas-operacionais/microsoft-windows/windows-10-todos-os-icones-da-area-de-trabalho-sumiram.md)
