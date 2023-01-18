@@ -9,6 +9,8 @@ description: >-
   através da linha de comando do powershell.
 ---
 
+# Bloquear hotspot do windows 10 via powershell
+
 ## O que é o hotspot do windows 10?
 
 O hotspot do windows 10 é uma função que permite compartilhar a conexão de internet do computador com outros dispositivos, como celulares, tablets, notebooks, etc.
