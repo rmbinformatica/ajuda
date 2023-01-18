@@ -1,9 +1,10 @@
 ---
 author: Renato Monteiro Batista
+user: renato
 date: 2023-01-18 12:28
 description: >-
   Por Renato Monteiro Batista em 18/01/2023 12:28.
-  
+
   Este artigo descreve como bloquear a função de hotspot do windows 10
   através da linha de comando do powershell.
 ---
