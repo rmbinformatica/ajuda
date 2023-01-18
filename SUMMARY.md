@@ -28,6 +28,7 @@
   * [Comandos úteis do PowerShell](sistemas-operacionais/microsoft-windows/comandos-uteis-do-powershell.md)
   * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos.md)
   * [Como configurar o Windows 11 sem uma conta Microsoft](sistemas-operacionais/microsoft-windows/como-configurar-o-windows-11-sem-uma-conta-microsoft.md)
+  * [Como bloquear a função hotspot do Windows](sistemas-operacionais/microsoft-windows/bloquear-hotspot-windows-via-powershell.md)
 
 ## Redes e Infraestrutura
 
