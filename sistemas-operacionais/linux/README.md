@@ -42,7 +42,6 @@ do
        echo "Encontrei arquivo $i"
     fi
 done
-
 ```
 
 ## Buscando todos os arquivos em um determinado caminho contendo um texto específico

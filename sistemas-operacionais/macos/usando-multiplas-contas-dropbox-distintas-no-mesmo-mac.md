@@ -20,7 +20,7 @@ Abra o automator, escolha novo Aplicativo.
 
 Digite a palavra **shell** na busca e clique duas vezes na opção de executar script de shell.
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 Copie e cole o script de exemplo abaixo, e faça as devidas modificações:
 
@@ -37,11 +37,11 @@ Nota: o caracter **&** faz com que o aplicativo rode em segundo plano e faz part
 
 Teste o aplicativo utilizando o botão executar do automator:
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (10).png>)
 
 Será exibida a tela inicial do Dropbox pedindo para configurar a conta. Configure a segunda conta normalmente. Você poderá observar que haverá mais de um ícone do aplicativo Dropbox na barra superior:
 
-![Duas instâncias do Dropbox em execução](<../../.gitbook/assets/image (18) (1).png>)
+![Duas instâncias do Dropbox em execução](<../../.gitbook/assets/image (24).png>)
 
 Uma vez que estiver satisfeito com os testes, você poderá encerrar o aplicativo dropbox clicando no ícone e sair.
 

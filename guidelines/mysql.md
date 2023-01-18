@@ -24,7 +24,7 @@ Por padrão o mysqldump irá exibir o resultado na tela, sendo muito comum direc
 
 ### Salvamento o resultado em um arquivo
 
-Embora seja muito comum, o salvamento usando `> arquivo.sql` não é uma boa prática, principalmente quando se envolve a cópia do arquivo entre sistemas operacionais diferentes, esse uso pode fazer com que o arquivo resultante apresente dados corrompidos tais como problemas de acentuação.&#x20;
+Embora seja muito comum, o salvamento usando `> arquivo.sql` não é uma boa prática, principalmente quando se envolve a cópia do arquivo entre sistemas operacionais diferentes, esse uso pode fazer com que o arquivo resultante apresente dados corrompidos tais como problemas de acentuação.
 
 Para evitar que haja problemas de acentuação com o uso do mysqldump ou qualquer outra corrupção de dados, é recomendado salvar o arquivo usando a opção `--result-file=arquivo.sql` ou `-r arquivo.sql`.
 
@@ -72,7 +72,7 @@ mysqldump -u [usuario] [banco] --hex-blob -r backup.sql
 
 Em alguns casos abrir o arquivo exportado pelo mysqldump no workbench pode apresentar uma mensagem reclamando do charset do arquivo. Conforme imagem abaixo:
 
-![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (2) (1).png>)
+![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (32).png>)
 
 Uma das maneiras de contornar esse problema seria definir o charset na geração do arquivo no mysqldump através da opção `--default-character-set=[charset]`.
 

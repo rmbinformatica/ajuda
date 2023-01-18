@@ -21,7 +21,7 @@ Na primeira tela do instalador, prossiga pressionando o botão **seguinte**.
 
 Na segunda tela do instalador do windows 10, escolha a opção **Reparar o seu computador**.
 
-![Segunda tela do instalador do windows 10](<../../.gitbook/assets/image (81).png>)
+![Segunda tela do instalador do windows 10](<../../.gitbook/assets/image (26) (1).png>)
 
 Escolha a opção **Resolução de problemas**
 
@@ -29,7 +29,7 @@ Escolha a opção **Resolução de problemas**
 
 Em seguida escolha a opção de Linha de comando ou prompt de comando
 
-![Opção prompt de comando](<../../.gitbook/assets/image (4).png>)
+![Opção prompt de comando](<../../.gitbook/assets/image (4) (1).png>)
 
 ### Execute o diskpart
 
