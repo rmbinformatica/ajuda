@@ -72,7 +72,7 @@ mysqldump -u [usuario] [banco] --hex-blob -r backup.sql
 
 Em alguns casos abrir o arquivo exportado pelo mysqldump no workbench pode apresentar uma mensagem reclamando do charset do arquivo. Conforme imagem abaixo:
 
-![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (32).png>)
+![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (2) (1).png>)
 
 Uma das maneiras de contornar esse problema seria definir o charset na geração do arquivo no mysqldump através da opção `--default-character-set=[charset]`.
 
