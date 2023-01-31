@@ -41,3 +41,13 @@ Aplica-se aos modelos: UAP, UAP-LR, UAP-Outdoor5.
 | <p><strong>Offline</strong></p><p>Verificar energia, POE e Ethernet</p>                                                                                                                                                                                                                                              | <p><img src="https://help.ubnt.com/hc/en-us/article_attachments/203198928/UAP-8-LED-Off.gif" alt=""></p><p>LED Off</p>                                  |
 
 Artigo originalmente publicado, em inglês, na [página do fabricante](https://help.ubnt.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices).
+
+{% tabs %}
+{% tab title="Tradutor" %}
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Artigos relacionados" %}
+* [Artigo original em inglês](https://help.ubnt.com/hc/en-us/articles/204910134-UniFi-LED-Color-Patterns-for-UniFi-Devices)
+{% endtab %}
+{% endtabs %}

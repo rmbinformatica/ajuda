@@ -170,3 +170,9 @@ Resolveu seu problema? [Lembre de mandar um pix para contribuir com nosso trabal
 Caso utilize o anti-vírus Kaspersky na máquina, altere as configurações do anti-vírus para _**Não verificar conexões criptografadas**_ pois essa configuração pode causar mau funcionamento do site da conectividade social.
 
 _Caso persistam problemas após os procedimentos acima, revise os procedimentos para verificar se não esqueceu de executar alguma das etapas. Persistindo os problemas mesmo após a execução de todas etapas consulte seu técnico de informática para avaliar a necessidade de reinstalação do windows._
+
+{% tabs %}
+{% tab title="Autor" %}
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
