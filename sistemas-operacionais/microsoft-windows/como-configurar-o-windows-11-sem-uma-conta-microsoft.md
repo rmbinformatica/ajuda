@@ -85,3 +85,9 @@ Na tela da primeira inicialização do Windows siga o fluxo normal de inicializa
 Quando for exigido que você forneça sua conta Microsoft simplesmente digite o nome de uma conta local (sem o uso de e-mail), exemplo: _renato_. Na tela seguinte informe a senha desejada para o usuário.
 
 Será exibida a mensagem de que um erro aconteceu, nesse caso basta clicar no botão **avançar** para prosseguir a ativação de uma conta local.
+
+{% tabs %}
+{% tab title="Autor" %}
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="http://renato.ovh">Renato Monteiro Batista</a></td><td>Engenheiro de Computação</td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}

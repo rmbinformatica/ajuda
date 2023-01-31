@@ -79,3 +79,13 @@ O computador irá inicializar normalmente, provavelmente irá exibir uma lista p
 ### Removendo a lista de sistemas operacionais
 
 Caso a inicialização apresente uma lista de sistemas operacionais para escolher, ao entrar no windows execute a ferramenta **`msconfig`**, clique na segunda aba de **inicialização** e remova as entradas desnecessárias (exceto a entrada que foi usada para boot).
+
+{% tabs %}
+{% tab title="Autor" %}
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="http://renato.ovh">Renato Monteiro Batista</a></td><td>Engenheiro de Computação</td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Artigos relacionados" %}
+* [Como baixar o arquivo ISO de instalação do windows 10](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft)
+{% endtab %}
+{% endtabs %}

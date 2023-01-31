@@ -89,3 +89,12 @@ cscript ospp.vbs /unpkey:[FinalChave]
 
 Na segunda linha o comando exibe as chaves atualmente instaladas, note que haverá uma ou mais linhas no resultado contendo a informação: **`Last 5 characters of installed product key: XYZ99`** nesse caso o _XYZ99_ seria a informação que seria preenchida no comando da terceira linha no espaço indicado como **`[FinalChave]`**.
 
+{% tabs %}
+{% tab title="Autor" %}
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="http://renato.ovh">Renato Monteiro Batista</a></td><td>Engenheiro de Computação</td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Artigos relacionados" %}
+* [Comandos úteis do PowerShell](comandos-uteis-do-powershell)
+{% endtab %}
+{% endtabs %}
