@@ -44,6 +44,20 @@ Add-MpPreference -ExclusionPath "C:\pasta"
 
 No exemplo acima altere o `c:\pasta` para o caminho que deseja excluir das verificações.
 
+## Listar o escopo de endereços o qual uma regra de firewall está aplicada usando o Windows PowerShell
+
+```powershell
+Get-NetFirewallRule -DisplayName "Nome da regra" | Get-NetFirewallAddressFilter
+```
+
+## Criar uma nova regra do windows firewall permitindo todas as conexões a partir de um endereço de ip específico usando o powershell
+
+No exemplo abaixo vamos utilizar *192.168.0.1* como endereço de ip remoto (de onde as conexões serão permitidas).
+
+```powershell
+New-NetFirewallRule -DisplayName "NomeDaRegra" -Direction Inbound -LocalAddress Any -RemoteAddress 192.168.0.1 -Action Allow
+```
+
 {% tabs %}
 {% tab title="Autor" %}
 <table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
