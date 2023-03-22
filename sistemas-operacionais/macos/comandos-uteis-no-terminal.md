@@ -26,11 +26,30 @@ sudo route -n add -net [rede_destino/CIDR] [gateway]
 sudo scutil --set HostName [novo_nome]
 ```
 
-## Verificar o hash MD5 ou SHA de um arquivo
+## Verificar o hash de um arquivo no MacOS
+
+### Hash MD5 no MacOS
 
 ```bash
 md5 [nome_arquivo]
+```
+
+### Hash SHA1 no MacOS
+
+```bash
 shasum [nome_arquivo]
+```
+
+### Hash SHA256 no MacOS
+
+```bash
+shasum -a 256 [nome_arquivo]
+```
+
+### Hash SHA512 no MacOS
+
+```bash
+shasum -a 512 [nome_arquivo]
 ```
 
 {% tabs %}
