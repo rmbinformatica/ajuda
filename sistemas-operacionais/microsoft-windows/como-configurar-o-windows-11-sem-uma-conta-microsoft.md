@@ -1,7 +1,5 @@
 ---
-description: >-
-  Este artigo descreve como configurar o Windows 11 com uma conta local sem a
-  necessidade de utilizar uma conta Microsoft
+description: Solução para inicializar windows 11 sem conta Microsoft, usando conta local do sistema Windows e sem a necessidade de conexão à internet para acessar o windows. 
 ---
 
 # Como configurar o Windows 11 sem uma conta Microsoft

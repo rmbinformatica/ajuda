@@ -1,7 +1,5 @@
 ---
-description: >-
-  Este artigo descreve como fazer o download do ISO do Windows 10 diretamente do
-  site da Microsoft
+description: Links para download do arquivo ISO para download da mídia de instakacão do windows 10 diretamente do site da microsoft.
 ---
 
 # Como baixar o arquivo ISO de instalação do Windows 10 diretamente do site da Microsoft

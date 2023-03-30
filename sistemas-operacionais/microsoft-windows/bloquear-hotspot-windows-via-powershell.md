@@ -2,9 +2,7 @@
 author: Renato Monteiro Batista
 user: renato
 date: 2023-01-18 12:28
-description: >-
-  Este artigo descreve como bloquear a função de hotspot do windows 10 através
-  da linha de comando do powershell.
+description: Solução para impedir o compartilhamento de internet do windows utilizando a função hotspot do windows 10. Comandos para bloqueio do compartilhamento hotspot no windows.
 ---
 
 # Como bloquear a função hotspot do Windows

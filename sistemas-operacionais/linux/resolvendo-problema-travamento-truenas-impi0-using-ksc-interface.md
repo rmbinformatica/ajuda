@@ -1,5 +1,5 @@
 ---
-description: Este artigo descreve a solução para o problema que causa travamento no TrueNAS onde a última mensagem de log do console "ipmi0 using KSC interface" e o sistema não inicia.
+description: Solução para o problema "ipmi0 using KSC interface" que causa travamento no TrueNAS durante o boot do sistema.
 ---
 
 # Resolvendo problema de inicialização do TrueNAS onde trava na mensagem ipmi0: using KSC interface

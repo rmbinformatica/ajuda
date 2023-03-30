@@ -1,8 +1,5 @@
 ---
-description: >-
-  Este artigo descreve como reparar a inicialização do windows após a clonagem
-  de HD, quando o windows não inicia devido ao erro 0xc000000e arquivo
-  \windows\system32\winload.efi não encontrado.
+description: Solução para o erro 0xc000000e, "arquivo \windows\system32\winload.efi não encontrado" durante a inicialização do Windows 10 após a clonagem de um HD ou SSD.
 ---
 
 # Reparando a inicialização do Windows após a clonagem de HD
