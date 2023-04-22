@@ -19,13 +19,13 @@ Abra o Kaspersky antivírus através do ícone na área de trabalho, menu inicia
 
 ![Clique no ícone da engrenagem na parte inferior esquerda da tela principal do kaspersky](<../../.gitbook/assets/image (72).png>)
 
-![Clique no menu "Adicional" do lado esquerdo e em seguida clique na opção Atualização.](<../../.gitbook/assets/image (19) (1).png>)
+![Clique no menu "Adicional" do lado esquerdo e em seguida clique na opção Atualização.](<../../.gitbook/assets/image (56).png>)
 
-![Clique na opção selecionar fontes de atualização](<../../.gitbook/assets/image (20) (1).png>)
+![Clique na opção selecionar fontes de atualização](<../../.gitbook/assets/image (3).png>)
 
 ![Clique no botão adicionar](<../../.gitbook/assets/image (76).png>)
 
-![Informe o caminho das atualizações\* e clique selecionar.](<../../.gitbook/assets/image (23) (1).png>)
+![Informe o caminho das atualizações\* e clique selecionar.](<../../.gitbook/assets/image (71).png>)
 
 O caminho das atualizações é a pasta local ou da rede onde o seu atualizador está realizando o download das novas definições de vírus. _**Consulte o seu administrador de rede para saber o que deve ser preenchido neste campo**_.
 
@@ -41,8 +41,6 @@ Também é possível desativar o uso do servidor de atualização do Kaspersky L
 
 Clique com o **botão direito** do mouse na palavra **Ativo** ao lado de **Servidores de atualização da Kaspersky Lab**, no menu que surgir escolha a opção **Desativar**.
 
-
-
 ![Clique na opção desativar](<../../.gitbook/assets/image (6).png>)
 
 Após desativar, verifique se a opção mudou de ativo para **Inativo**.
@@ -53,7 +51,7 @@ Após desativar, verifique se a opção mudou de ativo para **Inativo**.
 
 Volte para a tela inicial e clique no botão **Atualização do banco de dados**.
 
-![Botão atualização do banco de dados](<../../.gitbook/assets/image (6) (1).png>)
+![Botão atualização do banco de dados](<../../.gitbook/assets/image (79).png>)
 
 ![Na tela de atualização clique no botão atualizar e aguarde a conclusão.](<../../.gitbook/assets/image (91).png>)
 

@@ -21,6 +21,7 @@
   * [Folha de dicas para análise de logs](sistemas-operacionais/linux/log-parsing-cheat-sheet.md)
   * [Resolvendo problema de travamento do TrueNas](sistemas-operacionais/linux/resolvendo-problema-travamento-truenas-impi0-using-ksc-interface.md)
 * [Microsoft Windows](sistemas-operacionais/microsoft-windows/README.md)
+  * [Exibindo o ícone de "Meu Computador" na área de trabalho do Windows 10](sistemas-operacionais/microsoft-windows/exibindo-o-icone-de-meu-computador-na-area-de-trabalho-do-windows-10.md)
   * [Como bloquear o upgrade do Windows 10 para Windows 11 usando o powershell](sistemas-operacionais/microsoft-windows/bloquear-upgrade-windows-10-para-windows-11.md)
   * [Como baixar o arquivo ISO de instalação do Windows 10 diretamente do site da Microsoft](sistemas-operacionais/microsoft-windows/como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md)
   * [Windows 10: Todos os ícones da área de trabalho sumiram](sistemas-operacionais/microsoft-windows/windows-10-todos-os-icones-da-area-de-trabalho-sumiram.md)

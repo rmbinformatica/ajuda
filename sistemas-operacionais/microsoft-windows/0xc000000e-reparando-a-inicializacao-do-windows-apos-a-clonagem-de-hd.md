@@ -1,5 +1,8 @@
 ---
-description: Solução para o erro 0xc000000e, "arquivo \windows\system32\winload.efi não encontrado" durante a inicialização do Windows 10 após a clonagem de um HD ou SSD.
+description: >-
+  Solução para o erro 0xc000000e, "arquivo \windows\system32\winload.efi não
+  encontrado" durante a inicialização do Windows 10 após a clonagem de um HD ou
+  SSD.
 ---
 
 # Reparando a inicialização do Windows após a clonagem de HD
@@ -18,7 +21,7 @@ Na primeira tela do instalador, prossiga pressionando o botão **seguinte**.
 
 Na segunda tela do instalador do windows 10, escolha a opção **Reparar o seu computador**.
 
-![Segunda tela do instalador do windows 10](<../../.gitbook/assets/image (26) (1).png>)
+![Segunda tela do instalador do windows 10](<../../.gitbook/assets/image (81).png>)
 
 Escolha a opção **Resolução de problemas**
 
@@ -26,7 +29,7 @@ Escolha a opção **Resolução de problemas**
 
 Em seguida escolha a opção de Linha de comando ou prompt de comando
 
-![Opção prompt de comando](<../../.gitbook/assets/image (4) (1).png>)
+![Opção prompt de comando](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 ### Execute o diskpart
 
@@ -83,6 +86,6 @@ Caso a inicialização apresente uma lista de sistemas operacionais para escolhe
 {% endtab %}
 
 {% tab title="Artigos relacionados" %}
-* [Como baixar o arquivo ISO de instalação do windows 10](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft)
+* [Como baixar o arquivo ISO de instalação do windows 10](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft/)
 {% endtab %}
 {% endtabs %}

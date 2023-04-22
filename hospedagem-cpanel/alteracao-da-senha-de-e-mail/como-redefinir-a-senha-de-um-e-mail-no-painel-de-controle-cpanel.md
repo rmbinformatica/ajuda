@@ -38,9 +38,9 @@ Ao clicar no botão gerenciar, será exibida a tela de gerenciamento da conta de
 
 Caso deseje que o sistema gere uma nova senha aleatória automaticamente, basta clicar no botão **Generate**. Para visualizar a senha que está sendo digitada basta clicar no ícone do olho, conforme destacado com uma seta vermelha na imagem abaixo.
 
-![](<../../.gitbook/assets/image (39) (1).png>)
-
 ![](<../../.gitbook/assets/image (39).png>)
+
+![](<../../.gitbook/assets/image (39) (1).png>)
 
 ### Nível de segurança da senha
 

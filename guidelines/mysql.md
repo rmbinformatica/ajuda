@@ -72,7 +72,7 @@ mysqldump -u [usuario] [banco] --hex-blob -r backup.sql
 
 Em alguns casos abrir o arquivo exportado pelo mysqldump no workbench pode apresentar uma mensagem reclamando do charset do arquivo. Conforme imagem abaixo:
 
-![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (2) (1).png>)
+![Erro quando o workbench não consegue identificar o charset do arquivo](<../.gitbook/assets/image (32).png>)
 
 Uma das maneiras de contornar esse problema seria definir o charset na geração do arquivo no mysqldump através da opção `--default-character-set=[charset]`.
 
@@ -106,7 +106,7 @@ lower_case_table_names = 1
 
 {% tabs %}
 {% tab title="Autor" %}
-<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Veja também" %}

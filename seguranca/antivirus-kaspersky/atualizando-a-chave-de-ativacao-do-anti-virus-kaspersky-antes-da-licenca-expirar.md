@@ -12,7 +12,7 @@ Primeiramente, acesse o antivírus Kaspersky clicando no ícone do escudo que fi
 
 Uma vez aberta a tela principal do antivírus Kaspersky, note que no canto inferior direito da janela há uma frase que informa quantos dias restam da licença atual. Clique nesta frase.
 
-![Informação de quantos dias restam na licença atual.](<../../.gitbook/assets/image (2).png>)
+![Informação de quantos dias restam na licença atual.](<../../.gitbook/assets/image (2) (1).png>)
 
 Na tela seguinte, clique no botão inserir código de ativação.
 

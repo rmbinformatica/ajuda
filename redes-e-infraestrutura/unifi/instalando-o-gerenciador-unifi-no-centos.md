@@ -6,35 +6,14 @@ description: Instruções para a instalação do gerenciador Ubiquiti Unifi no C
 
 Escolha o método de instalação desejado:
 
-{% tabs %}
-{% tab title="Automaticamente" %}
-## Script de instalação automática
+### Script de instalação automática
 
 Disponibilizamos um script de configuração automática disponível no github, no URL:
 
 {% embed url="https://github.com/rmbinformatica/configure_unifi_centos6.9" %}
-
 Caso não possua o git instalado, execute:
+{% endembed %}
 
-```bash
-yum -y install git
-```
-
-Clone o repositório do git:
-
-```bash
-git clone https://github.com/rmbinformatica/configure_unifi_centos6.9.git
-```
-
-Atribua permissões de execução e execute o instalador:
-
-```bash
-chmod +x configure_unifi_centos6.9/*.sh 
-configure_unifi_centos6.9/setup.sh 
-```
-{% endtab %}
-
-{% tab title="Manualmente" %}
 É importante que seu sistema esteja com os pacotes atualizados, execute:
 
 ```
@@ -72,9 +51,7 @@ Crie um serviço para o gerenciador unifi e coloque na inicialização.
 Configure o firewall.
 
 Ficou com dúvidas? Veja nosso script de configuração automática disponível em: [https://github.com/rmbinformatica/configure\_unifi\_centos6.9](https://github.com/rmbinformatica/configure\_unifi\_centos6.9)
-{% endtab %}
 
-{% tab title="Docker" %}
 Outra maneira de realizar a instalação do gerenciador Unifi no CentOS é por meio do docker. Sendo essa nossa recomendação atual.
 
 Primeiro é necessário instalar e habilitar o serviço docker no linux:
@@ -111,14 +88,11 @@ Testamos e gostamos do container [jacobalberty/unifi](https://hub.docker.com/r/j
 docker run --rm -d -p 8080:8080 -p 8443:8443 -p 3478:3478/udp -p 10001:10001/udp -e TZ='America/Recife' -v ~/unifi:/unifi --name unifi jacobalberty/unifi:stable
 ```
 
-Feito isso basta acessar o unifi controller através do ip da máquina docker, usando https na porta 8443, exemplo:&#x20;
+Feito isso basta acessar o unifi controller através do ip da máquina docker, usando https na porta 8443, exemplo:
 
-&#x20;**https://\[ip-docker]:8443**
+**https://\[ip-docker]:8443**
 
 Em caso de dúvidas basta contratar nosso suporte.
-{% endtab %}
-{% endtabs %}
-
 
 {% tabs %}
 {% tab title="Autor" %}

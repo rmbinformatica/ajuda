@@ -11,7 +11,7 @@ O primeiro passo para configurar o Windows 11 para utilizar o conectividade soci
 
 ## Configurando o Java para o Conectividade Social no Windows 11
 
-Após instalado acesse o **Configurar Java**. Você pode encontrar essa opção em i_niciar - todos os programas - java - configurar java_, ou: _painel de controle - java_.
+Após instalado acesse o **Configurar Java**. Você pode encontrar essa opção em i\_niciar - todos os programas - java - configurar java\_, ou: _painel de controle - java_.
 
 ### Excluindo arquivos temporários do java e versões em cache de applets
 
@@ -84,7 +84,7 @@ Na aba **Segurança**, selecione a zona **Sites confiáveis**, altere o _nível 
 
 Em seguida clique no botão **Sites**.
 
-![](<../../.gitbook/assets/image (61) (1).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 Preencha a lista de sites abaixo e clique no botão **Adicionar**, _um de cada vez_. Para adicionar o último endereço é necessário _desmarcar_ a opção "_Exigir verificação do servidor (https:) para todos os sites dessa zona_".
 
@@ -97,7 +97,7 @@ http://conectividade.caixa.gov.br
 
 Após adicionados os três sites, clique no botão **Fechar**.
 
-![](<../../.gitbook/assets/image (64) (1).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 ### Configurações da aba privacidade
 
@@ -111,13 +111,13 @@ Após desmarcado, clique no botão **Aplicar**.
 
 ### Configurações da aba Programas
 
-Na aba **Programas** clique no botão **Gerenciar Complementos**.&#x20;
+Na aba **Programas** clique no botão **Gerenciar Complementos**.
 
-![](<../../.gitbook/assets/image (73) (1).png>)
+![](<../../.gitbook/assets/image (92).png>)
 
 Na parte esquerda da tela, escolha na opção **Mostrar**: _Todos os Complementos_. No lado direito da tela certifique-se que todas as opções que contém java encontram-se **habilitadas**. (Para habilitar uma opção basta clicar com o botão _direito_ e escolher _habilitar_.)
 
-![](<../../.gitbook/assets/image (72) (1) (1).png>)
+![](<../../.gitbook/assets/image (75).png>)
 
 ### Configurações da aba Avançado
 
@@ -139,11 +139,11 @@ A opção _Usar TLS 1.3_ deve ser **desmarcada**. Para uso do conectividade soci
 
 Utilizando o navegador Microsoft Edge acesse a [página da extensão IE Tab na loja de complementos do Edge](https://microsoftedge.microsoft.com/addons/detail/ie-tab/npjkkakdacjaihjaoeliacmecofghagh). Em seguida clique no botão **Obter**.
 
-<img src="../../.gitbook/assets/image (74) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (44).png" alt="" data-size="original">
 
 No pop-up que será exibido, clique no botão Adicionar Extensão.
 
-<img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (28).png" alt="" data-size="original">
 
 Você pode configurar para a extensão ficar sempre visível clicando no botão extensões e clicando no olho que fica ao lado da extensão IE Tab.
 
@@ -153,7 +153,7 @@ Você pode configurar para a extensão ficar sempre visível clicando no botão 
 
 Feito todos os passos acima, para acessar o Conectividade Social, clique no ícone da extensão IE Tab.
 
-![](<../../.gitbook/assets/image (69) (1).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
 No primeiro acesso pode ser que a extensão baixe um arquivo chamado `ietabhelper.exe`, basta **executar** esse arquivo ao término do download. Se ocorrer isso após abrir o arquivo clique novamente no ícone da extensão IE Tab.
 
