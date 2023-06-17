@@ -38,6 +38,7 @@
 
 * [Orientações importantes sobre a crimpagem de cabos de rede ethernet](redes-e-infraestrutura/orientacoes-importantes-sobre-a-crimpagem-de-cabos-de-rede-ethernet.md)
 * [Docker](redes-e-infraestrutura/docker/README.md)
+  * [Guia rápido de utilização do docker](redes-e-infraestrutura/docker/guia-rapido-docker.md)
   * [Usando containers docker sem conexão a internet de maneira offline](redes-e-infraestrutura/docker/usando-containers-docker-sem-internet-offline.md)
 * [UniFi](redes-e-infraestrutura/unifi/README.md)
   * [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/unifi/instalando-o-gerenciador-unifi-no-centos.md)
