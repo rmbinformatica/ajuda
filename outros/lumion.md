@@ -26,7 +26,7 @@ Feito isto basta abrir o lumion novamente e funcionará normalmente.
 1. Clique com o botão direito em um espaço vazio da área de trabalho do windows e escolha a opção **Painel de controle nvidia**
 2. Altere o processador gráfico preferido para **Processador nvidia de alto desempenho**.
 3. Acesse a aba **configurações do programa** e clique no botão **adicionar**
-4. Localize o executável do Lumion na pasta (_c:\arquivos de programas\Lumion xx_)
+4. Localize o executável do Lumion na pasta (`c:\arquivos de programas\Lumion xx`)
 5. Na opção _2 Selecionar o processador gráfico deste programa_ escolha a opção **Processador nvidia de alto desempenho** e salve clicando no botão **aplicar**.
 
 {% tabs %}
