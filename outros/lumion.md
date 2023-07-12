@@ -19,7 +19,7 @@ Feito isto basta abrir o lumion novamente e funcionará normalmente.
 1. Clique com o botão direito em um espaço vazio da área de trabalho do windows e escolha a opção **configurações do radeon**
 2. Na última aba, altere a opção de _aplicativos em execução_ para **aplicativos com perfil instalado**.
 3. Clique em procurar e localize o executável do Lumion na pasta (`c:\arquivos de programas\Lumion...`)
-4. Altere a opção do aplicativo `Lumion`_` para **Alto desempenho**.
+4. Altere a opção do aplicativo `Lumion` para **Alto desempenho**.
 
 ## Configurando placa de vídeo Nvidia para uso do Lumion
 
