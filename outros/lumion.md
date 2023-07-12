@@ -10,7 +10,7 @@ Esse problema está ocorrendo devido a atualização da versão 2020 do Windows 
 
 Para resolvê-lo, acesse o windows explorer, abra a pasta `C:\Arquivos de Programas\Lumion xx\3rd`
 
-Recorte o arquivo `onxruntime.dll` e cole na pasta `C:\Arquivos de Programas\Lumion...`
+Recorte o arquivo `onxruntime.dll` e cole na pasta `C:\Arquivos de Programas\Lumion xx`
 
 Feito isto basta abrir o lumion novamente e funcionará normalmente.
 
@@ -18,7 +18,7 @@ Feito isto basta abrir o lumion novamente e funcionará normalmente.
 
 1. Clique com o botão direito em um espaço vazio da área de trabalho do windows e escolha a opção **configurações do radeon**
 2. Na última aba, altere a opção de _aplicativos em execução_ para **aplicativos com perfil instalado**.
-3. Clique em procurar e localize o executável do Lumion na pasta (`c:\arquivos de programas\Lumion...`)
+3. Clique em procurar e localize o executável do Lumion na pasta (`c:\arquivos de programas\Lumion xx`)
 4. Altere a opção do aplicativo `Lumion` para **Alto desempenho**.
 
 ## Configurando placa de vídeo Nvidia para uso do Lumion
