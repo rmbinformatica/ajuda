@@ -62,7 +62,7 @@
 * [MySQL](guidelines/mysql.md)
 * [LFTP](guidelines/lftp.md)
 * [Expressões Regulares](guidelines/regex.md)
-* [Estruturas de Sintaxe Básicas deas Linguagens de Programação](guidelines/estruturas-de-sintaxe-basicas-das-linguagens-de-programacao.md)
+* [Estruturas de Sintaxe Básicas das Linguagens de Programação](guidelines/estruturas-de-sintaxe-basicas-das-linguagens-de-programacao.md)
 
 ## SEGURANÇA
 
