@@ -17,7 +17,7 @@ As estruturas de sintaxe básicas de qualquer linguagem de programação são as
 - [Bash Script](bash.md)
 - [C# (C Sharp)](csharp.md)
 - [JavaScript](javascript.md)
-- [Perl](perl)
+- [Perl](perl.md)
 - [PHP](php.md)
 - [Python](sintaxe-programacao/python)
 - [Windows PowerShell](powershell.md)
