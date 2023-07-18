@@ -4,6 +4,228 @@ description: Orientações sobre o mysql
 
 # MySQL
 
+## Estruturas básicas de sintaxe para criação de funções e procedures
+
+### Comentários em mysql
+
+```sql
+-- Este é um comentário de linha única
+# Este também é um comentário de linha única
+
+/* Este é um comentário
+   de múltiplas linhas */
+SELECT * FROM tabela;
+```
+
+### Declaração de variáveis
+
+*Variáveis definidas pelo usuário*: São identificadas por um símbolo @ usado como prefixo. Você pode inicializar, atribuir e usar essas variáveis em qualquer lugar do seu código. Por exemplo:
+
+```sql
+SET @x = 10;
+SELECT @x + 5;
+```
+
+*Variáveis locais*: São declaradas dentro de um bloco BEGIN … END usando o comando DECLARE. Elas só podem ser usadas dentro desse bloco e são automaticamente destruídas quando o bloco termina. Por exemplo:
+
+```sql
+BEGIN
+  DECLARE x INT DEFAULT 10;
+  SELECT x + 5;
+END;
+```
+
+*Variáveis de sistema*: São definidas pelo MySQL e armazenam informações sobre o servidor, a sessão ou o status do banco de dados. Elas são identificadas por um prefixo @@ e podem ser lidas ou modificadas usando os comandos SET ou SHOW. Por exemplo:
+
+```sql
+SHOW VARIABLES LIKE 'version';
+SET @@autocommit = 0;
+```
+
+#### Atribuindo o retorto de uma consulta a uma tabela a uma variavel
+
+```sql
+SELECT coluna INTO @variavel FROM tabela WHERE condicao LIMIT 1;
+```
+
+#### Arrays
+
+O MySQL não suporta arrays, mas é possível simular arrays usando variáveis de usuário mas eles não são muito elegantes ou eficientes.
+
+1 - Pode-se usar uma string com valores separados por vírgula (ou outro caractere) e usar as funções FIND_IN_SET ou SUBSTRING_INDEX para acessar os elementos. Exemplo:
+
+```sql
+SET @myArray = '2,5,2,23,6';
+SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(@myArray, ',', 3), ',', -1); -- retorna 2
+```
+
+2 - Podemos usar uma tabela temporária com uma coluna de índice e uma coluna de valor e usar o comando SELECT para acessar os elementos. Exemplo:
+
+```sql
+CREATE TEMPORARY TABLE myArray (index INT, value INT);
+INSERT INTO myArray VALUES (1, 2), (2, 5), (3, 2), (4, 23), (5, 6);
+SELECT value FROM myArray WHERE index = 3; -- retorna 2
+```
+
+3 - Podemos e usar uma tabela associativa usando o tipo TABLE OF e um índice numérico ou de string. Esse recurso está disponível apenas dentro de blocos PL/SQL e requer a declaração de um tipo de tabela. Exemplo:
+
+```sql
+DECLARE
+  TYPE myArrayType IS TABLE OF INT INDEX BY PLS_INTEGER;
+  myArray myArrayType;
+BEGIN
+  myArray(1) := 2;
+  myArray(2) := 5;
+  myArray(3) := 2;
+  myArray(4) := 23;
+  myArray(5) := 6;
+  SELECT myArray(3); -- retorna 2
+END;
+```
+
+### IF em mysql
+
+Usando em funções e procedures:
+
+```sql
+IF condição THEN
+  -- bloco de código 1
+ELSEIF condição THEN
+  -- bloco de código 2
+...
+ELSE
+  -- bloco de código n
+END IF;
+```
+
+Usando em comandos SQL:
+
+```sql
+SELECT
+  IF(condição, valor_se_verdadeiro, valor_se_falso) AS nome_da_coluna
+FROM tabela;
+```
+
+### CASE em mysql
+
+Usando em funções e procedures:
+
+```sql
+CASE
+  WHEN condição THEN
+    -- bloco de código 1
+  WHEN condição THEN
+    -- bloco de código 2
+  ...
+  ELSE
+    -- bloco de código n
+END CASE;
+```
+
+Usando em comandos SQL:
+
+```sql
+SELECT
+  CASE
+    WHEN condição THEN valor_se_verdadeiro
+    WHEN condição THEN valor_se_verdadeiro
+    ...
+    ELSE valor_se_falso
+  END AS nome_da_coluna
+FROM tabela;
+```
+
+### WHILE em mysql
+
+O `<rotulo>` é um identificador *opcional* que serve para referenciar o loop na declaração `LEAVE` ou `ITERATE`. A `condicao` é uma expressão que pode ser avaliada como verdadeira ou falsa.
+
+```sql
+[<rotulo>:] WHILE condicao DO
+  -- bloco de código
+END WHILE [<rotulo>];
+```
+
+### REPEAT em mysql
+
+```sql
+[<rotulo>:] REPEAT
+  -- bloco de código
+UNTIL condicao
+END REPEAT [<rotulo>];
+
+```
+
+### LOOP em mysql
+
+```sql
+[<rotulo>:] LOOP
+  -- bloco de código
+  IF condicao THEN
+    LEAVE <rotulo>;
+  END IF;
+END LOOP [<rotulo>];
+```
+
+
+### FOR em mysql
+
+```sql
+FOR loop_counter IN [REVERSE] valor_inicial .. valor_final DO
+  -- bloco de código
+END FOR;
+```
+
+## Declarando funções e procedures em mysql
+
+### Criando uma função
+
+```sql
+CREATE FUNCTION nome_da_funcao (parametro1 tipo, parametro2 tipo, ...) RETURNS tipo
+BEGIN
+  -- bloco de código
+END;
+```
+
+#### Modificação do delimitador na criação de funções
+
+Dependendo da complexidade da função é possível que seja necessário definir o delimitador de comandos para que o mysql não interprete o ponto e vírgula como o fim da declaração da função.
+
+```sql
+DELIMITER //
+CREATE FUNCTION comparar (n INT, m INT)
+RETURNS VARCHAR(20)
+BEGIN
+  DECLARE msg VARCHAR(20);
+  IF n > m THEN
+    SET msg = 'maior que';
+  ELSEIF n = m THEN
+    SET msg = 'igual a';
+  ELSE
+    SET msg = 'menor que';
+  END IF;
+  SET msg = CONCAT(n, ' é ', msg, ' ', m);
+  RETURN msg;
+END //
+DELIMITER ;
+```
+
+#### Chamando uma função
+
+```sql
+SELECT Comparar(10, 5); -- retorna '10 é maior que 5'
+SELECT Comparar(5, 5); -- retorna '5 é igual a 5'
+SELECT Comparar(5, 10); -- retorna '5 é menor que 10'
+```
+
+### Criando uma procedure
+
+```sql
+CREATE PROCEDURE nome_da_procedure (parametro1 tipo, parametro2 tipo, ...)
+BEGIN
+  -- bloco de código
+END;
+```
+
 ## mysqldump
 
 O _mysqldump_ é uma ferramenta muito útil para backup de banco de dados mysql. Mas é preciso se atentar para algumas questões no uso dessa ferramenta.
