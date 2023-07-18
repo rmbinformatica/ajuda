@@ -63,6 +63,14 @@
 * [LFTP](guidelines/lftp.md)
 * [Expressões Regulares](guidelines/regex.md)
 * [Estruturas de Sintaxe Básicas das Linguagens de Programação](guidelines/sintaxe-programacao/README.md)
+  * [Bash Script](guidelines/sintaxe-programacao/bash.md)
+  * [C# (C Sharp)](guidelines/sintaxe-programacao/csharp.md)
+  * [JavaScript](guidelines/sintaxe-programacao/javascript.md)
+  * [Perl](guidelines/sintaxe-programacao/perl.md)
+  * [PHP](guidelines/sintaxe-programacao/php.md)
+  * [Python](guidelines/sintaxe-programacao/sintaxe-programacao/python.md)
+  * [Windows PowerShell](guidelines/sintaxe-programacao/powershell.md)
+
 
 ## SEGURANÇA
 
