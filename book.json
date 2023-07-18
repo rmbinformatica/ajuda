@@ -1,5 +1,6 @@
 {
   "plugins": ["sitemap-general","git-author"],
+  "author": "Renato Monteiro Batista",
   "pluginsConfig": {
     "sitemap-general": {
       "prefix": "https://doc.rmbinformatica.com.br/ajuda/"
