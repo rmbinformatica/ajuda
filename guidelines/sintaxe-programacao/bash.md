@@ -192,6 +192,16 @@ echo "O resultado da multiplicação é $resultado_multiplica" # Imprime "O resu
 
 Mais detalhes e exemplos em [Passing parameters to a Bash function - Stack Overflow](https://stackoverflow.com/questions/6212219/passing-parameters-to-a-bash-function) e [Return value in a Bash function - Stack Overflow](https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function).
 
+## Fazer requisições HTTP no Bash usando curl
+
+```bash
+# Requisição GET
+curl https://example.com
+
+# Requisição POST
+curl -d "param1=value1&param2=value2" https://example.com
+```
+
 ## Links úteis
 
 - [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)

@@ -164,6 +164,41 @@ Write-Host "O resultado da multiplicação é $(multiplica 3 4)" # Imprime "O re
 
 Mais detalhes e exemplos em [about Functions - PowerShell Microsoft Learn](https://learn.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_functions?view=powershell-7.3) e [about Return - PowerShell  Microsoft Learn](https://learn.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_return?view=powershell-7.3).
 
+## Fazendo uma requisição HTTP no PowerShell
+
+### Usando System.Net.WebRequest
+
+```powershell
+$request = [System.Net.WebRequest]::Create ('http://example.com')
+$request.Method = "POST"
+$request.ContentType = "application/x-www-form-urlencoded"
+$bytes = [System.Text.Encoding]::ASCII.GetBytes ("name=john&number=5")
+$request.ContentLength = $bytes.Length
+$requestStream = $request.GetRequestStream ()
+$requestStream.Write ( $bytes, 0, $bytes.Length )
+$requestStream.Close ()
+$response = $request.GetResponse ()
+```
+
+### Usando System.Net.WebClient
+
+```powershell
+$client = new-object system.net.webclient
+$client.UploadString ("http://example.com", "POST", "name=john&number=5")
+```
+
+### Usando Invoke-WebRequest
+
+```powershell
+Invoke-WebRequest -Uri "http://example.com" -Method POST -Body "name=john&number=5"
+```
+
+### Usando Invoke-RestMethod
+
+```powershell
+Invoke-RestMethod -Uri "http://example.com" -Method POST -Body "name=john&number=5"
+```
+
 ## Links úteis
 
 - [Documentação do PowerShell - Microsoft Learn](https://learn.microsoft.com/pt-br/powershell/)

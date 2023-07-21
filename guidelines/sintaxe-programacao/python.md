@@ -226,6 +226,39 @@ print("O resultado da multiplicação é", multiplica(3, 4)) # Imprime "O result
 
 Mais detalhes e exemplos em [Python Functions - w3schools.com](https://www.w3schools.com/python/python_functions.asp).
 
+## Fazer requisições HTTP no Python
+
+```python
+# Requisição GET usando requests
+import requests
+url = "https://example.com"
+response = requests.get(url)
+print(response.text)
+
+# Requisição POST usando requests
+import requests
+url = "https://example.com"
+data = {"param1": "value1", "param2": "value2"}
+response = requests.post(url, data=data)
+print(response.text)
+
+# Requisição GET usando urllib
+import urllib.request
+url = "https://example.com"
+response = urllib.request.urlopen(url)
+print(response.read())
+
+# Requisição POST usando urllib
+import urllib.request
+import urllib.parse
+url = "https://example.com"
+data = {"param1": "value1", "param2": "value2"}
+data = urllib.parse.urlencode(data).encode()
+request = urllib.request.Request(url, data=data)
+response = urllib.request.urlopen(request)
+print(response.read())
+```
+
 ## Links úteis
 
 - [Python Doc](https://www.python.org/doc/)

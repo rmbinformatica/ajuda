@@ -183,6 +183,52 @@ echo "O resultado da multiplicação é " . multiplica(3, 4) . "\n"; // Imprime 
 
 Mais detalhes e exemplos em [PHP: Funções - Manual](https://www.php.net/manual/pt_BR/language.functions.php).
 
+## Fazendo requisiçÕes HTTP no PHP
+
+### Usando file_get_contents
+
+```php
+// Requisição GET usando file_get_contents
+$url = "https://example.com";
+$response = file_get_contents($url);
+
+// Requisição POST usando file_get_contents
+$url = "https://example.com";
+$data = array("param1" => "value1", "param2" => "value2");
+$content = http_build_query($data);
+$context = stream_context_create(array(
+  "http" => array(
+    "method" => "POST",
+    "header" => "Content-type: application/x-www-form-urlencoded\r\n".
+                "Content-Length: ".strlen($content)."\r\n",
+    "content" => $content
+  )
+));
+$response = file_get_contents($url, null, $context);
+```
+
+### Usando curl
+
+```php
+// Requisição GET usando curl
+$url = "https://example.com";
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($ch);
+curl_close($ch);
+
+// Requisição POST usando curl
+$url = "https://example.com";
+$data = array("param1" => "value1", "param2" => "value2");
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+$response = curl_exec($ch);
+curl_close($ch);
+```
+
 ## Links úteis
 
 - [Manual oficial do PHP](https://www.php.net/manual/pt_BR/index.php)

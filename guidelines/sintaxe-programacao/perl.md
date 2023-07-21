@@ -167,6 +167,36 @@ print "O resultado da multiplicação é " . multiplica(3, 4) . "\n"; # Imprime 
 
 Mais detalhes e exemplos em [Perl Functions - Tutorialspoint](https://www.tutorialspoint.com/perl/perl_functions.htm).
 
+## Fazendo requisições HTTP no Perl
+
+```perl
+# Requisição GET
+use LWP::UserAgent;
+my $ua = LWP::UserAgent->new;
+my $url = "https://example.com";
+my $response = $ua->get($url);
+if ($response->is_success) {
+  print $response->decoded_content;
+}
+else {
+  die $response->status_line;
+}
+
+# Requisição POST
+use LWP::UserAgent;
+use HTTP::Request::Common qw(POST);
+my $ua = LWP::UserAgent->new;
+my $url = "https://example.com";
+my $data = ["param1" => "value1", "param2" => "value2"];
+my $response = $ua->request(POST $url, Content => $data);
+if ($response->is_success) {
+  print $response->decoded_content;
+}
+else {
+  die $response->status_line;
+}
+```
+
 ## Links úteis
 
 - [Perl Documentation](https://perldoc.perl.org/)

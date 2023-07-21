@@ -172,6 +172,89 @@ Console.WriteLine("O resultado da multiplicação é " + multiplica(3, 4)); // I
 
 Mais detalhes e exemplos em [Methods - C# Programming Guide | Microsoft Docs](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/methods).
 
+
+## Fazer requisições HTTP no C#
+
+### Usando HttpClient
+
+```csharp
+using System.Net.Http;
+
+// Criar uma instância de HttpClient e configurar a base address
+private static readonly HttpClient client = new HttpClient()
+{
+    BaseAddress = new Uri("http://example.com")
+};
+
+// Fazer uma requisição GET
+var responseString = await client.GetStringAsync("/recepticle.aspx");
+
+// Fazer uma requisição POST
+var values = new Dictionary<string, string>
+{
+    { "thing1", "hello" },
+    { "thing2", "world" }
+};
+
+var content = new FormUrlEncodedContent(values);
+
+var response = await client.PostAsync("/recepticle.aspx", content);
+
+var responseString = await response.Content.ReadAsStringAsync();
+```
+
+### Usando HttpWebRequest
+
+```csharp
+using System.Net;
+using System.Text;
+using System.IO;
+
+// Criar uma instância de HttpWebRequest e configurar o método e o conteúdo
+var request = (HttpWebRequest)WebRequest.Create("http://example.com/recepticle.aspx");
+var postData = "thing1=" + Uri.EscapeDataString("hello");
+postData += "&thing2=" + Uri.EscapeDataString("world");
+var data = Encoding.ASCII.GetBytes(postData);
+
+request.Method = "POST";
+request.ContentType = "application/x-www-form-urlencoded";
+request.ContentLength = data.Length;
+
+// Escrever os dados no stream da requisição
+using (var stream = request.GetRequestStream())
+{
+    stream.Write(data, 0, data.Length);
+}
+
+// Obter a resposta da requisição
+var response = (HttpWebResponse)request.GetResponse();
+
+var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+```
+
+### Usando WebClient
+
+```csharp
+using System.Net;
+using System.Collections.Specialized;
+
+// Criar uma instância de WebClient
+using (var client = new WebClient())
+{
+    // Fazer uma requisição GET
+    var responseString = client.DownloadString("http://example.com/recepticle.aspx");
+
+    // Fazer uma requisição POST
+    var values = new NameValueCollection();
+    values["thing1"] = "hello";
+    values["thing2"] = "world";
+
+    var response = client.UploadValues("http://example.com/recepticle.aspx", values);
+
+    var responseString = Encoding.Default.GetString(response);
+}
+```
+
 ## Links úteis
 
 - [Guia do C# Microsoft Learn](https://learn.microsoft.com/pt-br/dotnet/csharp/)

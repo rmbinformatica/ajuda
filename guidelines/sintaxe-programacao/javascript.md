@@ -161,6 +161,90 @@ console.log("O resultado da multiplicação é " + multiplica(3, 4)); // Imprime
 
 Mais detalhes e exemplos em [Understand parameters and return values - OpenClassrooms](https://openclassrooms.com/en/courses/5664271-learn-programming-with-javascript/6056621-understand-parameters-and-return-values)
 
+## Fazendo uma requisição HTTP no JavaScript
+
+### Usando XMLHttpRequest
+
+```javascript
+// Criar uma instância de XMLHttpRequest
+var xhr = new XMLHttpRequest();
+
+// Configurar o método, a URL e o tipo de resposta
+xhr.open('GET', 'http://example.com/recepticle.aspx');
+xhr.responseType = 'text';
+
+// Definir uma função para lidar com o carregamento da resposta
+xhr.onload = function() {
+  if (xhr.status === 200) {
+    // A requisição foi bem sucedida e a resposta está disponível em xhr.response
+    console.log(xhr.response);
+  }
+  else {
+    // A requisição falhou e o status está disponível em xhr.status
+    console.error('Request failed: ' + xhr.status);
+  }
+};
+
+// Enviar a requisição
+xhr.send();
+```
+
+### Usando fetch
+
+```javascript
+// Fazer uma requisição GET usando a API Fetch
+fetch('http://example.com/recepticle.aspx')
+  .then(function(response) {
+    // Verificar se a resposta foi bem sucedida
+    if (response.ok) {
+      // Retornar a resposta como texto
+      return response.text();
+    }
+    else {
+      // Lançar um erro com o status da resposta
+      throw new Error('Request failed: ' + response.status);
+    }
+  })
+  .then(function(data) {
+    // A resposta como texto está disponível em data
+    console.log(data);
+  })
+  .catch(function(error) {
+    // Lidar com o erro lançado
+    console.error(error);
+  });
+
+// Fazer uma requisição POST usando a API Fetch
+fetch('http://example.com/recepticle.aspx', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded'
+  },
+  body: 'thing1=hello&thing2=world'
+})
+  .then(function(response) {
+    // Verificar se a resposta foi bem sucedida
+    if (response.ok) {
+      // Retornar a resposta como texto
+      return response.text();
+    }
+    else {
+      // Lançar um erro com o status da resposta
+      throw new Error('Request failed: ' + response.status);
+    }
+  })
+  .then(function(data) {
+    // A resposta como texto está disponível em data
+    console.log(data);
+  })
+  .catch(function(error) {
+    // Lidar com o erro lançado
+    console.error(error);
+  });
+```
+
+
+
 ## Links úteis
 
 - [JavaScript | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
