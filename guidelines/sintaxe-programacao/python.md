@@ -2,6 +2,7 @@
 description: >-
   Estruturas de sintaxe básicas do Python.
 ---
+
 ## Estruturas de sintaxe básicas do Python
 
 ### Comentários em Python
