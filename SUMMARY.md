@@ -68,9 +68,8 @@
   * [JavaScript](guidelines/sintaxe-programacao/javascript.md)
   * [Perl](guidelines/sintaxe-programacao/perl.md)
   * [PHP](guidelines/sintaxe-programacao/php.md)
-  * [Python](guidelines/sintaxe-programacao/sintaxe-programacao/python.md)
+  * [Python](guidelines/sintaxe-programacao/python.md)
   * [Windows PowerShell](guidelines/sintaxe-programacao/powershell.md)
-
 
 ## SEGURANÇA
 

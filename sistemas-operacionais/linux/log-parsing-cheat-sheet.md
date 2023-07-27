@@ -16,15 +16,15 @@ grep <padrao> <arquivo.log>
 
 ### Opções do comando `grep`
 
-- `-E` Regex extendida
-- `-i` Case insentitive
-- `-c` Contagem de resultados
-- `-l` Busca nos nomes dos arquivos
-- `-n` Mostrar o número das linhas onde o padrão foi encontrado.
-- `-v` Inverter o sentido da busca e mostrar as linhas que não possuem o padrão.
-- `-R` Varrer recursivamente os arquivos do diretório atual e todas as subpastas.
+* `-E` Regex extendida
+* `-i` Case insentitive
+* `-c` Contagem de resultados
+* `-l` Busca nos nomes dos arquivos
+* `-n` Mostrar o número das linhas onde o padrão foi encontrado.
+* `-v` Inverter o sentido da busca e mostrar as linhas que não possuem o padrão.
+* `-R` Varrer recursivamente os arquivos do diretório atual e todas as subpastas.
 
----
+
 
 ## `ngrep`
 
@@ -38,13 +38,13 @@ ngrep -I <arquivo.pcap>
 
 ### Opções do comando `ngrep`
 
-- `-i` Case insenitive
-- `-t` Exibir timestamp
-- `-I` Ler arquivo pcap
-- `-x` Exibir hexdump alternativo
-- `-d` Especificar interface de rede
+* `-i` Case insenitive
+* `-t` Exibir timestamp
+* `-I` Ler arquivo pcap
+* `-x` Exibir hexdump alternativo
+* `-d` Especificar interface de rede
 
----
+
 
 ## `cut`
 
@@ -58,11 +58,11 @@ cut -d ":" -f 2 <arquivo.log>
 
 ### Opções do comando `cut`
 
-- `-f` Número de campos
-- `-d` Especificar o delimitador
-- `-c` Especificar contagem de caracteres
+* `-f` Número de campos
+* `-d` Especificar o delimitador
+* `-c` Especificar contagem de caracteres
 
----
+
 
 ## `sed`
 
@@ -76,14 +76,14 @@ sed s/busca/substituto/g
 
 ### Opções do comando `sed`
 
-- `s` Busca
-- `d` Remover
-- `g` Substituto
-- `w` Acrescentar ao arquivo
-- `-n` Suprimir saída
-- `-e` Executar comando
+* `s` Busca
+* `d` Remover
+* `g` Substituto
+* `w` Acrescentar ao arquivo
+* `-n` Suprimir saída
+* `-e` Executar comando
 
----
+
 
 ## `sort`
 
@@ -97,14 +97,14 @@ sort <arquivo.txt>
 
 ### Opções do comando `sort`
 
-- `-r` Ordem reversa
-- `-h` Formato humano
-- `-u` Ordenar e remover
-- `-n` Ordenação numérica
-- `-k` Ordenar por coluna
-- `-c` Verificar se ordenado
-- `-o` Direcionar saída para um arquivo
-- `-f` Ignorar case (maiúscula/minúscula)
+* `-r` Ordem reversa
+* `-h` Formato humano
+* `-u` Ordenar e remover
+* `-n` Ordenação numérica
+* `-k` Ordenar por coluna
+* `-c` Verificar se ordenado
+* `-o` Direcionar saída para um arquivo
+* `-f` Ignorar case (maiúscula/minúscula)
 
 ## `uniq`
 
@@ -118,9 +118,9 @@ uniq <arquivo.txt>
 
 ### Opções do comando `uniq`
 
-- `-i` Case insensitive
-- `-d` Imprimir duplicidades
-- `-c` Contar a quantidade de duplicidades
+* `-i` Case insensitive
+* `-d` Imprimir duplicidades
+* `-c` Contar a quantidade de duplicidades
 
 ## `diff`
 
@@ -134,12 +134,12 @@ diff <arquivo_a.txt> <arquivo_b.txt>
 
 ### Como interpretar o resultado do `diff`?
 
-- `a` Adição
-- `d` Remoção
-- `c` Modificação
-- `<` Arquivo A
-- `>` Arquivo B
-- `#` Número da linha
+* `a` Adição
+* `d` Remoção
+* `c` Modificação
+* `<` Arquivo A
+* `>` Arquivo B
+* `#` Número da linha
 
 ## `awk`
 

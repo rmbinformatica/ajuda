@@ -17,7 +17,7 @@ Clique com o botão **direito** em qualquer área vazia da área de trabalho e, 
 
 Na janela que surgirá clique na opção **Temas** que aparece do lado esquerdo e, em seguida, na opção **Configurações de ícones da área de trabalho**, conforme mostrado na figura abaixo:
 
-<img src="../../.gitbook/assets/image (4).png" alt="windows personalizar configurações temas ícones da área de trabalho" data-size="original">
+<img src="../../.gitbook/assets/image.png" alt="windows personalizar configurações temas ícones da área de trabalho" data-size="original">
 
 Na janela a seguir, selecione a opção **Computador** e, em seguida, clique **OK**.
 

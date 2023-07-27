@@ -1,11 +1,12 @@
 ---
-description: >-
-  Estruturas de sintaxe básicas do Python.
+description: Estruturas de sintaxe básicas do Python.
 ---
 
-## Estruturas de sintaxe básicas do Python
+# Python
 
-### Comentários em Python
+### Estruturas de sintaxe básicas do Python
+
+#### Comentários em Python
 
 Comentários são blocos de texto que não são interpretados pela linguagem de programação. Eles são utilizados para documentar o código, explicar o que está sendo feito, ou para desabilitar uma parte do código.
 
@@ -23,21 +24,21 @@ de múltiplas linhas
 '''
 ```
 
-### Declaração de variáveis em Python
+#### Declaração de variáveis em Python
 
 ```python
 # Variável
 var = "Python"
 ```
 
-### Declaração de arrays em Python
+#### Declaração de arrays em Python
 
 ```python
 # Lista
 lista = [1, "Python", True, [2, 3, 4]]
 ```
 
-### Ler input do usuário, atribuir a uma variável e depois imprimir na tela em Python
+#### Ler input do usuário, atribuir a uma variável e depois imprimir na tela em Python
 
 ```python
 # Ler um input do usuário e guardar na variável nome
@@ -47,9 +48,9 @@ nome = input("Qual é o seu nome? ")
 print(f"Olá, {nome}!")
 ```
 
-## Estruturas de seleção em Python
+### Estruturas de seleção em Python
 
-### if em Python
+#### if em Python
 
 ```python
 # Testar uma expressão usando if
@@ -71,7 +72,7 @@ else:
   # Executar este bloco se nenhuma das expressões anteriores for verdadeira
 ```
 
-### switch em Python
+#### switch em Python
 
 ```python
 # Criar um dicionário com os valores e as funções correspondentes
@@ -86,9 +87,9 @@ switch = {
 switch.get(VARIÁVEL, função_default)()
 ```
 
-## Estruturas de repetição em Python
+### Estruturas de repetição em Python
 
-### for em Python
+#### for em Python
 
 ```python
 # Iterar sobre uma lista
@@ -168,7 +169,7 @@ for i in range(10, 0, -2):
   # Executar este bloco para cada número de 10 a 1 com passo de -2
 ```
 
-### while em Python
+#### while em Python
 
 ```python
 # Executar um bloco de código enquanto uma expressão for verdadeira usando while
@@ -176,7 +177,7 @@ while EXPRESSÃO:
   # Executar este bloco enquanto a expressão for verdadeira
 ```
 
-### do while em Python
+#### do while em Python
 
 Em Python, não há uma estrutura do-while nativa, mas você pode simular um comportamento semelhante usando um laço while com uma variável de controle. A sintaxe para usar um laço while com uma variável de controle é a seguinte:
 
@@ -188,7 +189,7 @@ while primeira_vez or EXPRESSÃO:
   primeira_vez = False
 ```
 
-### foreach em Python
+#### foreach em Python
 
 ```python
 # Iterar sobre uma lista
@@ -207,9 +208,9 @@ for chave, valor in dicionario.items():
   print(f"{chave} => {valor}")
 ```
 
-Mais detalhes e exemplos em [Python For Loops - w3schools.com](https://www.w3schools.com/python/python_for_loops.asp).
+Mais detalhes e exemplos em [Python For Loops - w3schools.com](https://www.w3schools.com/python/python\_for\_loops.asp).
 
-## Funções em Python
+### Funções em Python
 
 ```python
 # Declarar uma função chamada soma que recebe dois parâmetros
@@ -225,9 +226,9 @@ print("O resultado da soma é", soma(3, 4)) # Imprime "O resultado da soma é 7"
 print("O resultado da multiplicação é", multiplica(3, 4)) # Imprime "O resultado da multiplicação é 12"
 ```
 
-Mais detalhes e exemplos em [Python Functions - w3schools.com](https://www.w3schools.com/python/python_functions.asp).
+Mais detalhes e exemplos em [Python Functions - w3schools.com](https://www.w3schools.com/python/python\_functions.asp).
 
-## Fazer requisições HTTP no Python
+### Fazer requisições HTTP no Python
 
 ```python
 # Requisição GET usando requests
@@ -260,14 +261,8 @@ response = urllib.request.urlopen(request)
 print(response.read())
 ```
 
-## Links úteis
+### Links úteis
 
-- [Python Doc](https://www.python.org/doc/)
-- [Python Tutorial](https://docs.python.org/3/tutorial/)
-- [Python | W3Schools](https://www.w3schools.com/python/)
-
-{% tabs %}
-{% tab title="Autor" %}
-<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
-{% endtab %}
-{% endtabs %}
+* [Python Doc](https://www.python.org/doc/)
+* [Python Tutorial](https://docs.python.org/3/tutorial/)
+* [Python | W3Schools](https://www.w3schools.com/python/)
