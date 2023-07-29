@@ -71,6 +71,11 @@
   * [Python](guidelines/sintaxe-programacao/python.md)
   * [Windows PowerShell](guidelines/sintaxe-programacao/powershell.md)
 
+***
+
+* [RPA](rpa/README.md)
+  * [Realizando o scrap dos dados de uma página para o Excel usando Microsoft Power Automate](rpa/realizando-o-scrap-dos-dados-de-uma-pagina-para-o-excel-usando-microsoft-power-automate.md)
+
 ## SEGURANÇA
 
 * [Antivírus Kaspersky](seguranca/antivirus-kaspersky/README.md)
