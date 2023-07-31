@@ -93,7 +93,8 @@
 
 ## CHECKLISTS
 
-* [Avaliação Tecnológica](avaliacao-tecnologica.md)
+* [Avaliação Tecnológica](checklists/avaliacao-tecnologica.md)
+* [Ativação de VPN IPSEC](checklists/ativacao-vpn-ipsec.md)
 
 ## Outros
 
