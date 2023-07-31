@@ -85,17 +85,16 @@
   * [Configurando o Kaspersky antivírus para obter atualizações através da rede local](seguranca/antivirus-kaspersky/configurando-o-kaspersky-antivirus-para-obter-atualizacoes-atraves-da-rede-local.md)
 * [Mecanismos de Busca para testes de intrusão](seguranca/mecanismos-busca-testes-intrusao-invasao-pentest.md)
 
-## CoffCode Expresso
-
-* [Suporte](coffcode-expresso/suporte/README.md)
-  * [Classe não registrada](coffcode-expresso/suporte/classe-nao-registrada.md)
-
 ## Hospedagem cPanel
 
 * [Alteração da senha de e-mail](hospedagem-cpanel/alteracao-da-senha-de-e-mail/README.md)
   * [Como alterar a senha do e-mail no webmail cPanel](hospedagem-cpanel/alteracao-da-senha-de-e-mail/como-alterar-a-senha-do-e-mail-no-webmail-cpanel.md)
   * [Como redefinir a senha de um e-mail no painel de controle cPanel](hospedagem-cpanel/alteracao-da-senha-de-e-mail/como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel.md)
 * [Configurar conta de e-mail em celulares e tablet android](hospedagem-cpanel/configurar-conta-de-e-mail-em-celulares-e-tablet-android.md)
+
+***
+
+* [CHECKLISTS](checklists.md)
 
 ## Outros
 
