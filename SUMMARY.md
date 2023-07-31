@@ -71,10 +71,9 @@
   * [Python](guidelines/sintaxe-programacao/python.md)
   * [Windows PowerShell](guidelines/sintaxe-programacao/powershell.md)
 
-***
+## RPA
 
-* [RPA](rpa/README.md)
-  * [Realizando o scrap dos dados de uma página para o Excel usando Microsoft Power Automate](rpa/realizando-o-scrap-dos-dados-de-uma-pagina-para-o-excel-usando-microsoft-power-automate.md)
+* [Realizando o scrap dos dados de uma página para o Excel usando Microsoft Power Automate](rpa/realizando-o-scrap-dos-dados-de-uma-pagina-para-o-excel-usando-microsoft-power-automate.md)
 
 ## SEGURANÇA
 
@@ -92,9 +91,9 @@
   * [Como redefinir a senha de um e-mail no painel de controle cPanel](hospedagem-cpanel/alteracao-da-senha-de-e-mail/como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel.md)
 * [Configurar conta de e-mail em celulares e tablet android](hospedagem-cpanel/configurar-conta-de-e-mail-em-celulares-e-tablet-android.md)
 
-***
+## CHECKLISTS
 
-* [CHECKLISTS](checklists.md)
+* [Avaliação Tecnológica](avaliacao-tecnologica.md)
 
 ## Outros
 
