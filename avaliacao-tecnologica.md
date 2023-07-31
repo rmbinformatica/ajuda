@@ -247,3 +247,34 @@ A Análise SWOT é uma forma eficiente de identificar os Pontos Fortes e Fracos 
 
 * Como os funcionários são treinados em novos aplicativos e tecnologia?
 * Como o treinamento contínuo em tecnologia é realizado?
+
+### Suporte
+
+* Como os funcionários solicitam suporte técnico?
+* Como os problemas são resolvidos?
+* Quem é responsável pelo suporte técnico?
+
+### Ativos de Tecnologia
+
+* Como você controla os ativos de tecnologia?
+* Como você controla os ativos de software?
+
+### Política de Uso Aceitável
+
+* Existe uma política de uso aceitável? (Se sim, enviar cópia)
+* Como você garante que os funcionários estejam cientes da política de uso aceitável?
+
+### Política de Segurança
+
+* Existe uma política de segurança? (Se sim, enviar cópia)
+* Como você garante que os funcionários estejam cientes da política de segurança?
+
+{% tabs %}
+{% tab title="Autor" %}
+<table data-card-size="large" data-view="cards"><thead><tr><th data-type="users" data-multiple></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><p><strong>Renato Monteiro Batista</strong></p><p>Engenheiro de Computação</p></td><td></td><td><a href="../../.gitbook/assets/renato-monteiro-batista.jpeg">renato-monteiro-batista.jpeg</a></td><td><a href="http://renato.ovh">http://renato.ovh</a></td></tr><tr><td></td><td><em>Envie um pix</em></td><td>Se esse artigo te ajudou, colabore com nosso site enviando um pix.</td><td><a href="../../.gitbook/assets/qr-pix-largo.png">qr-pix-largo.png</a></td><td><a href="../../colabore-com-nosso-site.md">colabore-com-nosso-site.md</a></td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Veja também" %}
+* [Modelo de relatório de avaliação tecnológica](https://docs.google.com/document/d/1uhG-YXeXFqbr7CY8W_riHodXmnZCW4j_MQ22O5kn-d8/edit?usp=sharing)
+{% endtab %}
+{% endtabs %}
