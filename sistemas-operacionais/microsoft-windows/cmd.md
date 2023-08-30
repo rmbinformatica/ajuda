@@ -69,6 +69,11 @@ certutil -hashfile <nome_do_arquivo> SHA1
 Nota: Os algoritmos de hash suportados pelo `certutil` do _Windows 10_ são: **MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512**
 {% endhint %}
 
+{% hint style="info" %}
+Você também pode verificar os hashes MD5, SHA-1 e SHA-256 diretamente no seu navegador utilizando a nossa ferramenta [Verificador de hash de arquivos](http://rmbinformatica.com.br/hash.php)
+{% endhint %}
+
+
 ## Obtendo o número serial da instalação do Windows gravado na BIOS via linha de comando
 
 As versões mais recentes do Windows pré-instaladas na máquina (OEM) não vem com o selo de autenticidade (COA) com o número de série, pois esses passaram a ser gravados na BIOS da máquina. Para verificar a chave de instalação (número serial) de um windows original adquirido junto com um novo computador execute o seguinte comando:

@@ -33,6 +33,6 @@ Inclua ou altere na chave de registro **`HKEY_CURRENT_USER\Software\Microsoft\Wi
 
 Script para exibir o ícone de meu computador na área de trabalho:
 
-```
+```batch
 REG ADD HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel /f /t REG_DWORD /v "{20D04FE0-3AEA-1069-A2D8-08002B30309D}" /d 0
 ```
