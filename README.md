@@ -15,3 +15,5 @@ A qualquer momento você poderá retornar ao nosso site clicando em [RMB Inform�
 _Caso necessite de suporte especializado você poderá contratar nossos serviços, se executados por nossa equipe garantimos o padrão de qualidade e a entrega dos resultados esperados, consulte-nos._
 
 © 2020-2023 - Renato Monteiro Batista via [RMB Informática](http://www.rmbinformatica.com)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914621756983807" crossorigin="anonymous"></script>
