@@ -1,5 +1,5 @@
 {
-  "plugins": ["sitemap-general","git-author"],
+  "plugins": ["sitemap-general","git-author","html","include-html"],
   "author": "Renato Monteiro Batista",
   "pluginsConfig": {
     "sitemap-general": {
