@@ -16,4 +16,4 @@ _Caso necessite de suporte especializado você poderá contratar nossos serviço
 
 © 2020-2023 - Renato Monteiro Batista via [RMB Informática](http://www.rmbinformatica.com)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914621756983807" crossorigin="anonymous"></script>
+<div style="left: 0; width: 100%; height: 2000px; position: relative;"><iframe src="https://rmbinformatica.com.br/ga.html" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="encrypted-media;"></iframe></div>
