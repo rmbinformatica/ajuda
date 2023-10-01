@@ -53,6 +53,14 @@ Nesse artigo não será detalhado as etapas acima, o foco será somente a etapa 
 
 <figure><img src="../../.gitbook/assets/adobe-reader-documento-assinado.png" alt=""><figcaption><p>Exemplo de validação de assinatura através do Adobe Reader</p></figcaption></figure>
 
+## Outras opções de assinatura digital
+
+Outras opções de assinatura digital de arquivos:
+
+- [Assinador ITI](https://assinador.iti.br/) permite assinatura digital de arquivos com uso da conta gov.br sem a necessidade de certificado digital
+- [Assinador Serpro](https://www.serpro.gov.br/links-fixos-superiores/assinador-digital/assinador-serpro)
+- [E-notariado](https://www.e-notariado.org.br/notary/assinatura) permite assinatura digital com certificado emitido por um cartório local, é cobrado o valor de um reconhecimento de firma para cada assinatura.
+
 {% hint style="info" %}
 Para validar um arquivo assinado digitalmente você também pode fazê-lo através do site [VALIDAR do Instituto Nacional de Tecnologia da Informação](https://validar.iti.gov.br/).
 {% endhint %}
