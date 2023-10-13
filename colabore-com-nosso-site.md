@@ -13,13 +13,13 @@ Você pode fazer uma doação para nosso projeto através do pix abaixo:
 ### Chave
 
 ```
-1cb724b1-a2f8-41a4-a2b3-9abc99960a46
+56e4a45d-bdbb-4678-88bc-85f3782de33e
 ```
 
 ### Pix Copia e Cola
 
 ```
-00020101021226870014BR.GOV.BCB.PIX01361cb724b1-a2f8-41a4-a2b3-9abc99960a460225QR CODE 26/03/22 11:56:125204000053039865802BR5906RENATO6014BELO HORIZONTE62290525a9e8573515a202203261156126304906A
+00020126800014br.gov.bcb.pix013656e4a45d-bdbb-4678-88bc-85f3782de33e0218InstrucoesTecnicas520400005303986540520.005802BR5923Renato Monteiro Batista6006Brasil62290525202310131521VAAYDT7HTE37Q6304E344
 ```
 
 ## Envie Criptomoedas
@@ -27,7 +27,13 @@ Você pode fazer uma doação para nosso projeto através do pix abaixo:
 ### Envie Bitcoin (BTC)
 
 ```
-3LTJBccZnnoAGeTWJGZu7jWPnEobJYCYrt
+bc1q3hayay0yzvuq9hk523j4thuh3pd74csal2fmrh
+```
+
+#### Bitcoin via Lightning Network
+
+```
+rmbinformatica@ln.tips
 ```
 
 ### Stellar Lumens
