@@ -11,7 +11,7 @@ gitbook_version:  3.2.3
 
 url:              'https://rmbinformatica.github.io'
 baseurl:          '/ajuda'
-img:              '/ajuda/images/'
+img:              '/images/'
 rss:              RSS
 twitter_username: rmbinformatica
 github_username:  rmbinformatica
