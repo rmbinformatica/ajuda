@@ -19,6 +19,21 @@ layout: home
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>Página não encontrada :(</strong></p>
+  <p>A página solicitada não foi encontrada, verifique se a página desejada é <div id="novolink"></div>.</p>
 </div>
+
+<script>
+  // Obter o url acessado
+var url = window.location.href;
+
+// Remover o /ajuda/ do url
+var novoUrl = url.replace("/ajuda/", "/");
+
+// Selecionar a div novolink
+var div = document.getElementById("novolink");
+
+// Reescrever na página o novo url correto
+div.innerHTML = novoUrl;
+
+</script>
