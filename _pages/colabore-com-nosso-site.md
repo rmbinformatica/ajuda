@@ -6,7 +6,7 @@ category: sistemas-operacionais
 layout: post
 description: Ajude-nos a manter nosso site no ar, faça uma doação.
 permalink: colabore-com-nosso-site
-revisao: 2023-11-19
+redirect_from: /ajuda/colabore-com-nosso-site
 ---
 
 Algum de nossos artigos te ajudou a resolver sua dúvida ou problema? Considere enviar uma contribuição para que possamos continuar publicando outras informações relevantes sobre tecnologia, escolha como fazer sua contribuição.

@@ -70,4 +70,5 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jemoji
