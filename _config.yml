@@ -1,0 +1,73 @@
+# Configurations
+title:            Instruções Técnicas - RMB Informática
+longtitle:        Portal de Instruções Técnicas da RMB Informática
+author:           Renato Monteiro Batista
+email:            renato@rmbinformatica.com.br
+description: >
+  Portal de Ajuda da RMB Informática
+
+version:          1.0
+gitbook_version:  3.2.3
+
+url:              'https://rmbinformatica.github.io'
+baseurl:          '/ajuda'
+img:              '/ajuda/images/'
+rss:              RSS
+twitter_username: rmbinformatica
+github_username:  rmbinformatica
+
+# bootstrap: use the remote theme for the site itself
+remote_theme: rmbinformatica/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 5
+
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: github
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:                /:categories/:title
+
+# Disqus comments
+# disqushandler:            sighingnow
+
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+page_width: 800px
+
+structure:
+ summary: ./summary.md
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jekyll-sitemap
+  - jemoji
