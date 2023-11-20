@@ -1,1 +1,0 @@
-<ViewerConfig><QueryConfig><QueryParams><Simple><Channel>Security</Channel><EventId>4625</EventId><RelativeTimeInfo>0</RelativeTimeInfo><BySource>False</BySource></Simple></QueryParams><QueryNode><Name>FalhaLogin</Name><QueryList><Query Id="0" Path="Security"><Select Path="Security">*[System[(EventID=4625)]]</Select></Query></QueryList></QueryNode></QueryConfig></ViewerConfig>
