@@ -2,11 +2,10 @@
 title: Colabore com nosso site
 author: "Renato Monteiro Batista"
 date: 2019-04-27
-category: sistemas-operacionais
 layout: post
 description: Ajude-nos a manter nosso site no ar, faça uma doação.
 permalink: colabore-com-nosso-site
-redirect_from: /ajuda/colabore-com-nosso-site
+redirect_from: /ajuda/colabore-com-nosso-site/
 ---
 
 Algum de nossos artigos te ajudou a resolver sua dúvida ou problema? Considere enviar uma contribuição para que possamos continuar publicando outras informações relevantes sobre tecnologia, escolha como fazer sua contribuição.
