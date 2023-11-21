@@ -34,6 +34,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Resolvendo problema de travamento do TrueNas](sistemas-operacionais/linux/resolvendo-problema-travamento-truenas-impi0-using-ksc-interface)
 
 ### Microsoft Windows
+
 * [Exibindo o ícone de "Meu Computador" na área de trabalho do Windows 10](sistemas-operacionais/microsoft-windows/exibindo-o-icone-de-meu-computador-na-area-de-trabalho-do-windows-10)
 * [Assinando digitalmente documentos PDF com uso de certificado digital](sistemas-operacionais/microsoft-windows/assinando-digitalmente-documentos-pdf-com-uso-de-certificado-digital)
 * [Como bloquear o upgrade do Windows 10 para Windows 11 usando o powershell](sistemas-operacionais/microsoft-windows/bloquear-upgrade-windows-10-para-windows-11)
@@ -53,23 +54,28 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Orientações importantes sobre a crimpagem de cabos de rede ethernet](redes-e-infraestrutura/orientacoes-importantes-sobre-a-crimpagem-de-cabos-de-rede-ethernet)
 
 ### Docker
+
 * [Guia rápido de utilização do docker](redes-e-infraestrutura/docker/guia-rapido-docker)
 * [Usando containers docker sem conexão a internet de maneira offline](redes-e-infraestrutura/docker/usando-containers-docker-sem-internet-offline)
 
 ### UniFi
+
 * [Instalando o gerenciador Unifi no CentOS](redes-e-infraestrutura/unifi/instalando-o-gerenciador-unifi-no-centos)
 * [Cores do LED do Unifi](redes-e-infraestrutura/unifi/cores-do-led-do-unifi)
 * [Como reinstalar o firmware em um dispositivo Unifi](redes-e-infraestrutura/unifi/como-reinstalar-o-firmware-em-um-dispositivo-unifi)
 
 ### XEN Server
+
 * [Configurando o xenserver para monitoramento de containers docker](redes-e-infraestrutura/xen-server/configurando-o-xenserver-para-monitoramento-de-containers-docker)
 * [Adicionando outro Disco Local como novo Storage Repository no Xen Server](redes-e-infraestrutura/xen-server/adicionando-outro-disco-local-como-novo-storage-repository-no-xen-server)
 * [Configurando uma VM para auto-inicializar quando o XEN server for iniciado](redes-e-infraestrutura/xen-server/configurando-uma-vm-para-auto-inicializar-quando-o-xen-server-for-iniciado)
 
 ### OpenVPN
+
 * [Instalando e configurando um servidor OpenVPN no windows](redes-e-infraestrutura/openvpn/instalando-e-configurando-um-servidor-openvpn-no-windows)
 
 ### Apache Guacamole
+
 * [Gerando uma chave SSH compatível o Guacamole](redes-e-infraestrutura/apache-guacamole/gerando-uma-chave-ssh-compativel-o-guacamole)
 * [Configurando ubuntu para permitir conexões originadas do guacamole](redes-e-infraestrutura/apache-guacamole/configurando-ubuntu-para-permitir-conexoes-originadas-do-guacamole)
 
@@ -83,6 +89,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Expressões Regulares](guidelines/regex)
 
 ### Estruturas de Sintaxe Básicas das Linguagens de Programação
+
 * [Bash Script](guidelines/sintaxe-programacao/bash)
 * [C# (C Sharp)](guidelines/sintaxe-programacao/csharp)
 * [JavaScript](guidelines/sintaxe-programacao/javascript)
@@ -100,6 +107,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Mecanismos de Busca para testes de intrusão](seguranca/mecanismos-busca-testes-intrusao-invasao-pentest)
 
 ### Antivírus Kaspersky
+
 * [Links úteis e download das versões do anti-vírus Kaspersky](seguranca/antivirus-kaspersky)
 * [Atualizando a chave de ativação do anti-vírus Kaspersky antes da licença expirar](seguranca/antivirus-kaspersky/atualizando-a-chave-de-ativacao-do-anti-virus-kaspersky-antes-da-licenca-expirar)
 * [Permitindo o anydesk controlar as configurações do Kaspersky antivírus](seguranca/antivirus-kaspersky/permitindo-o-anydesk-controlar-as-configuracoes-do-kaspersky-antivirus)
@@ -111,9 +119,9 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Configurar conta de e-mail em celulares e tablet android](hospedagem-cpanel/configurar-conta-de-e-mail-em-celulares-e-tablet-android)
 
 ### Alteração da senha de e-mail
+
 * [Como alterar a senha do e-mail no webmail cPanel](hospedagem-cpanel/alteracao-da-senha-de-e-mail/como-alterar-a-senha-do-e-mail-no-webmail-cpanel)
 * [Como redefinir a senha de um e-mail no painel de controle cPanel](hospedagem-cpanel/alteracao-da-senha-de-e-mail/como-redefinir-a-senha-de-um-e-mail-no-painel-de-controle-cpanel)
-
 
 ## CHECKLISTS
 
@@ -124,7 +132,6 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 * [Configurando o Internet Explorer para o Conectividade Social](outros/conectividade-social)
 * [Windows 11 e Conectividade Social](outros/conectividade-social/windows-11-e-conectividade-social)
-
 
 ## Outros
 
