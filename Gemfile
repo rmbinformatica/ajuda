@@ -7,7 +7,6 @@ gem "jekyll"
 gem 'jekyll-feed'
 gem 'jekyll-readme-index'
 gem 'jekyll-sitemap'
-gem 'jekyll-redirect-from'
 gem 'jemoji'
 gem 'webrick'
 

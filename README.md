@@ -3,7 +3,6 @@ layout: home
 title: Instruções Técnicas - RMB Informática
 description: Bem vindo ao portal de ajuda da RMB Informática.
 permalink: /
-redirect_from: /ajuda/
 ---
 
 Aqui você encontrará tutoriais passo-a-passo com instruções para realização de procedimentos técnicos.
