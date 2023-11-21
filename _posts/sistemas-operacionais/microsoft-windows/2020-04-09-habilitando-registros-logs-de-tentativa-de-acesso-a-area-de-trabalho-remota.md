@@ -5,7 +5,7 @@ date: 2020-04-09
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, area de trabalho remota, rdp, logs, auditoria
+keywords: windows, area de trabalho remota, rdp, logs, auditoria, habilitar, habilitar logs, senha errada, tentativa, acesso, senha
 description: >-
   Este artigo detalha o passo a passo para habilitar a auditoria de logs de
   acessos com falha na área de trabalho remota do windows

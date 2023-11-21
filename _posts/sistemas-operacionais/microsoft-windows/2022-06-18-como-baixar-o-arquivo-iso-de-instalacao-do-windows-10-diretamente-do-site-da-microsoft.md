@@ -5,7 +5,7 @@ date: 2022-06-18
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, iso, download, microsoft
+keywords: windows, iso, download, microsoft, windows 10, win 10, win10, w10, oficial, imagem, imagem iso, baixar, ferramenta de download, baixar windows, iso microsoft, iso oficial
 description: >-
   Links para download do arquivo ISO para download da mídia de instakacão do
   windows 10 diretamente do site da microsoft.

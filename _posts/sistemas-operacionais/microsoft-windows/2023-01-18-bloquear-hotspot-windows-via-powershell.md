@@ -5,7 +5,7 @@ date: 2023-01-18
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, hotspot, compartilhamento, internet, bloquear, impedir
+keywords: windows, hotspot, compartilhamento, internet, bloquear, impedir, windows 10, w10, win10, win 10, windows 11, win11, win 11, w11, desativar, desabilitar, compartilhar, SharedAccess, hostednetwork, icssvc
 description: Solução para impedir o compartilhamento de internet do windows utilizando a função hotspot do windows 10. Comandos para bloqueio do compartilhamento hotspot no windows.
 ---
 

@@ -5,7 +5,7 @@ date: 2022-06-06
 category: [sistemas-operacionais, macos]
 layout: post
 revisao: 2023-11-20
-keywords: macos, requisitos, hardware, instalacao
+keywords: macos, requisitos, hardware, instalacao, mac os, qual versão, versão suportada, mac os, os x
 description: >-
   Este artigo descreve os requisitos de hardware para instalação das versões do
   sistema operacional macOS

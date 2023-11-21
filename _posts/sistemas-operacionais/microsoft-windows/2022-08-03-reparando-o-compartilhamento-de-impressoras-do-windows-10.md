@@ -5,7 +5,7 @@ date: 2022-08-03
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, impressora, compartilhamento, erro, 0x0000011b
+keywords: windows, impressora, compartilhamento, erro, 0x0000011b, windows 10, win 10, win10, w10, windows 11, win 11, w11, win11, rpc, erro, impressora rede, compartilhamento impressora, não conecta impressora, reparo, consertar, solução, fix, RpcAuthnLevelPrivacyEnabled, registro, regedit, chave, consertar impressora rede, consertar compartilhamento
 description: >-
   Este artigo descreve como reparar a o compartilhamento de impressoras no
   windows que apresenta a mensagem "O windows não pode se conectar à

@@ -5,7 +5,7 @@ date: 2020-03-18
 category: [redes-e-infraestrutura, xen-server]
 layout: post
 revisao: 2023-11-19
-keywords: xen, xen server, vm, virtual machine, pfsense, firewall, interface, rede, network, configuração, config, xenserver
+keywords: xen, xen server, vm, virtual machine, pfsense, firewall, interface, rede, network, configuração, config, xenserver, pfsense, traffic shapping, ajustar velocidade, configurar, reparar, placa de rede, nic, interface de rede
 description: Este artigo descreve as configurações adicionais do necessárias para execução de uma VM pfsense virtualizado no xenserver.
 ---
 

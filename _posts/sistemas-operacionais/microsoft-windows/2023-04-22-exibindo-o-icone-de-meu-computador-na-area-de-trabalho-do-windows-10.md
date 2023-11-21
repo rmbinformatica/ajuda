@@ -5,7 +5,7 @@ date: 2023-04-22
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, desktop, area de trabalho, icone, meu computador
+keywords: windows, desktop, area de trabalho, icone, meu computador, windows 10, win 10, win10, w10, windows 11, win 11, win11, w11, computador, computador, este computador, computer, mostrar computador
 description: >-
   Este artigo descreve como exibir o ícone do Meu computador na área de trabalho
   do Windows 10, tanto pelo método da interface gráfica do windows quanto

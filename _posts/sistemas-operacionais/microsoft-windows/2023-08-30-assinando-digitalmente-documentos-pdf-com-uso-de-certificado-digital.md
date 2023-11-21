@@ -5,7 +5,7 @@ date: 2023-08-30
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, pdf, assinatura, digital, certificado, adobe, acrobat
+keywords: windows, pdf, assinatura, digital, certificado, adobe, acrobat, assinatura eletronica, validar assinatura, assinar pdf, assinar, digitalmente, certificado digital
 description: >-
   Este artigo descreve o procedimento para assinar digitalmente arquivos PDF,
   usando certificado digital por meio do Adobe Acrobat Reader

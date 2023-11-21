@@ -4,7 +4,7 @@ author: "Renato Monteiro Batista"
 date: 2022-04-27
 category: [outros, conectividade-social]
 layout: post
-keywords: conectividade social, windows 11, java, microsoft edge, ie tab, navegador, certificado, a3, caixa, conectividade, social, windows, 11
+keywords: conectividade social, windows 11, java, microsoft edge, ie tab, navegador, certificado, a3, caixa, conectividade, social, windows, 11, win11, win 11, icp, caixa, configurar, reparar, consertar, configuração, acessar, caixa, caixa economica federal, cef, caixa economica, sefip, tls, certificado digital, enfiar sefip, não aecssa, não entra, complemento, java
 description: >-
   Este artigo descreve o todas as etapas do procedimento necessário para
   configurar o Windows 11 para acessar o conectividade social da caixa

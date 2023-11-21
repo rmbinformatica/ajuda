@@ -5,7 +5,7 @@ date: 2023-02-12
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, upgrade, windows 11, bloquear, powershell
+keywords: windows, upgrade, windows 11, bloquear, powershell, windows update, atualização, atualizacao, atualizacao automatica, manter windows 10, impedir windows 11, windows 10, windows 11, win10, win11, win 10, win 11, w10, w11, permanecer, evitar
 description: >-
   Este artigo descreve como bloquear o Upgrade automático do Windows 10 para Windows 11, nos computadores compatíveis, usando o powershell.
 ---

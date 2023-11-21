@@ -5,7 +5,7 @@ date: 2020-07-15
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, ícones, área de trabalho, sumiram
+keywords: windows, ícones, área de trabalho, sumiram, todos, desapareceu, desapareceram, sem ícones, faltando ícones, perfil, quebrado, sem ícone, windows 10, win10, w10, win 10
 description: >-
   Este artigo descreve os procedimentos para solução do problema onde o windows
   cria um perfil temporário de usuário durante uma atualização automática.

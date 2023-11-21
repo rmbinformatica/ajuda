@@ -5,7 +5,7 @@ date: 2019-02-24
 category: [sistemas-operacionais, macos]
 layout: post
 revisao: 2023-11-20
-keywords: macos, terminal, partição
+keywords: macos, terminal, partição, diskutil, gpt, gerenciar, apagar, alterar, particionamento, particionar, mac, mac os, 
 description: Como alterar o mapa de partições a partir do terminal
 ---
 

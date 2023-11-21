@@ -5,7 +5,7 @@ date: 2019-08-03
 category: [redes-e-infraestrutura, xen-server]
 layout: post
 revisao: 2023-11-19
-keywords: xen, xen server, vm, virtual machine, auto inicializar, auto poweron
+keywords: xen, xen server, vm, virtual machine, auto inicializar, auto poweron, configurar vm, ligar, automaticamente, máquina virtual, vm xen
 description: >-
   Este artigo descreve o procedimento para fazer uma VM iniciar automaticamente
   quando o XEN for iniciado.

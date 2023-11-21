@@ -5,7 +5,7 @@ date: 2022-09-16
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, conta, microsoft, local
+keywords: windows, conta, microsoft, local, instalar, configurar, sem conta, sem conta microsoft, sem conta hotmail, sem conta live, sem conta outlook, windows 11 sem conta microsoft, windows 11 sem internet, como pular conta microsoft w11, oobe, bypassnro, pular conta microsoft, windows 11, w11, entrar sem conta microsoft, ativar windows 11, ativar windows 11 sem internet, conta offline, iniciar windows sem conta microsoft, configurar, sem internet, burlar conta microsoft, windows sem rede, offline, off-line, windows 11 sem email, iniciar windows sem conta, sem rede, sem wifi, sem wi-fi, sem e-mail, sem email, sem internet, sem conexão, sem conexão com a internet, sem conexão com internet, conta local, conta local windows 11, conta local windows, conta local w11, w11, comando, taskmgr, usar, logar, formatar, entrar, pular, burlar, logar, abrir, acessar, iniciar, win11, pular tela, saltar tela, avançar sem e-mail, avançar sem email,
 description: Solução para inicializar windows 11 sem conta Microsoft, usando conta local do sistema Windows e sem a necessidade de conexão à internet para acessar o windows. 
 ---
 

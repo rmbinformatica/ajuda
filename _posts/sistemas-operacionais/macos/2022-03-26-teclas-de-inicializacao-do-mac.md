@@ -5,7 +5,7 @@ date: 2023-03-26
 category: [sistemas-operacionais, macos]
 layout: post
 revisao: 2023-11-20
-keywords: macos, teclas, inicialização, boot
+keywords: macos, teclas, inicialização, boot, cd, resetar, nvram, menu de boot, rede, disco de destino, modo de segurança, verbose, single-user, recuperação, os x, mac os
 description: >-
   Este artigo descreve as teclas de inicialização que podem ser utilizadas em um
   Mac com processador Intel.

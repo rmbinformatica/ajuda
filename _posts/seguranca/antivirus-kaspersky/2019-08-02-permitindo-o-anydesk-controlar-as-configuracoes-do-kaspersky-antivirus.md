@@ -5,7 +5,7 @@ date: 2019-08-02
 category: [seguranca, antivirus-kaspersky]
 layout: post
 revisao: 2023-11-19
-keywords: kaspersky, antivirus, anydesk, acesso, remoto, controle, configuracoes
+keywords: kaspersky, antivirus, anydesk, acesso, remoto, controle, configuracoes, teamviewer, rustdesk
 description: >-
   Esta página descreve instruções de configuração para permitir que um usuário
   remoto, por meio da ferramenta de acesso remoto anydesk, tenha acesso a

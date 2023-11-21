@@ -4,7 +4,7 @@ author: "Renato Monteiro Batista"
 date: 2021-10-26
 category: [outros]
 layout: post
-keywords: windows, internet explorer, conectividade social, cns requer utilização do plugin, java
+keywords: windows, internet explorer, conectividade social, cns requer utilização do plugin, java, não foi detectado, exceções java, caixa, caixa economica federal, cef, sefip, conectividade, icp, certificado digital, certificado, enviar sefip, acessar, acessar caixa, acessar conectividade, configurar, configurar internet explorer, windows 10, configurar conectividade, instruções, resolver, consertar, navegador, win10, win 10, w10
 description: >-
   Este artigo descreve todas as configurações necessárias ao funcionamento do
   conectividade social.

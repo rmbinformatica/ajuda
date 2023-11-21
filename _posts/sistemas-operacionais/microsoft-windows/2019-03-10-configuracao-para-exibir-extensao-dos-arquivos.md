@@ -5,7 +5,7 @@ date: 2019-03-10
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 revisao: 2023-11-20
-keywords: windows, extensão, arquivo
+keywords: windows, extensão, arquivo, mostrar, exibir, extensão, extensão arquivo, extensão arquivos, extensão dos arquivos, extensão dos arquivos windows, extensão dos arquivos no windows, extensão dos arquivos windows 10, extensão dos arquivos windows 7, extensão dos arquivos windows 8, extensão dos arquivos windows 8.1, extensão dos arquivos windows 10
 description: Como configurar o windows para mostrar a extensão dos seus arquivos
 ---
 

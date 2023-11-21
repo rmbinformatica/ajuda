@@ -5,7 +5,7 @@ date: 2019-10-18
 category: [redes-e-infraestrutura, unifi]
 layout: post
 revisao: 2023-11-19
-keywords: unifi, ubiquiti, led, cores, significado
+keywords: unifi, ubiquiti, led, cores, significado, luzes, piscando, azul, branco, uap, uap-lr, uap-outdoor5, uap-ac, uap-ac-pro, uap-ac-lite, uap-ac-lr, uap-ac-m, uap-ac-m-pro, uap-ac-mesh, uap-ac-mesh-pro, uap-ac-hd, uap-ac-shd, adoção, firmware, adotado, adpoted, 
 description: Entenda o significado de cada cor do led indicativo dos Access Point Unifi
 ---
 

@@ -5,7 +5,7 @@ date: 2020-04-12
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
 description: Solução para o erro 0xc000000e, "arquivo \windows\system32\winload.efi não encontrado", durante a inicialização do Windows após a clonagem de um HD ou SSD.
-keywords: windows, clonagem, ssd, erro, 0xc000000e, winload, winload.efi, reparar, inicialização, bcdboot, diskpart
+keywords: windows, clonagem, ssd, erro, 0xc000000e, winload, winload.efi, reparar, inicialização, bcdboot, diskpart, clonei, clonado, reparar, consertar, correção, hd para ssd, hd, instalar ssd, volume, bcdboot, boot, não dá boot, inicialização, iniciar, inicia, não inicia, não inicializa, resolver, windows 10, win 10, w10, windows 11, win11, w11, ssd clonado, tela azul, copiar hd, copiei, copiado, 
 revisao: 2023-11-19
 ---
 
