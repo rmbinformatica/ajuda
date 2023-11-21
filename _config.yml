@@ -9,7 +9,7 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://rmbinformatica.github.io'
+url:              'https://ajuda.rmbinformatica.com.br'
 baseurl:          '/ajuda'
 img:              '/images/'
 rss:              RSS
