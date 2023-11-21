@@ -22,7 +22,7 @@ Se você utiliza sistemas operacionais Linux ou MacOS é possível baixar o arqu
 > A Microsoft também disponibiliza uma [Ferramenta de Download do Windows 10](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md#utilizando-a-ferramenta-de-download-do-windows-10) que realizará sempre o download da versão mais atual. Recomendamos utilizar o [método abaixo](como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft.md#utilizando-a-ferramenta-de-download-do-windows-10) para o download da versão mais recente.
 {: .block-tip }
 
-Após o download do arquivo .ISO sempre [Confira o hash do arquivo](https://doc.rmbinformatica.com.br/ajuda/sistemas-operacionais/microsoft-windows/cmd#calculando-o-hash-md5-ou-sha1-de-um-arquivo-no-windows-via-prompt-de-comando) para verificar se o arquivo está correto e sem falhas durante o download. Ou utilize nossa [ferramenta de verificação de hash de arquivos](https://rmbinformatica.com.br/hash.php) online.
+Após o download do arquivo .ISO sempre [Confira o hash do arquivo](https://ajuda.rmbinformatica.com.br/sistemas-operacionais/microsoft-windows/cmd#calculando-o-hash-md5--ou-sha1-de-um-arquivo-no-windows-via-prompt-de-comando) para verificar se o arquivo está correto e sem falhas durante o download. Ou utilize nossa [ferramenta de verificação de hash de arquivos](https://rmbinformatica.com.br/hash.php) online.
 
 ## Utilizando a ferramenta de download do Windows 10
 
