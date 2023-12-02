@@ -98,6 +98,10 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Python](guidelines/sintaxe-programacao/python)
 * [Windows PowerShell](guidelines/sintaxe-programacao/powershell)
 
+## Automação Comercial
+
+* [Como baixar o XML de uma NF-e da sua empresa usando o Portal da Nota Etelrônica](automacao-comercial/como-baixar-o-xml-de-uma-nfe-usando-o-portal-nota-fiscal-eletronica)
+
 ## RPA
 
 * [Realizando o scrap dos dados de uma página para o Excel usando Microsoft Power Automate](rpa/realizando-o-scrap-dos-dados-de-uma-pagina-para-o-excel-usando-microsoft-power-automate)
