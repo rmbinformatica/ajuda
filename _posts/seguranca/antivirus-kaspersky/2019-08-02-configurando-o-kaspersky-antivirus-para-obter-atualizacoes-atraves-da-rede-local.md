@@ -75,6 +75,8 @@ O caminho das atualizações é a pasta local ou da rede onde o seu atualizador 
 >Esse caminho pode ser uma pasta local (ex.: **`c:\temp\antivirus`**), um compartilhamento de rede (ex.: **`\\192.168.0.4\antivirus`**) ou mesmo um caminho ftp (ex.: **`ftp://192.168.0.1/kaspersky`**).
 {: .block-tip }
 
+{% include gads.html %}
+
 ### Alterando a ordem de prioridade das fontes de atualização
 ![Após adicionado o caminho, escolha a ordem utilizando as setas de direção.]({{site.img}}kaspersky-alterar-ordem-fonte-atualizacao.png)
 

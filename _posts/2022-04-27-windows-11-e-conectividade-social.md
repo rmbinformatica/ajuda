@@ -78,6 +78,8 @@ Clique no botão **Aplicar** e em seguida clique no botão **OK**.
 > Se você precisa utilizar certificados A3 é _necessário_ deixar a opção TLS 1.2 **desmarcada**, ao passo que se você lida com _outros_ sites que precisam do java pode ser necessário deixar as opções TLS 1.0 e/ou 1.2 marcadas. Ao alterar essas configurações verifique se outros sites em java que você acessa continuam funcionando. Para o uso do conectividade social é **necessário** apenas a opção TLS 1.1 habilitada.
 {: .block-tip }
 
+{% include gads.html %}
+
 ## Configurando o navegador Edge para usar o conectividade social
 
 No **Painel de controle** acesse **Opções de internet**.
@@ -171,6 +173,8 @@ Uma vez que a extensão esteja aberta, você verá uma tela conforme a imagem ab
 O acesso ao Conectividade Social, no Windows 11, deve ser feito sempre utilizando a extensão IE Tab no navegador Microsoft Edge.
 
 Resolveu seu problema? [Lembre de mandar um pix para contribuir com nosso trabalho](/ajuda/colabore-com-nosso-sited). Caso utilize o [anti-vírus Kaspersky](windows-11-e-conectividade-social.md#anti-virus-kaspersky) há uma configuração adicional que precisa ser feita ao final desta página.
+
+{% include gads.html %}
 
 ## Anti-vírus Kaspersky
 

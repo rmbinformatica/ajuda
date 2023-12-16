@@ -57,6 +57,8 @@ O diskutil irá retornar informações sobre os discos conectados em sua máquin
 
 Note que no caso acima o pendrive onde eu desejo instalar está localizado em **/dev/disk3**, é possível identificar isso pelo nome do volume (_NAME_) e também pelo  tamanho do volume (_SIZE_).
 
+{% include gads.html %}
+
 Agora vamos desmontar o pendrive, lembre-se de substituir o **disk3** pelo equivalente do seu caso:
 
 ```bash

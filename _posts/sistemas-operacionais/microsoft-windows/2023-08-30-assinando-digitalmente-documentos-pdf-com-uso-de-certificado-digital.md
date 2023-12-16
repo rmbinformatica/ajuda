@@ -58,6 +58,8 @@ Nesse artigo não será detalhado as etapas acima, o foco será somente a etapa 
 
 ![Exemplo de validação de assinatura através do Adobe Reader]({{site.img}}adobe-reader-documento-assinado.png)
 
+{% include gads.html %}
+
 ## Outras opções de assinatura digital
 
 Outras opções de assinatura digital de arquivos:

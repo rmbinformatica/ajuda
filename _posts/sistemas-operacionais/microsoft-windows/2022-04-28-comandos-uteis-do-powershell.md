@@ -55,6 +55,8 @@ No exemplo acima altere o `c:\pasta` para o caminho que deseja excluir das verif
 Get-NetFirewallRule -DisplayName "Nome da regra" | Get-NetFirewallAddressFilter
 ```
 
+{% include gads.html %}
+
 ## Criar uma nova regra do windows firewall permitindo todas as conexões a partir de um endereço de ip específico usando o powershell
 
 No exemplo abaixo vamos utilizar *192.168.0.1* como endereço de ip remoto (de onde as conexões serão permitidas).

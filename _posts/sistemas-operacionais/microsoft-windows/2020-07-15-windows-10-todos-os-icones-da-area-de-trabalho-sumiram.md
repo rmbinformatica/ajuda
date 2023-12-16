@@ -45,3 +45,15 @@ Caso o procedimento de reiniciar o computador cinco vezes não resolva o problem
 * Reinicie o computador
 
 Executados os procedimentos acima o perfil deverá estar corrigido com todos os dados do usuário de volta.
+
+{% include gads.html %}
+
+## Solução C - Criar um novo usuário
+
+Se nenhum dos métodos anteriores resolveu seu problema será necessário criar um novo usuário, isto pode ser feito a partir do painel de controle ou gerenciamento do computador.
+
+Após criado o novo usuário é necessário copiar todos os dados do usuário, normalmente armazenados na pasta `C:\Users\NomeDoUsuario` para a pasta do novo usuário. Lembre-se de verificar por arquivos importantes em todas os subdiretórios tais como `Documentos`, `Downloads`, `Imagens`, `Vídeos`, `Área de Trabalho`, etc.
+
+{% include gads.html %}
+
+Alguns programas, certificados digitais e outros itens podem precisar ser reinstalados nesses casos.

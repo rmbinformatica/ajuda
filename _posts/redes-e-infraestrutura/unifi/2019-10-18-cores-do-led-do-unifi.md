@@ -25,6 +25,8 @@ LEDs azul e branco se aplicam a todos os access points Ubiquiti Unifi, roteadore
 | **Modo TFTP** | Dispositivo está em modo TFTP para transferência de firmware. Este modo é acionado ao segurar o botão de reset antes de ligar a energia, então permanecer segurando o reset até que a sequência Branco/Azul/Off inicie. Se esse acionamento *não for intencional verifique se o botão de reset está preso*. | ![Unifi modo TFTP]({{site.img}}UAP-AC-TFTP.gif) Flashing Branco-Blue-Off |
 | **Offline** | Verificar cabos de energia, POE e rede | ![Unifi desligado]({{site.img}}UAP-AC-8-LED-Off.gif) LED desligado |
 
+{% include gads.html %}
+
 ## Dispositivos antigos com LED laranja
 
 Aplica-se aos modelos: UAP, UAP-LR, UAP-Outdoor5.

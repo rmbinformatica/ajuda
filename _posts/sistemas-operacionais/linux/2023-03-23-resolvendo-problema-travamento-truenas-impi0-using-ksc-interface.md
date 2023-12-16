@@ -39,6 +39,8 @@ exit
 reboot
 ```
 
+{% include gads.html %}
+
 ### 4 - Ative a placa de rede novamente
 
 Ao reiniciar o equipamento ative novamente a placa de rede na BIOS/Setup em caso de placa onboard ou insira novamente a placa de rede offboard. Consulte um técnico de informática em caso de dúvidas sobre essa etapa.

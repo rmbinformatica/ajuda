@@ -37,6 +37,8 @@ Pressione **ENTER** para executar o comando e seu computador será reiniciado na
 
 Assim você poderá prosseguir a inicialização do windows criando uma conta local sem a necessidade de internet.
 
+{% include gads.html %}
+
 ### Método B - Finalizando o processo de conexão de rede
 
 Na tela da primeira inicialização do Windows siga o fluxo normal de inicialização:
@@ -54,6 +56,8 @@ taskmgr
 O gerenciador de tarefas será exibido, clique em mais detalhes e finalize o processo **Network Connection Flow**.
 
 Feito isso você poderá prosseguir a inicialização do windows sem a necessidade de criar uma conta Microsoft.
+
+{% include gads.html %}
 
 ## Inicializando o Windows com conexão à internet
 
@@ -74,6 +78,8 @@ ipconfig /release
 ```
 
 Feito isso o seu adaptador de rede estará sem endereço de IP atribuído. Na tela onde é exibida a conta Microsoft clique no botão voltar e será exibida uma tela com a opção de criar uma conta local para login no windows.
+
+{% include gads.html %}
 
 ### Método D - Utilizando um nome de login inválido para conta Microsoft
 

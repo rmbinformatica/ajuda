@@ -104,6 +104,8 @@ description: >-
 * Mac Pro (2019)
 * Mac Pro (final de 2013)
 
+{% include gads.html %}
+
 ## macOS Catalina 10.15
 
 [Download do instalador do macOS Catalina 10.15](macappstores://apps.apple.com/br/app/macos-catalina/id1466841314?mt=12).
@@ -205,6 +207,8 @@ description: >-
 * Mac Pro (2019)
 * Mac Pro (final de 2013)
 
+{% include gads.html %}
+
 ## macOS Mojave 10.14
 
 [Download do instalador do macOS Mojave 10.14](macappstores://apps.apple.com/br/app/macos-mojave/id1398502828?mt=12).
@@ -237,6 +241,8 @@ description: >-
 # Instalação do High Sierra sem modificação do sistema de arquivos
 /Volumes/"Image Volume/Install macOS High Sierra.app"/Contents/Resources/startosinstall --volume /Volumes/SSD --converttoapfs NO --agreetolicense
 ```
+
+{% include gads.html %}
 
 ## macOS Sierra 10.12
 

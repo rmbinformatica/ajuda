@@ -83,6 +83,8 @@ Clique no botão **Aplicar** e em seguida clique no botão **OK**.
 > Se você precisa utilizar certificados A3 é _necessário_ deixar a opção TLS 1.2 **desmarcada**, ao passo que se você lida com _outros_ sites que precisam do java pode ser necessário deixar as opções TLS 1.0 e/ou 1.2 marcadas. Ao alterar essas configurações verifique se outros sites em java que você acessa continuam funcionando. Para o uso do conectividade social é **necessário** apenas a opção TLS 1.1 habilitada.
 {: .block-tip }
 
+{% include gads.html %}
+
 ## Configurações do Internet Explorer
 
 ### Habilitar o complemento do java
@@ -162,6 +164,8 @@ Acesse a aba **Avançadas** e, na _seção Segurança_, certifique-se que as cai
 Por fim, clique no botão **Aplicar**. Clique no botão **OK**. _**Feche e reabra o Internet Explorer**_ e, após reabrir o navegador, acesse o site [conectividade.caixa.gov.br](http://conectividade.caixa.gov.br).
 
 Resolveu seu problema? [Lembre de mandar um pix para contribuir com nosso trabalho](/ajuda/colabore-com-nosso-site.md). Caso utilize o [anti-vírus Kaspersky](./#anti-virus-kaspersky) há uma configuração adicional que precisa ser feita ao final desta página.
+
+{% include gads.html %}
 
 ## Anti-vírus Kaspersky
 

@@ -37,6 +37,8 @@ Nas versões mais antigas esse método de criação do pendrive não é compatí
 * [OS X El Capitan 10.11](http://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg) (SHA1: 21e45136e34c6f805e0f1977e38d6ff029a9a1e2)
 * [OS X Yosemite 10.10](http://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg) (SHA1: c542681961cc7fafb9c15bfd4af152a3a57f07fa)
 
+{% include gads.html %}
+
 ## Gravando a instalação no pendrive
 
 Primeiramente certifique-se de realizar o backup de qualquer arquivo importante existente no mesmo pois o conteudo sera excluido durante o processo de criacao do pendrive.
@@ -90,6 +92,8 @@ Copying boot files…
 Copy complete.
 Done.
 ```
+
+{% include gads.html %}
 
 ## Realizando o boot pelo pendrive de instalação
 

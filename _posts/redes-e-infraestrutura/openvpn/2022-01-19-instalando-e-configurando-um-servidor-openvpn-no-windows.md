@@ -60,6 +60,8 @@ Podemos executar uma verificação para testar se o certificado foi gerado corre
 openssl verify -CAfile pki/ca.crt pki/issued/vpn-server.crt
 ```
 
+{% include gads.html %}
+
 ## Gerando os certificados dos clientes
 
 Ainda na shell `EasyRSA-Start.bat`, execute o processo abaixo e repita para cada certifcado de cliente que desejar gerar. Substitua `client01` o por um nome para identificação do cliente.
@@ -105,6 +107,8 @@ key "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\private\\vpn-server.key"
 dh "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\dh.pem"
 tls-auth "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\ta.key" 0
 ```
+
+{% include gads.html %}
 
 ### Logs
 

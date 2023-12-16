@@ -30,6 +30,8 @@ Após a execução dos comandos acima é necessário a reinicialização do comp
 
 Uma vez executado o comando acima, o hotspot do windows 10 estará bloqueado e não será possível mais compartilhar a conexão de internet do computador com outros dispositivos.
 
+{% include gads.html %}
+
 ### Como desfazer o bloqueio de hotspot do windows 10?
 
 Por motivos de segurança optamos por não divulgar como desativar o bloqueio de hotspot para impedir que usuários alterem a configuração em ambientes corporativos.

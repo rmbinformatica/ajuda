@@ -56,6 +56,8 @@ Sent 1965199 bytes in 35.2 seconds
 tftp> exit
 ```
 
+{% include gads.html %}
+
 ### No Windows 10 usando o cmd
 
 ```

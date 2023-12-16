@@ -33,6 +33,8 @@ Em seguida escolha a opção de Linha de comando ou prompt de comando
 
 ![Opção prompt de comando]({{site.img}}instalacao-windows-solucao-problemas-prompt-comando.png)
 
+{% include gads.html %}
+
 ### Execute o diskpart
 
 Quando inicializar o prompt de comando, inicie o programa **`diskpart`** e quando estiver no prompt `DISKPART>` execute o comando **`list volume`**.
@@ -77,6 +79,8 @@ Deverá ser exibida a mensagem de sucesso, caso contrário verifique as letras d
 Após executado o `bcdboot` com sucesso, saia do prompt de comando através do comando **`exit`** e em seguida reinicialize o computador sem o pendrive de instalação do windows.
 
 O computador irá inicializar normalmente, provavelmente irá exibir uma lista perguntando qual sistema operacional deseja inicializar, escolha uma das opções, caso não dê certo escolha a outra.
+
+{% include gads.html %}
 
 ### Removendo a lista de sistemas operacionais
 

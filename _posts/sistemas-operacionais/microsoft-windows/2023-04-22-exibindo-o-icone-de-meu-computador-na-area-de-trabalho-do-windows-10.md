@@ -30,6 +30,8 @@ Na janela a seguir, selecione a opção **Computador** e, em seguida, clique **O
 
 Pronto, o ícone do computador passará a ser exibido na área de trabalho.
 
+{% include gads.html %}
+
 ## Método B - Chave de registro para exibir o ícone do "Meu computador" na área de trabalho do Windows 10
 
 _Esse método é somente para usuários avançados que desejem automatizar o processo de configuração por meio de scripts._

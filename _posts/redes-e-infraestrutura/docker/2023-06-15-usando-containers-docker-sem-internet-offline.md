@@ -41,6 +41,8 @@ Para descompactar o arquivo gzip no computador de destino onde a imagem será ca
 gunzip ubuntu.tar.gz
 ```
 
+{% include gads.html %}
+
 ## Importando a imagem de um container docker salva em disco com o docker load
 
 O passo seguinte é transferir o arquivo contemdo a imagem salva para o computador de destino. Caso a imagem tenha sido comprimida, lembre de realizar a descompressão utilizando o `gunzip`.

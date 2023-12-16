@@ -48,6 +48,8 @@ docker pull <nomeDaImagem>
 As imagens oficiais geralmente não precedem do nome de um usuário. Exemplo `ubuntu` `node` `centos`, etc.
 Já as imagens criadas pelos usuários precedem do *nomeDoUsuario\nomeDaImagem*, exemplo `renatomb/exemplo`.
 
+{% include gads.html %}
+
 ## Executando containers
 
 Cada vez que for executado o comando `docker run` será criado um novo container baseado na imagem e será executado.
@@ -172,6 +174,8 @@ docker run -d --name <nome> <imagem>
 docker inspect <id>
 ```
 
+{% include gads.html %}
+
 ## Layered Filesystem
 
 Toda imagem docker é dividida em camadas. Com isso algumas camadas podem ser compartilhadas entre diferentes imagens.
@@ -221,6 +225,8 @@ docker run -v "<pathLocal>:<pathRemoto>" <imagem>
 ```
 
 NOTA: *Se não for especificado o caminho local, o docker irá atribuir um caminho. Para visualizar o caminho atribuído verificar com o `docker inspect`.*
+
+{% include gads.html %}
 
 ## Construindo imagens
 
@@ -288,6 +294,8 @@ Para enviar uma imagem, basta executar:
 docker push <usuarioDockerHub>\<nomeDoProjeto>
 ```
 
+{% include gads.html %}
+
 ## Comunicação entre containers
 
 Por padrão o docker cria uma rede virtual  *Default* onde todos os containers estão conectados.
@@ -319,6 +327,8 @@ docker run -it --name centinho --network redevirtual centos
 ```
 
 Onde o nome da instância do container seria *centinho*, o nome da rede virtual onde ele se conectará será *redevirtual* e a imagem será *centos*.
+
+{% include gads.html %}
 
 ## Transferindo containers entre máquinas distintas
 
