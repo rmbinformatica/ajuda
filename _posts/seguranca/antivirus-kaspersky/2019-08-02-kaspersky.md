@@ -11,6 +11,7 @@ description: Informações sobre a configuração e utilização do antivírus K
 
 ## Downloads do produto
 
+* [Antivírus gratuito - Como instalar a versão grátis do Kaspersky anti-vírus](/seguranca/antivirus-kaspersky/antivirus-gratuito-como-instalar-a-versao-gratis-do-kaspersky)
 * [Versão licenciada e mais atual do Kaspersky antivírus](https://www.kaspersky.com.br/downloads/thank-you/antivirus)
 * [Versão gratuita do Kaspersky antivírus free](https://www.kaspersky.com.br/downloads/free-antivirus)
 * [Portal de download de versões offline](https://products.s.kaspersky-labs.com/)
