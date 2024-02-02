@@ -250,6 +250,23 @@ fetch('http://example.com/recepticle.aspx', {
   });
 ```
 
+## Outros códigos de exemplo
+
+### Redirecionar o usuário se a url contiver uma palavra especifica
+
+```javascript
+// Obter o url acessado
+var url = window.location.href;
+
+// Verificar se o url contém /ajuda/
+if (url.includes("/ajuda/")) {
+  // Remover o /ajuda/ do url
+  var novoUrl = url.replace("/ajuda/", "/");
+
+  // Direcionar o usuário para o novo url
+  window.location.replace(novoUrl);
+}
+```
 
 
 ## Links úteis

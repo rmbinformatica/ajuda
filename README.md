@@ -109,6 +109,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 ## SEGURANÇA
 
 * [Mecanismos de Busca para testes de intrusão](seguranca/mecanismos-busca-testes-intrusao-invasao-pentest)
+* [Guia de comandos do firewall iptables](seguranca/firewall-iptables)
 
 ### Antivírus Kaspersky
 
