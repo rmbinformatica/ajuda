@@ -110,6 +110,17 @@ tls-auth "C:\\Program Files\\OpenVPN\\easy-rsa\\pki\\ta.key" 0
 
 {% include gads.html %}
 
+### Renovando certificados
+
+Quando os certificados expirarem, eles poderão ser renovados com o comando a seguir:
+
+```
+easyrsa renew <nome-certificado>
+easyrsa revoke-renewed <nome-certificado>
+```
+
+Uma vez renovado o certificado o arquivo com extensão .crt deve ser substituído no servidor cliente pelo novo certificado.
+
 ### Logs
 
 Para resolução de problemas na implantação verifique sempre os arquivos de log do servidor disponíveis em `%USERPROFILE%\OpenVPN\log`.

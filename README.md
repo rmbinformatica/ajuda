@@ -48,6 +48,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos)
 * [Como configurar o Windows 11 sem uma conta Microsoft](sistemas-operacionais/microsoft-windows/como-configurar-o-windows-11-sem-uma-conta-microsoft)
 * [Como bloquear a função hotspot do Windows](sistemas-operacionais/microsoft-windows/bloquear-hotspot-windows-via-powershell)
+* [Onde baixar a versão mais recente do Microsoft Office 365](sistemas-operacionais/microsoft-windows/onde-baixar-a-versao-mais-recente-microsoft-office)
 
 ## Redes e Infraestrutura
 
