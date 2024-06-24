@@ -51,6 +51,11 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Onde baixar a versão mais recente do Microsoft Office 365](sistemas-operacionais/microsoft-windows/onde-baixar-a-versao-mais-recente-microsoft-office)
 * [Como remover completamente o Microsoft Office do computador?](sistemas-operacionais/microsoft-windows/como-remover-completamente-microsoft-office-do-computador)
 
+## Hardware
+
+* [Para que serve o No-Break](hardware/para-que-serve-o-nobreak)
+* [HP desktop erro 512 Ventilador traseiro do chassi não detectado](hardware/hp-ventilador-traseiro-chassi-nao-detectado)
+
 ## Redes e Infraestrutura
 
 * [Orientações importantes sobre a crimpagem de cabos de rede ethernet](redes-e-infraestrutura/orientacoes-importantes-sobre-a-crimpagem-de-cabos-de-rede-ethernet)
