@@ -53,7 +53,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ## Hardware
 
-* [Para que serve o No-Break](hardware/para-que-serve-o-nobreak)
+* [Para que serve o No-Break](hardware/pra-que-serve-o-nobreak)
 * [HP desktop erro 512 Ventilador traseiro do chassi não detectado](hardware/hp-ventilador-traseiro-chassi-nao-detectado)
 
 ## Redes e Infraestrutura
