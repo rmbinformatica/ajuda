@@ -77,6 +77,20 @@ Get-ComputerInfo -Property "CsName"
 Rename-Computer -NewName "NovoNomeDoComputador"
 ```
 
+## Obter a lista de usuários do computador local
+
+```powershell
+Get-LocalUser
+```
+
+## Redefinir a senha de um usuário do computador local utilizando o Powershell
+
+```powershell
+$NomeDoUsuario = "NomeDoUsuario"
+$NovaSenha = ConvertTo-SecureString "senha" -AsPlainText -Force
+Set-LocalUser -Name $NomeDoUsuario -Password $NovaSenha
+```
+
 ## Veja também
 
 * [CMD & Batch Script](/ajuda/sistemas-operacionais/microsoft-windows/cmd)
