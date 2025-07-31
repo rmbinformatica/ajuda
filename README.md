@@ -32,6 +32,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Folha de dicas de comandos do linux](sistemas-operacionais/linux/comandos-linux-cheat-sheet)
 * [Folha de dicas para análise de logs](sistemas-operacionais/linux/log-parsing-cheat-sheet)
 * [Resolvendo problema de travamento do TrueNas](sistemas-operacionais/linux/resolvendo-problema-travamento-truenas-impi0-using-ksc-interface)
+* [Reparando um banco de dados RPM corrompido](sistemas-operacionais/linux/reparando-banco-de-dados-RPM-corrompido)
 
 ### Microsoft Windows
 
@@ -120,7 +121,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ### Antivírus Kaspersky
 
-* [Links úteis e download das versões do anti-vírus Kaspersky](seguranca/antivirus-kaspersky)
+* [Links úteis e download das versões do anti-vírus Kaspersky](seguranca/kaspersky)
 * [Atualizando a chave de ativação do anti-vírus Kaspersky antes da licença expirar](seguranca/antivirus-kaspersky/atualizando-a-chave-de-ativacao-do-anti-virus-kaspersky-antes-da-licenca-expirar)
 * [Permitindo o anydesk controlar as configurações do Kaspersky antivírus](seguranca/antivirus-kaspersky/permitindo-o-anydesk-controlar-as-configuracoes-do-kaspersky-antivirus)
 * [Criando um servidor interno de atualização do Kaspersky antivírus no linux](seguranca/antivirus-kaspersky/criando-um-servidor-interno-de-atualizacao-do-kaspersky-antivirus-no-linux)
