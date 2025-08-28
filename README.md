@@ -7,7 +7,7 @@ permalink: /
 
 Aqui você encontrará tutoriais passo-a-passo com instruções para realização de procedimentos técnicos.
 
-Navegue pelo menu lateral a esquerda para encontrar os artigos desejados, ou utilize a busca localizada no campo *Pesquisar* canto superior esquerdo.
+Navegue pelo menu lateral à esquerda para encontrar os artigos desejados, ou utilize a busca localizada no campo *Pesquisar* no canto superior esquerdo.
 
 Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinformatica.com).
 
@@ -108,7 +108,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ## Automação Comercial
 
-* [Como baixar o XML de uma NF-e da sua empresa usando o Portal da Nota Etelrônica](automacao-comercial/como-baixar-o-xml-de-uma-nfe-usando-o-portal-nota-fiscal-eletronica)
+* [Como baixar o XML de uma NF-e da sua empresa usando o Portal da Nota Eletrônica](automacao-comercial/como-baixar-o-xml-de-uma-nfe-usando-o-portal-nota-fiscal-eletronica)
 
 ## RPA
 
