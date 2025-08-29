@@ -1,10 +1,10 @@
 ---
 title: Reparando um banco de dados RPM corrompido
 author: "Renato Monteiro Batista"
-date: 2023-03-23
+date: 2025-07-23
 category: [sistemas-operacionais, linux]
 layout: post
-revisao: 2023-11-20
+revisao: 2025-07-23
 keywords: rpm, corrompido, banco de dados, reparo, linux, sistema operacional, tutorial, howto, guia, passo a passo, RPM, database, corrupted, repair, Linux, operating system, tutorial, howto, guide, step by step
 description: Solução para o problema "DB_RUNRECOVERY: Fatal error, run database recovery" ao tentar utilizar o gerenciador de pacotes.
 ---
