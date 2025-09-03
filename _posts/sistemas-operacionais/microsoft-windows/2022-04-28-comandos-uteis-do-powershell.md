@@ -91,6 +91,21 @@ $NovaSenha = ConvertTo-SecureString "senha" -AsPlainText -Force
 Set-LocalUser -Name $NomeDoUsuario -Password $NovaSenha
 ```
 
+## Reiniciar o computador utilizando o Powershell
+
+```powershell
+Restart-Computer
+```
+
+## Ver a lista de programas instalados no computador local utilizando o Powershell
+
+```powershell
+Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |
+Select-Object DisplayName, DisplayVersion, Publisher, InstallDate |
+Where-Object { $_.DisplayName -ne $null } |
+Sort-Object DisplayName
+```
+
 ## Veja também
 
 * [CMD & Batch Script](/ajuda/sistemas-operacionais/microsoft-windows/cmd)
