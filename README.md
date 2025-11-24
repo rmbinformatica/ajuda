@@ -36,19 +36,20 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ### Microsoft Windows
 
+* [Quais chaves de registro altrear manualmente para receber as Atualizações de Segurança Estendidas do windows 10?](sistemas-operacionais/microsoft-windows/quais-chaves-de-registro-alterar-manualmente-para-estender-as-atualizacoes-automaticas-do-windows-10)
+* [Como configurar o Windows 11 sem uma conta Microsoft](sistemas-operacionais/microsoft-windows/como-configurar-o-windows-11-sem-uma-conta-microsoft)
+* [Como bloquear a função hotspot do Windows](sistemas-operacionais/microsoft-windows/bloquear-hotspot-windows-via-powershell)
+* [Reparando a inicialização do Windows com erro 0xc000000e após a clonagem de HD](sistemas-operacionais/microsoft-windows/0xc000000e-reparando-a-inicializacao-do-windows-apos-a-clonagem-de-hd)
 * [Exibindo o ícone de "Meu Computador" na área de trabalho do Windows 10](sistemas-operacionais/microsoft-windows/exibindo-o-icone-de-meu-computador-na-area-de-trabalho-do-windows-10)
 * [Assinando digitalmente documentos PDF com uso de certificado digital](sistemas-operacionais/microsoft-windows/assinando-digitalmente-documentos-pdf-com-uso-de-certificado-digital)
 * [Como bloquear o upgrade do Windows 10 para Windows 11 usando o powershell](sistemas-operacionais/microsoft-windows/bloquear-upgrade-windows-10-para-windows-11)
 * [Como baixar o arquivo ISO de instalação do Windows 10 diretamente do site da Microsoft](sistemas-operacionais/microsoft-windows/como-baixar-o-arquivo-iso-de-instalacao-do-windows-10-diretamente-do-site-da-microsoft)
 * [Windows 10: Todos os ícones da área de trabalho sumiram](sistemas-operacionais/microsoft-windows/windows-10-todos-os-icones-da-area-de-trabalho-sumiram)
 * [Reparando o compartilhamento de impressoras do erro 0x0000011b no Windows 10](sistemas-operacionais/microsoft-windows/reparando-o-compartilhamento-de-impressoras-do-windows-10)
-* [Reparando a inicialização do Windows com erro 0xc000000e após a clonagem de HD](sistemas-operacionais/microsoft-windows/0xc000000e-reparando-a-inicializacao-do-windows-apos-a-clonagem-de-hd)
 * [Habilitando registros logs de tentativa de acesso a área de trabalho remota](sistemas-operacionais/microsoft-windows/habilitando-registros-logs-de-tentativa-de-acesso-a-area-de-trabalho-remota)
 * [cmd & batch script - usando linha de comando](sistemas-operacionais/microsoft-windows/cmd)
 * [Comandos úteis do PowerShell](sistemas-operacionais/microsoft-windows/comandos-uteis-do-powershell)
 * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos)
-* [Como configurar o Windows 11 sem uma conta Microsoft](sistemas-operacionais/microsoft-windows/como-configurar-o-windows-11-sem-uma-conta-microsoft)
-* [Como bloquear a função hotspot do Windows](sistemas-operacionais/microsoft-windows/bloquear-hotspot-windows-via-powershell)
 * [Onde baixar a versão mais recente do Microsoft Office 365](sistemas-operacionais/microsoft-windows/onde-baixar-a-versao-mais-recente-microsoft-office)
 * [Como remover completamente o Microsoft Office do computador?](sistemas-operacionais/microsoft-windows/como-remover-completamente-microsoft-office-do-computador)
 
