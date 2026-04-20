@@ -21,7 +21,6 @@ description: Informações sobre a configuração e utilização do antivírus K
 * [Adquira agora a licença de uso do Antivírus Kaspersky Standard](https://meli.la/1VLWm3b)
 * [Adquira agora a licença de uso do Antivírus Kaspersky Premium para 5 Dispositivos](https://meli.la/2ZfDwFD)
 
+[![Kaspersky Standard]({{site.img}}kaspersky-standard.jpg)](https://meli.la/1VLWm3b)
 
-[![Kaspersky Standard]({{site.img}})kaspersky-standard.jpg](https://meli.la/1VLWm3b)
-
-[![Kaspersky Premium 5 PC]({{site.img}})kaspersky-premium-5pc.png](https://meli.la/2ZfDwFD)
+[![Kaspersky Premium 5 PC]({{site.img}}kaspersky-premium-5pc.png)](https://meli.la/2ZfDwFD)
