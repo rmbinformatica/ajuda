@@ -56,6 +56,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ## Hardware
 
+* [Como executar o teste completo da memória RAM do computador usando o memtest86+](hardware/como-executar-teste-completo-memoria-ram-usando-memtest)
 * [Para que serve o No-Break](hardware/pra-que-serve-o-nobreak)
 * [HP desktop erro 512 Ventilador traseiro do chassi não detectado](hardware/hp-ventilador-traseiro-chassi-nao-detectado)
 
