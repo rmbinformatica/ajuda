@@ -14,7 +14,7 @@ description: >-
 - [Download da versão 32 bits do Microsoft Office diretamente do site da Microsoft](https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=languagepack&language=pt-br&platform=x86&source=O16LAP&version=O16GA)
 - [Download da versão 64 bits do Microsoft Office diretamente do site da Microsoft](https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=languagepack&language=pt-br&platform=x64&source=O16LAP&version=O16GA)
 
-[![Microsoft Office 365 Family]({{site.img}}office365family.jpg)](https://amzn.to/4gPCodp)
+[![Microsoft Office 365 Family]({{site.img}}office365family.jpg)](https://meli.la/2ESy632)
 
 ## Onde baixar a versão mais recente do Microsoft Office 365 para Mac
 

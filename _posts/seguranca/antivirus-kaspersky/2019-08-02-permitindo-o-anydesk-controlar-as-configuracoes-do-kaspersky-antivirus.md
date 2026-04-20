@@ -26,6 +26,8 @@ Nas versões mais novas do Kaspersky entre na opção **Geral** do lado esquerdo
 
 ![Configurando a auto-defesa do kaspersky para permitir aplicativos de controle remoto]({{site.img}}kaspersky-autodefesa-novo.png)
 
+[![Kaspersky Premium 5 PC]({{site.img}})kaspersky-premium-5pc.png](https://meli.la/2ZfDwFD)
+
 ### Em versões mais antigas do anti-vírus Kaspersky
 
 Abra o menu adicional e clique na opção autodefesa.

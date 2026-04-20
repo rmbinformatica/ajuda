@@ -27,7 +27,7 @@ A Microsoft disponibiliza uma ferramenta de [remoção do Office e Microsoft 365
 
 Recomendamos a escolha da opção _Todas as versões do Microsoft Office_ quando a ferramenta questionar qual versão deseja remover. Se você possui mais de uma versão do Office instalada em seu computador e escolher remover somente uma das versões a outra versão pode apresentar problemas de funcionamento. Dessa forma recomendamos remover todas as versões e em seguida reinstalar a versão desejada, se for o caso.
 
-[![Microsoft Office 365 Family]({{site.img}}office365family.jpg)](https://amzn.to/4gPCodp)
+[![Microsoft Office 365 Family]({{site.img}}office365family.jpg)](https://meli.la/2ESy632)
 
 ## Veja também
 

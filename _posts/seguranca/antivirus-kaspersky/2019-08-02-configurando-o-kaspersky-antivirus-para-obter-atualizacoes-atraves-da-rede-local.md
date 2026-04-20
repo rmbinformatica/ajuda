@@ -34,6 +34,8 @@ Na tela de atualização, clique na palavra **Automaticamente** ao lado de *Prog
 
 Na tela de configurações de atualização, clique na frase **Selecionar fontes de atualização**.
 
+[![Kaspersky Premium 5 PC]({{site.img}})kaspersky-premium-5pc.png](https://meli.la/2ZfDwFD)
+
 ![Configurações de atualização do Kaspersky]({{site.img}}kaspersky-novo-selecionar-fonte-atualizacao.png)
 
 Na tela de fontes de atualização clique no botão **Adicionar**.

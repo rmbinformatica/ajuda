@@ -64,6 +64,8 @@ _Nota: A letra `w` pode ser substituída por qualquer outra que não esteja send
 
 Agora basta sair do diskpart usando o comando **`exit`**
 
+[![SSD NVME 4TB Kingston]({{site.img}})ssd-nvme-kingston-4tb.png](https://meli.la/2K1ojhA)
+
 ### Reparando o bcd boot
 
 De volta ao prompt de comando, execute o seguinte comando:
