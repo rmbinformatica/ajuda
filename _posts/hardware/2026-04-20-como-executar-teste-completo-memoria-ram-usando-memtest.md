@@ -2,7 +2,7 @@
 title: Como executar o teste completo da memória RAM do computador usando o memtest86+
 author: "Renato Monteiro Batista"
 date: 2026-04-20
-category: [hardware, memtest]
+category: [hardware]
 layout: post
 revisao: 2026-04-20
 keywords: hardware, memória, RAM, memória RAM, memory, memtest, memtest86+
