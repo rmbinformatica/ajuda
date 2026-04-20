@@ -36,6 +36,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ### Microsoft Windows
 
+* [Como desativar a reinicialização automática e exibir o BSOD (Tela azul) no Windows](sistemas-operacionais/microsoft-windows/desativar-reinicializacao-automatica-erros-windows-bsod)
 * [Quais chaves de registro altrear manualmente para receber as Atualizações de Segurança Estendidas do windows 10?](sistemas-operacionais/microsoft-windows/quais-chaves-de-registro-alterar-manualmente-para-estender-as-atualizacoes-automaticas-do-windows-10)
 * [Como configurar o Windows 11 sem uma conta Microsoft](sistemas-operacionais/microsoft-windows/como-configurar-o-windows-11-sem-uma-conta-microsoft)
 * [Como bloquear a função hotspot do Windows](sistemas-operacionais/microsoft-windows/bloquear-hotspot-windows-via-powershell)
