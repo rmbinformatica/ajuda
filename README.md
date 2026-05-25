@@ -53,6 +53,7 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 * [Configuração para exibir extensão dos arquivos](sistemas-operacionais/microsoft-windows/configuracao-para-exibir-extensao-dos-arquivos)
 * [Onde baixar a versão mais recente do Microsoft Office 365](sistemas-operacionais/microsoft-windows/onde-baixar-a-versao-mais-recente-microsoft-office)
 * [Como remover completamente o Microsoft Office do computador?](sistemas-operacionais/microsoft-windows/como-remover-completamente-microsoft-office-do-computador)
+* [Como assinar commits do Git no Windows usando o GPG](sistemas-operacionais/microsoft-windows/git-assinar-commits-windows)
 
 ## Hardware
 
