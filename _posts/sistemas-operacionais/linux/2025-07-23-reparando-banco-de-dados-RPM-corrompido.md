@@ -4,9 +4,9 @@ author: "Renato Monteiro Batista"
 date: 2025-07-23
 category: [sistemas-operacionais, linux]
 layout: post
-revisao: 2025-07-23
+revisao: 2026-05-25
 keywords: rpm, corrompido, banco de dados, reparo, linux, sistema operacional, tutorial, howto, guia, passo a passo, RPM, database, corrupted, repair, Linux, operating system, tutorial, howto, guide, step by step
-description: Solução para o problema "DB_RUNRECOVERY: Fatal error, run database recovery" ao tentar utilizar o gerenciador de pacotes.
+description: Solução para o problema "DB_RUNRECOVERY Fatal error, run database recovery" ao tentar utilizar o gerenciador de pacotes.
 ---
 
 ## Detalhamento do problema
