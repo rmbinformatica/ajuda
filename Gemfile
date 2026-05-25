@@ -9,5 +9,6 @@ gem 'jekyll-readme-index'
 gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'webrick'
+gem 'jekyll-sass-converter', '~> 2.2'
 
 # gem "rails"
