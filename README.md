@@ -149,8 +149,9 @@ Visite também o site da nossa empresa [rmbinformatica.com](http://www.rmbinform
 
 ## CHECKLISTS
 
-* [Avaliação Tecnológica](checklists/avaliacao-tecnologica)
-* [Ativação de VPN IPSEC](checklists/ativacao-vpn-ipsec)
+* [Checklist de avaliação Tecnológica](checklists/avaliacao-tecnologica)
+* [Checklist de ativação de VPN IPSEC](checklists/ativacao-vpn-ipsec)
+* [Checklist de formatação de computadores e reinstalação do Microsoft Windows](checklists/formatacao-computadores-windows)
 
 ## Conectividade Social
 
