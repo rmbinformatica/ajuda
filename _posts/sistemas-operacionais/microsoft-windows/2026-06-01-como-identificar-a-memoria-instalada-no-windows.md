@@ -4,9 +4,9 @@ author: "Renato Monteiro Batista"
 date: 2026-06-01
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
-revisao: 2026-06-01
-keywords: windows, windows 10, windows 11, cmd, wmic, memory, memória, tipo de memória, frequência, slots ocupados, prompt de comandos
-description: Como ver quais as memórias estão instaladas no computador a partir do prompt de comandos do windows.
+revisao: 2026-07-04
+keywords: windows, windows 10, windows 11, cmd, wmic, powershell, memória ram, tipo de memória, frequência da memória, slots de memória, memória instalada
+description: Como identificar pelo Windows a memória RAM instalada, o tipo de memória, a frequência e a ocupação dos slots sem abrir o computador.
 ---
 ## Método A - Exibindo quantas memórias e o tipo das memórias instalados no computador a partir do prompt de comandos do Windows
 
