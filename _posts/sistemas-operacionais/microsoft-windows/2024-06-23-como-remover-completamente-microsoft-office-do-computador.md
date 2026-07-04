@@ -4,9 +4,9 @@ author: "Renato Monteiro Batista"
 date: 2024-06-23
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
-keywords: windows, cmd, office, remover, removedor, office 365, microsoft, microsoft 365, desinstalar, desinstalação
-description: >-
-  Instruções para realizar a desinstalação completa do Microsoft Office do seu computador Windows
+keywords: windows, microsoft office, office 365, microsoft 365, remover office, desinstalar office, chave de produto, ospp.vbs, office removal tool
+description: Orientações para remover completamente o Microsoft Office do Windows, incluindo limpeza de chaves de produto e desinstalação completa.
+revisao: 2026-07-04
 ---
 
 ## Visualizando e removendo as chaves de produto (product key) do Microsoft Office instaladas na máquina

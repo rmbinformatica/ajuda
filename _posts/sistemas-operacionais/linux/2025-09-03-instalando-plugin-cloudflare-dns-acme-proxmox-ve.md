@@ -4,9 +4,9 @@ author: "Renato Monteiro Batista"
 date: 2025-09-03 19:12:00 -0300
 category: [sistemas-operacionais, linux]
 layout: post
-revisao: 2025-09-03
-keywords: proxmox, rede, configuração, CLI, shell, bash
-description: Guia para instalar o plugin do Cloudflare no ACME do Proxmox VE.
+revisao: 2026-07-04
+keywords: proxmox, proxmox ve, cloudflare, acme, dns challenge, letsencrypt, certificado ssl, plugin cloudflare dns, pve, shell bash
+description: Guia para instalar e configurar o plugin DNS da Cloudflare no ACME do Proxmox VE para emissão de certificados SSL via desafio DNS.
 ---
 
 Instalar o plugin do Cloudflare no ACME do Proxmox VE é uma excelente forma de automatizar a emissão e renovação de certificados SSL via Let's Encrypt, usando o DNS Challenge. Abaixo estão os passos detalhados para realizar essa instalação e configuração via linha de comando (CLI) no shell bash.

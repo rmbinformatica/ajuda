@@ -4,9 +4,9 @@ author: "Renato Monteiro Batista"
 date: 2026-04-15 15:33:08 -0300
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
-description: Este artigo descreve todas as etapas do procedimento necessário para configurar o Git no Windows para assinar commits automaticamente utilizando GPG (Gpg4win).
-keywords: git, gpg, gpg4win, assinatura, assinar commits, windows, git bash, powershell, github, commit assinado, signingkey, gpg-agent, pinentry
-revisao: 2026-04-15
+description: Como desativar a expiração de senha de contas locais no Microsoft Windows e impedir a solicitação periódica de troca de senha.
+keywords: windows, conta local, senha, expiração de senha, desativar expiração de senha, contas de usuário, microsoft windows, política de senha, gerenciamento de contas
+revisao: 2026-07-04
 ---
 
 # Desativar expiração de senha no Windows (conta local)

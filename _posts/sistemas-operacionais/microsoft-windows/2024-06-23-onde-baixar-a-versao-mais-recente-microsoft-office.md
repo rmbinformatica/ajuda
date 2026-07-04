@@ -4,9 +4,9 @@ author: "Renato Monteiro Batista"
 date: 2024-06-23
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
-keywords: windows, download, microsoft, office, office 365, link
-description: >-
-  Lista de links úteis para o download da versão mais recente do Microsoft Offce 365
+keywords: windows, microsoft office, office 365, microsoft 365, download office, instalador office, office 32 bits, office 64 bits, baixar office
+description: Links e orientações para baixar instaladores recentes do Microsoft Office 365 para Windows nas versões de 32 e 64 bits.
+revisao: 2026-07-04
 ---
 
 ## Onde baixar a versão mais recente do Microsoft Office 365 para Windows
