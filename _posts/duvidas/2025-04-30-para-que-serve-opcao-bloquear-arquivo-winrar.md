@@ -6,13 +6,12 @@ category: [duvidas]
 layout: post
 description: Respondendo a dúvida Para que serve a opção bloquear arquivo no WinRAR
 keywords: duvidas, ti, tecnologia, winrar, windows, rar, arquivo, bloquear
-revisao: 2026-04-30
+revisao: 2026-07-04
 ---
 
 # Para que serve a opção criar bloquear arquivo no WinRAR?
 
-A opção *Bloquear arquivo* no WinRAR serve para impedir que o arquivo RAR seja modificado depois de criado.
-Ela funciona como um “cadeado” interno do próprio WinRAR.
+Ao ativar o bloqueio de um arquivo compactado no WinRAR, você impede que ele seja modificado futuramente. Isso significa que ninguém (inclusive você) poderá adicionar, remover ou alterar os arquivos contidos naquele pacote sem antes desbloqueá-lo. É uma excelente medida de segurança para garantir a integridade de backups e arquivos históricos.
 
 ## O que o bloqueio faz
 

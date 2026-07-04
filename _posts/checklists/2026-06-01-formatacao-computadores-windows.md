@@ -4,9 +4,12 @@ author: "Renato Monteiro Batista"
 date: 2026-06-01
 category: checklists
 layout: post
+revisao: 2026-07-04
 keywords: checklist, formatacao, windows
 description: Checklist para formatação de computadores e reinstalação do Microsoft Windows
 ---
+
+Antes de iniciar o processo de formatação, é imprescindível realizar o backup de todos os arquivos importantes do usuário. Certifique-se de ter em mãos a chave de ativação do sistema e os drivers de rede salvos em um dispositivo externo. O processo de instalação do Windows 10/11 foi simplificado, mas a atenção na escolha da partição correta evita a perda acidental de dados de outros discos.
 
 ## Backup de dados do cliente
 

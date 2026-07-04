@@ -4,10 +4,12 @@ author: "Renato Monteiro Batista"
 date: 2023-03-23
 category: [sistemas-operacionais, linux]
 layout: post
-revisao: 2023-11-20
+revisao: 2026-07-04
 keywords: truenas, ipmi, ipmi0, ksc, interface, travamento, boot, inicialização, mensagem, erro, problema, solução, fix, howto, tutorial, dica, guia, passo a passo, tutorial, howto, tutorial, dica, guia, passo a passo
 description: Solução para o problema "ipmi0 using KSC interface" que causa travamento no TrueNAS durante o boot do sistema.
 ---
+
+Se o seu servidor TrueNAS está travando ao utilizar recursos específicos através da interface KSC, verifique a compatibilidade dos drivers de chipset da placa-mãe. Em muitos casos, a desativação de recursos de economia de energia na BIOS mitiga os congelamentos do sistema. Mantenha os relatórios de erros ativados para identificar o módulo exato que causa a falha.
 
 ## Detalhamento do problema
 

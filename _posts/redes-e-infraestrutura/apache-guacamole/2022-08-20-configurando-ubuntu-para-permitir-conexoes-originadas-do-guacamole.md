@@ -4,12 +4,14 @@ author: "Renato Monteiro Batista"
 date: 2022-08-20
 category: [redes-e-infraestrutura, apache-guacamole]
 layout: post
-revisao: 2023-11-19
+revisao: 2026-07-04
 keywords: apache, guacamole, ubuntu, ssh, conexão, erro, handshake
 description: >-
   Este artigo descreve uma solução para conseguir conectar em servidores linux
   ubuntu 22.04 utilizando o apache guacamole
 ---
+
+Para que o Apache Guacamole consiga gerenciar o seu servidor Ubuntu remotamente, é necessário configurar corretamente o serviço de SSH ou VNC. Certifique-se de liberar a porta correspondente no firewall (UFW) do Ubuntu. Sempre faça a opção pelo uso de chaves privadas para a conexão SSH em vez de senhas, lembre-se de que o Guacamole exige formatos específicos (como o padrão OpenSSH) para validar a autenticação.
 
 ## Detalhamento do problema
 

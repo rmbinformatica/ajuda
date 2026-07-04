@@ -4,12 +4,14 @@ author: "Renato Monteiro Batista"
 date: 2020-07-15
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
-revisao: 2023-11-20
+revisao: 2026-07-04
 keywords: windows, ícones, área de trabalho, sumiram, todos, desapareceu, desapareceram, sem ícones, faltando ícones, perfil, quebrado, sem ícone, windows 10, win10, w10, win 10
 description: >-
   Este artigo descreve os procedimentos para solução do problema onde o windows
   cria um perfil temporário de usuário durante uma atualização automática.
 ---
+
+Se todos os seus ícones sumiram de repente, não entre em pânico: pode ser apenas uma opção desmarcada. Clique com o botão direito em um espaço vazio da Área de Trabalho, vá em Exibir e certifique-se de que a opção "Mostrar ícones da área de trabalho" esteja marcada. Se isso não resolver, verifique as soluções abaixo:
 
 ## Causa provável
 

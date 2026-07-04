@@ -4,10 +4,12 @@ author: "Renato Monteiro Batista"
 date: 2026-04-20
 category: [sistemas-operacionais, microsoft-windows]
 layout: post
-revisao: 2026-04-20
+revisao: 2026-07-04
 keywords: windows, windows 10, windows 11, bsod, desativar reinicialização automática, reinicio automático, desativar reinicio, bsod, blue screen of death, tela azul da morte, exibir bsod, exibir tela azul
 description: Como configurar o windows para exibir a Tela Azul (Blue Screen of Death - BSOD) em caso de erros de hardware desativando a reinicialização automática.
 ---
+
+Por padrão, quando ocorre uma "Tela Azul da Morte" (BSOD), o Windows reinicia o computador imediatamente, impedindo que o usuário anote o código do erro. Para desativar isso, acesse as Configurações Avançadas do Sistema, vá até a seção "Inicialização e Recuperação" e desmarque a opção "Reiniciar automaticamente". Dessa forma, a tela com o erro ficará visível até que você reinicie a máquina manualmente.
 
 ## Configurando o windows para exibir a tela azul em vez de reiniciar automaticamente
 

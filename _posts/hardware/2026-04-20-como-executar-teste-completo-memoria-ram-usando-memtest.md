@@ -4,10 +4,12 @@ author: "Renato Monteiro Batista"
 date: 2026-04-20
 category: [hardware]
 layout: post
-revisao: 2026-04-20
+revisao: 2026-07-04
 keywords: hardware, memória, RAM, memória RAM, memory, memtest, memtest86+
 description: Como configurar o memtest86+ para realizar o teste completo da memória RAM do computador.
 ---
+
+Se o seu computador está apresentando telas azuis constantes ou travamentos inesperados, o problema pode estar na memória RAM. Para realizar um diagnóstico preciso, recomendo a utilização do MemTest86. Ele é executado diretamente via pendrive de boot, garantindo que o sistema operacional não interfira nos resultados. Certifique-se de deixar o teste rodar por completo, o que pode levar algumas horas dependendo da capacidade dos módulos.
 
 ## Realize o boot pelo pendrive com o memtest86+
 

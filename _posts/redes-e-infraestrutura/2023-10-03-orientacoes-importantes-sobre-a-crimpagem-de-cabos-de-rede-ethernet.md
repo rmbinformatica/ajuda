@@ -4,7 +4,7 @@ author: "Renato Monteiro Batista"
 date: 2023-10-03
 category: [redes-e-infraestrutura]
 layout: post
-revisao: 2023-11-19
+revisao: 2026-07-04
 keywords: cabo, rede, ethernet, crimpagem, crimp, conector, rj45, sequência, cores, padrão, crossover, emenda, patch cord, patch panel, cabeamento, estruturado
 description: >-
   Este artigo descreve informações importantes a respeito da crimpagem de cabos
@@ -16,6 +16,8 @@ Os cabos de rede são componentes modulares, não é utilizada solda para ligar 
 Deve-se evitar ao máximo o uso de emendas intermediárias, pois essas se tornam um possível ponto de falha com o passar dos anos seja pela oxidação dos contatos ou mal contato devido ao cabo não estar devidamente conectado.
 
 Quando for necessário utilizar emendas essas podem ser feitas utilizando um conector RJ-45 fêmea. Não se deve tentar realizar emendas descascando o cabo da mesma maneira como são feitas emendas de fios elétricos.
+
+Uma crimpagem mal feita é uma das principais causas de perda de pacotes e instabilidade em redes locais. Sempre utilize conectores RJ-45 de boa qualidade e certifique-se de seguir o padrão T568B (ou T568A) em ambas as extremidades. Lembre-se de empurrar os fios até o final do conector antes de usar o alicate de crimpagem para garantir que as lâminas façam o contato correto com o cobre.
 
 ## Sequência de cores para crimpar de cabos de rede ethernet
 

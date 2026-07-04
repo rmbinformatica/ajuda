@@ -4,10 +4,12 @@ author: "Renato Monteiro Batista"
 date: 2025-07-23
 category: [sistemas-operacionais, linux]
 layout: post
-revisao: 2026-05-25
+revisao: 2026-07-04
 keywords: rpm, corrompido, banco de dados, reparo, linux, sistema operacional, tutorial, howto, guia, passo a passo, RPM, database, corrupted, repair, Linux, operating system, tutorial, howto, guide, step by step
 description: Solução para o problema "DB_RUNRECOVERY Fatal error, run database recovery" ao tentar utilizar o gerenciador de pacotes.
 ---
+
+Quando o gerenciador de pacotes do CentOS ou Red Hat trava, o banco de dados do RPM pode ficar corrompido. Para resolver isso, limpe os arquivos de lock antigos, faça uma cópia de segurança do diretório `/var/lib/rpm` e execute o comando `rpm --rebuilddb`. Isso reconstruirá os índices e permitirá que você volte a instalar atualizações normalmente.
 
 ## Detalhamento do problema
 
