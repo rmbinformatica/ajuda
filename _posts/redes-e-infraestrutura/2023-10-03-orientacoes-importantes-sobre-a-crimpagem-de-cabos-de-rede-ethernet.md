@@ -27,6 +27,8 @@ A figura abaixo apresenta a sequência de cores nos dois padrões.
 
 ![Padrões de cores do conector RJ-45]({{site.img}}cores_conector_rj45.png)
 
+{% include crimpagem-rj45.html %}
+
 ### Comprimento mínimo do cabo
 
 É necessário respeitar a distância mínima de 0,5m para evitar que o sinal seja demasiadamente elevado a ponto de indicar uma colisão de pacotes pelo mecanismo de deteção de colisões CSMA/CD.
