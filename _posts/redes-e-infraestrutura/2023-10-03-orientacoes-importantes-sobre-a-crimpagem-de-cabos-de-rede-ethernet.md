@@ -10,10 +10,9 @@ description: >-
   Este artigo descreve informações importantes a respeito da crimpagem de cabos
   ethernet
 ---
+Os cabos de rede são componentes modulares, não é utilizada solda para ligar os conectores aos cabos. Todo contato elétrico é realizado por meio de prensa com o auxílio de um alicate específico em um processo chamado de crimpagem.
 
 ![Conectores e switch]({{site.img}}conectores-e-switch.jpg)
-
-Os cabos de rede são componentes modulares, não é utilizada solda para ligar os conectores aos cabos. Todo contato elétrico é realizado por meio de prensa com o auxílio de um alicate específico em um processo chamado de crimpagem.
 
 Deve-se evitar ao máximo o uso de emendas intermediárias, pois essas se tornam um possível ponto de falha com o passar dos anos seja pela oxidação dos contatos ou mal contato devido ao cabo não estar devidamente conectado.
 
