@@ -4,12 +4,14 @@ author: "Renato Monteiro Batista"
 date: 2023-10-03
 category: [redes-e-infraestrutura]
 layout: post
-revisao: 2026-07-04
+revisao: 2026-11-22
 keywords: cabo, rede, ethernet, crimpagem, crimp, conector, rj45, sequência, cores, padrão, crossover, emenda, patch cord, patch panel, cabeamento, estruturado
 description: >-
   Este artigo descreve informações importantes a respeito da crimpagem de cabos
   ethernet
 ---
+
+![Conectores e switch]({{site.img}}conectores-e-switch.jpg)
 
 Os cabos de rede são componentes modulares, não é utilizada solda para ligar os conectores aos cabos. Todo contato elétrico é realizado por meio de prensa com o auxílio de um alicate específico em um processo chamado de crimpagem.
 
